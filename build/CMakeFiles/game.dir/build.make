@@ -330,9 +330,22 @@ CMakeFiles/game.dir/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/Main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jfk/Escritorio/SFML/Game/source/Main.cpp -o CMakeFiles/game.dir/Main.cpp.s
 
+CMakeFiles/game.dir/MonoSmall.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/MonoSmall.cpp.o: /home/jfk/Escritorio/SFML/Game/source/MonoSmall.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/game.dir/MonoSmall.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/MonoSmall.cpp.o -c /home/jfk/Escritorio/SFML/Game/source/MonoSmall.cpp
+
+CMakeFiles/game.dir/MonoSmall.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/MonoSmall.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jfk/Escritorio/SFML/Game/source/MonoSmall.cpp > CMakeFiles/game.dir/MonoSmall.cpp.i
+
+CMakeFiles/game.dir/MonoSmall.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/MonoSmall.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jfk/Escritorio/SFML/Game/source/MonoSmall.cpp -o CMakeFiles/game.dir/MonoSmall.cpp.s
+
 CMakeFiles/game.dir/Object.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/Object.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Object.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/game.dir/Object.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/game.dir/Object.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/Object.cpp.o -c /home/jfk/Escritorio/SFML/Game/source/Object.cpp
 
 CMakeFiles/game.dir/Object.cpp.i: cmake_force
@@ -345,7 +358,7 @@ CMakeFiles/game.dir/Object.cpp.s: cmake_force
 
 CMakeFiles/game.dir/ObjectManager.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/ObjectManager.cpp.o: /home/jfk/Escritorio/SFML/Game/source/ObjectManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/game.dir/ObjectManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/game.dir/ObjectManager.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/ObjectManager.cpp.o -c /home/jfk/Escritorio/SFML/Game/source/ObjectManager.cpp
 
 CMakeFiles/game.dir/ObjectManager.cpp.i: cmake_force
@@ -358,7 +371,7 @@ CMakeFiles/game.dir/ObjectManager.cpp.s: cmake_force
 
 CMakeFiles/game.dir/Palomitas.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/Palomitas.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Palomitas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/game.dir/Palomitas.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/game.dir/Palomitas.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/Palomitas.cpp.o -c /home/jfk/Escritorio/SFML/Game/source/Palomitas.cpp
 
 CMakeFiles/game.dir/Palomitas.cpp.i: cmake_force
@@ -369,9 +382,48 @@ CMakeFiles/game.dir/Palomitas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/Palomitas.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jfk/Escritorio/SFML/Game/source/Palomitas.cpp -o CMakeFiles/game.dir/Palomitas.cpp.s
 
+CMakeFiles/game.dir/Pollito.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/Pollito.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Pollito.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/game.dir/Pollito.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/Pollito.cpp.o -c /home/jfk/Escritorio/SFML/Game/source/Pollito.cpp
+
+CMakeFiles/game.dir/Pollito.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/Pollito.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jfk/Escritorio/SFML/Game/source/Pollito.cpp > CMakeFiles/game.dir/Pollito.cpp.i
+
+CMakeFiles/game.dir/Pollito.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/Pollito.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jfk/Escritorio/SFML/Game/source/Pollito.cpp -o CMakeFiles/game.dir/Pollito.cpp.s
+
+CMakeFiles/game.dir/Pulpo.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/Pulpo.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Pulpo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/game.dir/Pulpo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/Pulpo.cpp.o -c /home/jfk/Escritorio/SFML/Game/source/Pulpo.cpp
+
+CMakeFiles/game.dir/Pulpo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/Pulpo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jfk/Escritorio/SFML/Game/source/Pulpo.cpp > CMakeFiles/game.dir/Pulpo.cpp.i
+
+CMakeFiles/game.dir/Pulpo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/Pulpo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jfk/Escritorio/SFML/Game/source/Pulpo.cpp -o CMakeFiles/game.dir/Pulpo.cpp.s
+
+CMakeFiles/game.dir/Rocket.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/Rocket.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Rocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/game.dir/Rocket.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/Rocket.cpp.o -c /home/jfk/Escritorio/SFML/Game/source/Rocket.cpp
+
+CMakeFiles/game.dir/Rocket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/Rocket.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jfk/Escritorio/SFML/Game/source/Rocket.cpp > CMakeFiles/game.dir/Rocket.cpp.i
+
+CMakeFiles/game.dir/Rocket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/Rocket.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jfk/Escritorio/SFML/Game/source/Rocket.cpp -o CMakeFiles/game.dir/Rocket.cpp.s
+
 CMakeFiles/game.dir/SpineDrawable.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/SpineDrawable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/SpineDrawable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/game.dir/SpineDrawable.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/game.dir/SpineDrawable.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/SpineDrawable.cpp.o -c /home/jfk/Escritorio/SFML/Game/source/SpineDrawable.cpp
 
 CMakeFiles/game.dir/SpineDrawable.cpp.i: cmake_force
@@ -384,7 +436,7 @@ CMakeFiles/game.dir/SpineDrawable.cpp.s: cmake_force
 
 CMakeFiles/game.dir/Sprite.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/Sprite.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Sprite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/game.dir/Sprite.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/game.dir/Sprite.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/Sprite.cpp.o -c /home/jfk/Escritorio/SFML/Game/source/Sprite.cpp
 
 CMakeFiles/game.dir/Sprite.cpp.i: cmake_force
@@ -397,7 +449,7 @@ CMakeFiles/game.dir/Sprite.cpp.s: cmake_force
 
 CMakeFiles/game.dir/Weapon.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/Weapon.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Weapon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/game.dir/Weapon.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/game.dir/Weapon.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/Weapon.cpp.o -c /home/jfk/Escritorio/SFML/Game/source/Weapon.cpp
 
 CMakeFiles/game.dir/Weapon.cpp.i: cmake_force
@@ -410,7 +462,7 @@ CMakeFiles/game.dir/Weapon.cpp.s: cmake_force
 
 CMakeFiles/game.dir/WorldCollider.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/WorldCollider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/WorldCollider.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/game.dir/WorldCollider.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/game.dir/WorldCollider.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/WorldCollider.cpp.o -c /home/jfk/Escritorio/SFML/Game/source/WorldCollider.cpp
 
 CMakeFiles/game.dir/WorldCollider.cpp.i: cmake_force
@@ -423,7 +475,7 @@ CMakeFiles/game.dir/WorldCollider.cpp.s: cmake_force
 
 CMakeFiles/game.dir/spine/spine-sfml.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/spine-sfml.cpp.o: /home/jfk/Escritorio/SFML/Game/source/spine/spine-sfml.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/game.dir/spine/spine-sfml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/game.dir/spine/spine-sfml.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/spine/spine-sfml.cpp.o -c /home/jfk/Escritorio/SFML/Game/source/spine/spine-sfml.cpp
 
 CMakeFiles/game.dir/spine/spine-sfml.cpp.i: cmake_force
@@ -436,7 +488,7 @@ CMakeFiles/game.dir/spine/spine-sfml.cpp.s: cmake_force
 
 CMakeFiles/game.dir/spine/Animation.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/Animation.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/Animation.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/game.dir/spine/Animation.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/game.dir/spine/Animation.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/Animation.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/Animation.c
 
 CMakeFiles/game.dir/spine/Animation.c.i: cmake_force
@@ -449,7 +501,7 @@ CMakeFiles/game.dir/spine/Animation.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/AnimationState.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/AnimationState.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/AnimationState.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/game.dir/spine/AnimationState.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/game.dir/spine/AnimationState.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/AnimationState.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/AnimationState.c
 
 CMakeFiles/game.dir/spine/AnimationState.c.i: cmake_force
@@ -462,7 +514,7 @@ CMakeFiles/game.dir/spine/AnimationState.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/AnimationStateData.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/AnimationStateData.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/AnimationStateData.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/game.dir/spine/AnimationStateData.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/game.dir/spine/AnimationStateData.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/AnimationStateData.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/AnimationStateData.c
 
 CMakeFiles/game.dir/spine/AnimationStateData.c.i: cmake_force
@@ -475,7 +527,7 @@ CMakeFiles/game.dir/spine/AnimationStateData.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/Array.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/Array.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/Array.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/game.dir/spine/Array.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/game.dir/spine/Array.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/Array.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/Array.c
 
 CMakeFiles/game.dir/spine/Array.c.i: cmake_force
@@ -488,7 +540,7 @@ CMakeFiles/game.dir/spine/Array.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/Atlas.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/Atlas.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/Atlas.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/game.dir/spine/Atlas.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/game.dir/spine/Atlas.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/Atlas.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/Atlas.c
 
 CMakeFiles/game.dir/spine/Atlas.c.i: cmake_force
@@ -501,7 +553,7 @@ CMakeFiles/game.dir/spine/Atlas.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/AtlasAttachmentLoader.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/AtlasAttachmentLoader.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/AtlasAttachmentLoader.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/game.dir/spine/AtlasAttachmentLoader.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/game.dir/spine/AtlasAttachmentLoader.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/AtlasAttachmentLoader.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/AtlasAttachmentLoader.c
 
 CMakeFiles/game.dir/spine/AtlasAttachmentLoader.c.i: cmake_force
@@ -514,7 +566,7 @@ CMakeFiles/game.dir/spine/AtlasAttachmentLoader.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/Attachment.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/Attachment.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/Attachment.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/game.dir/spine/Attachment.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/game.dir/spine/Attachment.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/Attachment.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/Attachment.c
 
 CMakeFiles/game.dir/spine/Attachment.c.i: cmake_force
@@ -527,7 +579,7 @@ CMakeFiles/game.dir/spine/Attachment.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/AttachmentLoader.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/AttachmentLoader.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/AttachmentLoader.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/game.dir/spine/AttachmentLoader.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/game.dir/spine/AttachmentLoader.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/AttachmentLoader.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/AttachmentLoader.c
 
 CMakeFiles/game.dir/spine/AttachmentLoader.c.i: cmake_force
@@ -540,7 +592,7 @@ CMakeFiles/game.dir/spine/AttachmentLoader.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/Bone.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/Bone.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/Bone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/game.dir/spine/Bone.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/game.dir/spine/Bone.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/Bone.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/Bone.c
 
 CMakeFiles/game.dir/spine/Bone.c.i: cmake_force
@@ -553,7 +605,7 @@ CMakeFiles/game.dir/spine/Bone.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/BoneData.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/BoneData.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/BoneData.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/game.dir/spine/BoneData.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/game.dir/spine/BoneData.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/BoneData.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/BoneData.c
 
 CMakeFiles/game.dir/spine/BoneData.c.i: cmake_force
@@ -566,7 +618,7 @@ CMakeFiles/game.dir/spine/BoneData.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/BoundingBoxAttachment.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/BoundingBoxAttachment.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/BoundingBoxAttachment.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/game.dir/spine/BoundingBoxAttachment.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/game.dir/spine/BoundingBoxAttachment.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/BoundingBoxAttachment.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/BoundingBoxAttachment.c
 
 CMakeFiles/game.dir/spine/BoundingBoxAttachment.c.i: cmake_force
@@ -579,7 +631,7 @@ CMakeFiles/game.dir/spine/BoundingBoxAttachment.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/ClippingAttachment.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/ClippingAttachment.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/ClippingAttachment.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/game.dir/spine/ClippingAttachment.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/game.dir/spine/ClippingAttachment.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/ClippingAttachment.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/ClippingAttachment.c
 
 CMakeFiles/game.dir/spine/ClippingAttachment.c.i: cmake_force
@@ -592,7 +644,7 @@ CMakeFiles/game.dir/spine/ClippingAttachment.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/Color.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/Color.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/Color.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/game.dir/spine/Color.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/game.dir/spine/Color.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/Color.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/Color.c
 
 CMakeFiles/game.dir/spine/Color.c.i: cmake_force
@@ -605,7 +657,7 @@ CMakeFiles/game.dir/spine/Color.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/Event.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/Event.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/Event.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/game.dir/spine/Event.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/game.dir/spine/Event.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/Event.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/Event.c
 
 CMakeFiles/game.dir/spine/Event.c.i: cmake_force
@@ -618,7 +670,7 @@ CMakeFiles/game.dir/spine/Event.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/EventData.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/EventData.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/EventData.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/game.dir/spine/EventData.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/game.dir/spine/EventData.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/EventData.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/EventData.c
 
 CMakeFiles/game.dir/spine/EventData.c.i: cmake_force
@@ -631,7 +683,7 @@ CMakeFiles/game.dir/spine/EventData.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/IkConstraint.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/IkConstraint.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/IkConstraint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/game.dir/spine/IkConstraint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/game.dir/spine/IkConstraint.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/IkConstraint.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/IkConstraint.c
 
 CMakeFiles/game.dir/spine/IkConstraint.c.i: cmake_force
@@ -644,7 +696,7 @@ CMakeFiles/game.dir/spine/IkConstraint.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/IkConstraintData.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/IkConstraintData.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/IkConstraintData.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/game.dir/spine/IkConstraintData.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/game.dir/spine/IkConstraintData.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/IkConstraintData.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/IkConstraintData.c
 
 CMakeFiles/game.dir/spine/IkConstraintData.c.i: cmake_force
@@ -657,7 +709,7 @@ CMakeFiles/game.dir/spine/IkConstraintData.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/Json.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/Json.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/Json.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/game.dir/spine/Json.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/game.dir/spine/Json.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/Json.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/Json.c
 
 CMakeFiles/game.dir/spine/Json.c.i: cmake_force
@@ -670,7 +722,7 @@ CMakeFiles/game.dir/spine/Json.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/MeshAttachment.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/MeshAttachment.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/MeshAttachment.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/game.dir/spine/MeshAttachment.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/game.dir/spine/MeshAttachment.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/MeshAttachment.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/MeshAttachment.c
 
 CMakeFiles/game.dir/spine/MeshAttachment.c.i: cmake_force
@@ -683,7 +735,7 @@ CMakeFiles/game.dir/spine/MeshAttachment.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/PathAttachment.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/PathAttachment.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/PathAttachment.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/game.dir/spine/PathAttachment.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/game.dir/spine/PathAttachment.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/PathAttachment.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/PathAttachment.c
 
 CMakeFiles/game.dir/spine/PathAttachment.c.i: cmake_force
@@ -696,7 +748,7 @@ CMakeFiles/game.dir/spine/PathAttachment.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/PathConstraint.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/PathConstraint.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/PathConstraint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/game.dir/spine/PathConstraint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/game.dir/spine/PathConstraint.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/PathConstraint.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/PathConstraint.c
 
 CMakeFiles/game.dir/spine/PathConstraint.c.i: cmake_force
@@ -709,7 +761,7 @@ CMakeFiles/game.dir/spine/PathConstraint.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/PathConstraintData.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/PathConstraintData.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/PathConstraintData.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/game.dir/spine/PathConstraintData.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/game.dir/spine/PathConstraintData.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/PathConstraintData.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/PathConstraintData.c
 
 CMakeFiles/game.dir/spine/PathConstraintData.c.i: cmake_force
@@ -722,7 +774,7 @@ CMakeFiles/game.dir/spine/PathConstraintData.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/PointAttachment.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/PointAttachment.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/PointAttachment.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/game.dir/spine/PointAttachment.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/game.dir/spine/PointAttachment.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/PointAttachment.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/PointAttachment.c
 
 CMakeFiles/game.dir/spine/PointAttachment.c.i: cmake_force
@@ -735,7 +787,7 @@ CMakeFiles/game.dir/spine/PointAttachment.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/RegionAttachment.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/RegionAttachment.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/RegionAttachment.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/game.dir/spine/RegionAttachment.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/game.dir/spine/RegionAttachment.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/RegionAttachment.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/RegionAttachment.c
 
 CMakeFiles/game.dir/spine/RegionAttachment.c.i: cmake_force
@@ -748,7 +800,7 @@ CMakeFiles/game.dir/spine/RegionAttachment.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/Skeleton.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/Skeleton.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/Skeleton.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/game.dir/spine/Skeleton.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/game.dir/spine/Skeleton.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/Skeleton.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/Skeleton.c
 
 CMakeFiles/game.dir/spine/Skeleton.c.i: cmake_force
@@ -761,7 +813,7 @@ CMakeFiles/game.dir/spine/Skeleton.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/SkeletonBinary.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/SkeletonBinary.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/SkeletonBinary.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/game.dir/spine/SkeletonBinary.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/game.dir/spine/SkeletonBinary.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/SkeletonBinary.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/SkeletonBinary.c
 
 CMakeFiles/game.dir/spine/SkeletonBinary.c.i: cmake_force
@@ -774,7 +826,7 @@ CMakeFiles/game.dir/spine/SkeletonBinary.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/SkeletonBounds.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/SkeletonBounds.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/SkeletonBounds.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/game.dir/spine/SkeletonBounds.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/game.dir/spine/SkeletonBounds.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/SkeletonBounds.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/SkeletonBounds.c
 
 CMakeFiles/game.dir/spine/SkeletonBounds.c.i: cmake_force
@@ -787,7 +839,7 @@ CMakeFiles/game.dir/spine/SkeletonBounds.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/SkeletonClipping.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/SkeletonClipping.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/SkeletonClipping.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/game.dir/spine/SkeletonClipping.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/game.dir/spine/SkeletonClipping.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/SkeletonClipping.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/SkeletonClipping.c
 
 CMakeFiles/game.dir/spine/SkeletonClipping.c.i: cmake_force
@@ -800,7 +852,7 @@ CMakeFiles/game.dir/spine/SkeletonClipping.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/SkeletonData.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/SkeletonData.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/SkeletonData.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/game.dir/spine/SkeletonData.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/game.dir/spine/SkeletonData.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/SkeletonData.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/SkeletonData.c
 
 CMakeFiles/game.dir/spine/SkeletonData.c.i: cmake_force
@@ -813,7 +865,7 @@ CMakeFiles/game.dir/spine/SkeletonData.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/SkeletonJson.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/SkeletonJson.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/SkeletonJson.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/game.dir/spine/SkeletonJson.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/game.dir/spine/SkeletonJson.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/SkeletonJson.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/SkeletonJson.c
 
 CMakeFiles/game.dir/spine/SkeletonJson.c.i: cmake_force
@@ -826,7 +878,7 @@ CMakeFiles/game.dir/spine/SkeletonJson.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/Skin.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/Skin.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/Skin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/game.dir/spine/Skin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/game.dir/spine/Skin.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/Skin.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/Skin.c
 
 CMakeFiles/game.dir/spine/Skin.c.i: cmake_force
@@ -839,7 +891,7 @@ CMakeFiles/game.dir/spine/Skin.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/Slot.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/Slot.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/Slot.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/game.dir/spine/Slot.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/game.dir/spine/Slot.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/Slot.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/Slot.c
 
 CMakeFiles/game.dir/spine/Slot.c.i: cmake_force
@@ -852,7 +904,7 @@ CMakeFiles/game.dir/spine/Slot.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/SlotData.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/SlotData.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/SlotData.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/game.dir/spine/SlotData.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/game.dir/spine/SlotData.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/SlotData.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/SlotData.c
 
 CMakeFiles/game.dir/spine/SlotData.c.i: cmake_force
@@ -865,7 +917,7 @@ CMakeFiles/game.dir/spine/SlotData.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/TransformConstraint.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/TransformConstraint.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/TransformConstraint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/game.dir/spine/TransformConstraint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/game.dir/spine/TransformConstraint.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/TransformConstraint.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/TransformConstraint.c
 
 CMakeFiles/game.dir/spine/TransformConstraint.c.i: cmake_force
@@ -878,7 +930,7 @@ CMakeFiles/game.dir/spine/TransformConstraint.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/TransformConstraintData.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/TransformConstraintData.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/TransformConstraintData.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/game.dir/spine/TransformConstraintData.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/game.dir/spine/TransformConstraintData.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/TransformConstraintData.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/TransformConstraintData.c
 
 CMakeFiles/game.dir/spine/TransformConstraintData.c.i: cmake_force
@@ -891,7 +943,7 @@ CMakeFiles/game.dir/spine/TransformConstraintData.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/Triangulator.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/Triangulator.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/Triangulator.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/game.dir/spine/Triangulator.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/game.dir/spine/Triangulator.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/Triangulator.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/Triangulator.c
 
 CMakeFiles/game.dir/spine/Triangulator.c.i: cmake_force
@@ -904,7 +956,7 @@ CMakeFiles/game.dir/spine/Triangulator.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/VertexAttachment.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/VertexAttachment.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/VertexAttachment.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/game.dir/spine/VertexAttachment.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/game.dir/spine/VertexAttachment.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/VertexAttachment.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/VertexAttachment.c
 
 CMakeFiles/game.dir/spine/VertexAttachment.c.i: cmake_force
@@ -917,7 +969,7 @@ CMakeFiles/game.dir/spine/VertexAttachment.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/VertexEffect.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/VertexEffect.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/VertexEffect.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/game.dir/spine/VertexEffect.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/game.dir/spine/VertexEffect.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/VertexEffect.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/VertexEffect.c
 
 CMakeFiles/game.dir/spine/VertexEffect.c.i: cmake_force
@@ -930,7 +982,7 @@ CMakeFiles/game.dir/spine/VertexEffect.c.s: cmake_force
 
 CMakeFiles/game.dir/spine/extension.c.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/spine/extension.c.o: /home/jfk/Escritorio/SFML/Game/source/spine/extension.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/game.dir/spine/extension.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/game.dir/spine/extension.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/game.dir/spine/extension.c.o   -c /home/jfk/Escritorio/SFML/Game/source/spine/extension.c
 
 CMakeFiles/game.dir/spine/extension.c.i: cmake_force
@@ -964,9 +1016,13 @@ game_OBJECTS = \
 "CMakeFiles/game.dir/Level.cpp.o" \
 "CMakeFiles/game.dir/Lifebar.cpp.o" \
 "CMakeFiles/game.dir/Main.cpp.o" \
+"CMakeFiles/game.dir/MonoSmall.cpp.o" \
 "CMakeFiles/game.dir/Object.cpp.o" \
 "CMakeFiles/game.dir/ObjectManager.cpp.o" \
 "CMakeFiles/game.dir/Palomitas.cpp.o" \
+"CMakeFiles/game.dir/Pollito.cpp.o" \
+"CMakeFiles/game.dir/Pulpo.cpp.o" \
+"CMakeFiles/game.dir/Rocket.cpp.o" \
 "CMakeFiles/game.dir/SpineDrawable.cpp.o" \
 "CMakeFiles/game.dir/Sprite.cpp.o" \
 "CMakeFiles/game.dir/Weapon.cpp.o" \
@@ -1036,9 +1092,13 @@ game: CMakeFiles/game.dir/LaserLight.cpp.o
 game: CMakeFiles/game.dir/Level.cpp.o
 game: CMakeFiles/game.dir/Lifebar.cpp.o
 game: CMakeFiles/game.dir/Main.cpp.o
+game: CMakeFiles/game.dir/MonoSmall.cpp.o
 game: CMakeFiles/game.dir/Object.cpp.o
 game: CMakeFiles/game.dir/ObjectManager.cpp.o
 game: CMakeFiles/game.dir/Palomitas.cpp.o
+game: CMakeFiles/game.dir/Pollito.cpp.o
+game: CMakeFiles/game.dir/Pulpo.cpp.o
+game: CMakeFiles/game.dir/Rocket.cpp.o
 game: CMakeFiles/game.dir/SpineDrawable.cpp.o
 game: CMakeFiles/game.dir/Sprite.cpp.o
 game: CMakeFiles/game.dir/Weapon.cpp.o
@@ -1090,7 +1150,7 @@ game: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so
 game: /usr/lib/x86_64-linux-gnu/libsfml-network.so
 game: /usr/lib/x86_64-linux-gnu/libsfml-audio.so
 game: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Linking CXX executable game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jfk/Escritorio/SFML/Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Linking CXX executable game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

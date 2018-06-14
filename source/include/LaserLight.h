@@ -9,7 +9,7 @@
 
 class Weapon;
 
-class LaserLight : public Object, public Collider, virtual public D3D, public AnimatedSprite, public Disappear {
+class LaserLight : public Collider, public AnimatedSprite, public Disappear {
 public:
 	LaserLight(Weapon* _caster);
 	bool Update();

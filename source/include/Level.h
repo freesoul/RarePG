@@ -6,18 +6,12 @@
 #include <deque>
 #include <vector>
 
-
-
 typedef std::vector<int> Wave;
-
-
 
 struct LevelEvent {
 	enum LevelEventType { Wait, WaitForAllDead, Wave, Boss } levelEvent;
 	unsigned int info;
 };
-
-
 
 class Level : public Object {
 

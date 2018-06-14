@@ -3,35 +3,38 @@
 #define _D3D_H_
 
 #include "Constants.h"
-#include "DrawableBase.h"
+#include "Drawable2D.h"
 
 class Shadow;
 
-class D3D : public virtual DrawableBase {
+class D3D : virtual public D2D {
 public:
-	D3D(bool bshadow = 0);
-	//D3D(float _x, float _y, bool bshadow = 0) : x(_x), y(_y), z(0)  { InitShadow(bshadow);  };
-	//D3D(float _x, float _y, float _z, bool bshadow = 0) : x(_x), y(_y), z(_z) { InitShadow(bshadow); };
+	D3D(bool bShadow = 0);
+	//D3D(float _x, float _y, bool bshadow = 0) : x(_x), y(_y), z(0)  { initShadow(bshadow);  };
+	//D3D(float _x, float _y, float _z, bool bshadow = 0) : x(_x), y(_y), z(_z) { initShadow(bshadow); };
 
-	void InitShadow(bool bShadow);
+	void initShadow(bool bShadow);
 
 	virtual ~D3D();
 
-	void SetWorldPosition(float _x, float _y, float _z) {
+	void setWorldPosition(float _x, float _y, float _z) {
 		x = _x;
 		y = _y;
 		z = _z;
-		UpdateWorldPosition();
+		updateWorldPosition();
 	};
 
-	sf::Vector3f GetWorldPosition() { return sf::Vector3f(x, y, z); };
+	// Needed for boundingbox update
+	sf::Vector3f getWorldPosition() { return sf::Vector3f(x, y, z); };
+	// virtual sf::Transform GetTransform() = 0;
+	// virtual sf::FloatRect getLocalBounds() = 0;
 
-	void MoveInWorld(float _x, float _y, float _z)
+	void moveInWorld(float _x, float _y, float _z)
 	{
 		x += _x;
 		y += _y;
 		z += _z;
-		UpdateWorldPosition();
+		updateWorldPosition();
 	}
 
 protected:
@@ -40,11 +43,11 @@ protected:
 private:
 
 	float x,y,z;
-	void UpdateWorldPosition() {
+	void updateWorldPosition() {
 		float fixX = (512-x) * (z / MAX_Z) * 0.35;
-		SetPosition(x + fixX , y - 0.8*z);
+		setPosition(x + fixX , y - 0.8*z);
 		//float scale = 1 - z * 0.0025f;
-		//SetScale(sf::Vector2f(scale, scale));
+		//setScale(sf::Vector2f(scale, scale));
 	};
 };
 

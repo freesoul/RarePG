@@ -8,7 +8,7 @@
 
 class Weapon;
 
-class Bullet : public Object, public Collider, public D2D, public Sprite {
+class Bullet : public Collider, public Sprite {
 public:
 	Bullet(Weapon* caster);
 	bool Update();

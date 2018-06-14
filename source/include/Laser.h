@@ -9,7 +9,7 @@
 
 class LaserLight;
 
-class Laser : public Weapon, public D2D, public Sprite {
+class Laser : public Weapon, public Sprite {
 public:
 	Laser();
 	void OnMouseLeftDown();

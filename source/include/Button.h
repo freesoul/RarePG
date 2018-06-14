@@ -9,7 +9,7 @@
 
 /////////////// BUTTON CLASS.
 
-class Button : public Actionable, public D2D, public Sprite {
+class Button : public Actionable, public Sprite {
 public:
 	Button(unsigned int _ID, sf::Texture& tx, float x, float y, sf::IntRect& subrect, unsigned int alpha) : ID(_ID), D2D(true) {
 		setTexture(tx);

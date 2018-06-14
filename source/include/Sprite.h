@@ -10,10 +10,13 @@
 
 class Texture;
 
-#include "DrawableBase.h"
+#include "Drawable2D.h"
 #include <SFML/Graphics.hpp>
 
-class Sprite : virtual public DrawableBase, public sf::Transformable {
+
+// Actually Sprite == D2D == sf::Drawable, sf::Transformable.
+
+class Sprite : virtual public D2D {
 public:
 
 	Sprite();
@@ -21,30 +24,30 @@ public:
 	{
 	};
 
-		// D2D methods
-		sf::FloatRect GetLocalBounds() { return getLocalBounds(); };
-		sf::FloatRect GetGlobalBounds() { return getGlobalBounds(); };
-
-		void SetOrigin(float x, float y) { setOrigin(x, y); };
-		sf::Vector2f GetOrigin() { return getOrigin(); };
-
-		void SetScale(sf::Vector2f scale) { setScale(scale); };
-		sf::Vector2f GetScale() { return getScale(); };
-
-		void Move(float x, float y) { move(x, y); };
-
-		void SetPosition(float x, float y) { setPosition(sf::Vector2f(x, y)); };
-		sf::Vector2f GetPosition() { return getPosition(); };
-
-		void SetRotation(float r) { setRotation(r);  };
-		float GetRotation() { return getRotation(); };
-
-		virtual void SetColor(const sf::Color& color) { setColor(color); };
-
-		sf::Transform GetTransform()
-		{
-			return getTransform();
-		}
+		// // Old PascalCase methods
+		// sf::FloatRect getLocalBounds() { return getLocalBounds(); };
+		// sf::FloatRect getGlobalBounds() { return getGlobalBounds(); };
+		//
+		// void setOrigin(float x, float y) { setOrigin(x, y); };
+		// sf::Vector2f GetOrigin() { return getOrigin(); };
+		//
+		// void setScale(sf::Vector2f scale) { setScale(scale); };
+		// sf::Vector2f GetScale() { return getScale(); };
+		//
+		// void Move(float x, float y) { move(x, y); };
+		//
+		// void setPosition(float x, float y) { setPosition(sf::Vector2f(x, y)); };
+		// sf::Vector2f getPosition() { return getPosition(); };
+		//
+		// void SetRotation(float r) { setRotation(r);  };
+		// float GetRotation() { return getRotation(); };
+		//
+		// virtual void setColor(const sf::Color& color) { setColor(color); };
+		//
+		// sf::Transform GetTransform()
+		// {
+		// 	return getTransform();
+		// }
 
 	////// SFML LOWER LEVEL FUNCTIONS
 

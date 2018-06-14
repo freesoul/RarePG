@@ -2,7 +2,8 @@
 #include "include/Collider.h"
 
 
-Collider::Collider(Type _type, float _fixX, float _fixY, float _fixW , float _fixH) : type(_type) {
+Collider::Collider(Type _type, bool bShadow, float _fixX, float _fixY, float _fixW , float _fixH) :
+		type(_type), D3D(bShadow) {
 	Game::s_game->colliders.AddCollider(this); // Depending on type.
 	destroyedByCollision = false;
 
@@ -12,8 +13,9 @@ Collider::Collider(Type _type, float _fixX, float _fixY, float _fixW , float _fi
 
 	fixTransform = ft.getTransform();
 
-	//UpdateBoundingBox(); <---- ERROR: Still virtual while creating object
+	// UpdateBoundingBox(); // <---- ERROR: Still virtual while creating object
 };
+
 
 Collider::~Collider()
 {
@@ -23,8 +25,6 @@ Collider::~Collider()
 
 
 void Collider::UpdateBoundingBox(){
-	boundingBox.localBounds = GetLocalBounds(); // Move from here. WARNING: IN CONSTRUCTOR YOU CAN'T CALL VIRTUAL FX
-	boundingBox.transform = GetTransform()*fixTransform;
-
-
+	boundingBox.localBounds = getLocalBounds(); // Move from here. WARNING: IN CONSTRUCTOR YOU CAN'T CALL VIRTUAL FX
+	boundingBox.transform = getTransform()*fixTransform;
 };

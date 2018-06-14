@@ -5,7 +5,7 @@
 #include "AnimatedSprite.h"
 #include "DUO.h"
 
-class Palomita : public AnimatedSprite, public D2D, public DUO {
+class Palomita : public AnimatedSprite, public DUO {
 public:
 	Palomita();
 	bool DeltaUpdate(float elapsed);

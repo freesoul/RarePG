@@ -52,12 +52,12 @@ public:
 	bool Update() {
 		if (on)
 		{
-			sf::Vector3f owner_pos3d = owner->GetWorldPosition();
+			sf::Vector3f owner_pos3d = owner->getWorldPosition();
 			sf::Vector3f pos = owner_pos3d;
 			pos.y = MAX_Y;
 
-			float width = owner->GetGlobalBounds().width;
-			float height = owner->GetGlobalBounds().height;
+			float width = owner->getGlobalBounds().width;
+			float height = owner->getGlobalBounds().height;
 
 
 			if (!customSize) {

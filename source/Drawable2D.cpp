@@ -9,5 +9,4 @@ D2D::D2D(bool _bGui) : bGui(_bGui)
 D2D::~D2D()
 {
 	Game::s_game->objects.RemoveD2D(this, bGui);
-
 }

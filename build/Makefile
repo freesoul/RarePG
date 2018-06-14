@@ -690,6 +690,33 @@ Main.cpp.s:
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Main.cpp.s
 .PHONY : Main.cpp.s
 
+MonoSmall.o: MonoSmall.cpp.o
+
+.PHONY : MonoSmall.o
+
+# target to build an object file
+MonoSmall.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/MonoSmall.cpp.o
+.PHONY : MonoSmall.cpp.o
+
+MonoSmall.i: MonoSmall.cpp.i
+
+.PHONY : MonoSmall.i
+
+# target to preprocess a source file
+MonoSmall.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/MonoSmall.cpp.i
+.PHONY : MonoSmall.cpp.i
+
+MonoSmall.s: MonoSmall.cpp.s
+
+.PHONY : MonoSmall.s
+
+# target to generate assembly for a file
+MonoSmall.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/MonoSmall.cpp.s
+.PHONY : MonoSmall.cpp.s
+
 Object.o: Object.cpp.o
 
 .PHONY : Object.o
@@ -770,6 +797,87 @@ Palomitas.s: Palomitas.cpp.s
 Palomitas.cpp.s:
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Palomitas.cpp.s
 .PHONY : Palomitas.cpp.s
+
+Pollito.o: Pollito.cpp.o
+
+.PHONY : Pollito.o
+
+# target to build an object file
+Pollito.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Pollito.cpp.o
+.PHONY : Pollito.cpp.o
+
+Pollito.i: Pollito.cpp.i
+
+.PHONY : Pollito.i
+
+# target to preprocess a source file
+Pollito.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Pollito.cpp.i
+.PHONY : Pollito.cpp.i
+
+Pollito.s: Pollito.cpp.s
+
+.PHONY : Pollito.s
+
+# target to generate assembly for a file
+Pollito.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Pollito.cpp.s
+.PHONY : Pollito.cpp.s
+
+Pulpo.o: Pulpo.cpp.o
+
+.PHONY : Pulpo.o
+
+# target to build an object file
+Pulpo.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Pulpo.cpp.o
+.PHONY : Pulpo.cpp.o
+
+Pulpo.i: Pulpo.cpp.i
+
+.PHONY : Pulpo.i
+
+# target to preprocess a source file
+Pulpo.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Pulpo.cpp.i
+.PHONY : Pulpo.cpp.i
+
+Pulpo.s: Pulpo.cpp.s
+
+.PHONY : Pulpo.s
+
+# target to generate assembly for a file
+Pulpo.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Pulpo.cpp.s
+.PHONY : Pulpo.cpp.s
+
+Rocket.o: Rocket.cpp.o
+
+.PHONY : Rocket.o
+
+# target to build an object file
+Rocket.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Rocket.cpp.o
+.PHONY : Rocket.cpp.o
+
+Rocket.i: Rocket.cpp.i
+
+.PHONY : Rocket.i
+
+# target to preprocess a source file
+Rocket.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Rocket.cpp.i
+.PHONY : Rocket.cpp.i
+
+Rocket.s: Rocket.cpp.s
+
+.PHONY : Rocket.s
+
+# target to generate assembly for a file
+Rocket.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Rocket.cpp.s
+.PHONY : Rocket.cpp.s
 
 SpineDrawable.o: SpineDrawable.cpp.o
 
@@ -2031,6 +2139,9 @@ help:
 	@echo "... Main.o"
 	@echo "... Main.i"
 	@echo "... Main.s"
+	@echo "... MonoSmall.o"
+	@echo "... MonoSmall.i"
+	@echo "... MonoSmall.s"
 	@echo "... Object.o"
 	@echo "... Object.i"
 	@echo "... Object.s"
@@ -2040,6 +2151,15 @@ help:
 	@echo "... Palomitas.o"
 	@echo "... Palomitas.i"
 	@echo "... Palomitas.s"
+	@echo "... Pollito.o"
+	@echo "... Pollito.i"
+	@echo "... Pollito.s"
+	@echo "... Pulpo.o"
+	@echo "... Pulpo.i"
+	@echo "... Pulpo.s"
+	@echo "... Rocket.o"
+	@echo "... Rocket.i"
+	@echo "... Rocket.s"
 	@echo "... SpineDrawable.o"
 	@echo "... SpineDrawable.i"
 	@echo "... SpineDrawable.s"

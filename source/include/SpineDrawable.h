@@ -11,7 +11,7 @@
 
 using namespace spine;
 
-class SpineDrawable : public DUO,  public SkeletonDrawable {
+class SpineDrawable : public DUO, public SkeletonDrawable {
 public:
 	// Basic class methods
 
@@ -46,7 +46,7 @@ public:
 	};
 	float GetRotation() { return referenceBone->rotation - 90;  };
 
-	sf::FloatRect GetLocalBounds() {
+	sf::FloatRect getLocalBounds() const {
 		return sf::FloatRect(
 			0,
 			0,
@@ -54,7 +54,8 @@ public:
 			globalBounds->maxY - globalBounds->minY
 			);
 	};
-	sf::FloatRect GetGlobalBounds() {
+
+	sf::FloatRect getGlobalBounds() const {
 		return sf::FloatRect(
 			globalBounds->minX,
 			globalBounds->minY,
@@ -63,10 +64,11 @@ public:
 			);
 	};
 
-	void SetOrigin(float x, float y) {  };
+
+	void setOrigin(float x, float y) {  };
 	sf::Vector2f GetOrigin() { return sf::Vector2f(0,0); };
 
-	void SetScale(sf::Vector2f scale);
+	void setScale(sf::Vector2f scale);
 	sf::Vector2f GetScale() { return sf::Vector2f(0, 0); };
 
 	void Move(float x, float y) {
@@ -74,7 +76,7 @@ public:
 		skeleton->y += y;
 	};
 
-	void SetPosition(float x, float y) {
+	void setPosition(float x, float y) {
 		skeleton->x = x;
 		skeleton->y = y;
 	};
@@ -83,15 +85,15 @@ public:
 	{
 		// Building transform from nothing -> Change this.
 		sf::Transformable transform;
-		transform.setPosition(GetPosition());
+		transform.setPosition(getPosition());
 		transform.setRotation(GetRotation());
-		transform.setOrigin(GetLocalBounds().width / 2, GetLocalBounds().height / 2);
+		transform.setOrigin(getLocalBounds().width / 2, getLocalBounds().height / 2);
 		return transform.getTransform();
 	}
 
-	sf::Vector2f GetPosition() { return sf::Vector2f(skeleton->x, skeleton->y); };
+	sf::Vector2f getPosition() { return sf::Vector2f(skeleton->x, skeleton->y); };
 
-	virtual void SetColor(const sf::Color& color) {  };
+	virtual void setColor(const sf::Color& color) {  };
 
 
 protected:

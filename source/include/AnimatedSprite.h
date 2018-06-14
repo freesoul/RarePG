@@ -2,7 +2,7 @@
 #define _ANIMATED_SPRITE_
 
 #include <SFML/Graphics.hpp>
-#include "DrawableBase.h"
+#include "Drawable2D.h"
 #include <unordered_map>
 #include "Game.h"
 // #include "Debug.h"
@@ -18,7 +18,7 @@ struct AnimationItem {
 
 typedef std::vector<AnimationItem> AnimationSequence;
 
-class AnimatedSprite : public sf::Transformable, virtual public DrawableBase {
+class AnimatedSprite : 	virtual public D2D {
 protected:
 
 	bool paused;
@@ -41,30 +41,28 @@ protected:
 
 public:
 
-	// D2D methods
-	void SetOrigin(float x, float y) { setOrigin(x, y); };
-	sf::Vector2f GetOrigin() { return getOrigin(); };
-	void SetCustomOrigin() { fixedOrigin = false; };
+	// // D2D methods
+	// void setOrigin(float x, float y) { setOrigin(x, y); };
+	// sf::Vector2f GetOrigin() { return getOrigin(); };
+	void setCustomOrigin() { fixedOrigin = false; };
+	//
+	// void setScale(sf::Vector2f scale) { setScale(scale); };
+	// sf::Vector2f GetScale() { return getScale(); };
+	//
+	// void Move(float x, float y) { move(x, y); };
+	//
+	//
+	// void SetRotation(float r) { setRotation(r); };
+	// float GetRotation() { return getRotation(); };
+	//
+	// sf::Transform GetTransform()
+	// {
+	// 	return getTransform();
+	// }
 
-	void SetScale(sf::Vector2f scale) { setScale(scale); };
-	sf::Vector2f GetScale() { return getScale(); };
-
-	void Move(float x, float y) { move(x, y); };
-
-	void SetPosition(float x, float y) { setPosition(sf::Vector2f(x, y)); };
-	sf::Vector2f GetPosition() { return getPosition(); };
-
-	void SetRotation(float r) { setRotation(r); };
-	float GetRotation() { return getRotation(); };
-
-	sf::Transform GetTransform()
-	{
-		return getTransform();
-	}
-
-	sf::FloatRect GetLocalBounds();
-	sf::FloatRect GetGlobalBounds();
-	void SetColor(const sf::Color& color);
+	sf::FloatRect getLocalBounds() const;
+	sf::FloatRect getGlobalBounds() const;
+	void setColor(const sf::Color& color);
 
 	// SFML basic methods
 	void draw(sf::RenderTarget& target, sf::RenderStates states) const;

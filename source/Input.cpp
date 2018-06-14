@@ -109,9 +109,9 @@ void Input::HandleInput()
 	// Mouse Down actions
 	std::vector<MouseAction>::iterator it;
 	if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-	for (it = mouseLeftDownActions.begin(); it != mouseLeftDownActions.end(); it++)
-		if (it->box == 0)
-			it->actionable->OnMouseLeftDown();
+		for (it = mouseLeftDownActions.begin(); it != mouseLeftDownActions.end(); it++)
+			if (it->box == 0)
+				it->actionable->OnMouseLeftDown();
 
 	// Mouse position
 	sf::Vector2i coords(sf::Mouse::getPosition(Game::inst()->renderer).x,

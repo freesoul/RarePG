@@ -1353,7 +1353,6 @@ CMakeFiles/game.dir/Actionable.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gui.h
@@ -1374,7 +1373,6 @@ CMakeFiles/game.dir/AnimatedSprite.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gui.h
@@ -1397,7 +1395,6 @@ CMakeFiles/game.dir/Bullet.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/EllipseShape.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
@@ -1462,7 +1459,6 @@ CMakeFiles/game.dir/Button.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gui.h
@@ -1484,7 +1480,6 @@ CMakeFiles/game.dir/Character.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/EllipseShape.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
@@ -1551,7 +1546,6 @@ CMakeFiles/game.dir/Collider.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gui.h
@@ -1571,7 +1565,6 @@ CMakeFiles/game.dir/Drawable2D.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gui.h
@@ -1591,7 +1584,6 @@ CMakeFiles/game.dir/Drawable3D.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/EllipseShape.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
@@ -1610,7 +1602,6 @@ CMakeFiles/game.dir/Enemy.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/Enemy.h
  /home/jfk/Escritorio/SFML/Game/source/include/Lifebar.h
  /home/jfk/Escritorio/SFML/Game/source/include/Object.h
@@ -1628,7 +1619,6 @@ CMakeFiles/game.dir/Fruit.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Disappear.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/EllipseShape.h
  /home/jfk/Escritorio/SFML/Game/source/include/Fruit.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
@@ -1652,10 +1642,11 @@ CMakeFiles/game.dir/Game.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
  /home/jfk/Escritorio/SFML/Game/source/include/DUO.h
  /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Disappear.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/EllipseShape.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Fruit.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gui.h
@@ -1664,6 +1655,7 @@ CMakeFiles/game.dir/Game.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Object.h
  /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
  /home/jfk/Escritorio/SFML/Game/source/include/Palomitas.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Rocket.h
  /home/jfk/Escritorio/SFML/Game/source/include/Shadow.h
  /home/jfk/Escritorio/SFML/Game/source/include/SpineDrawable.h
  /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
@@ -1722,7 +1714,6 @@ CMakeFiles/game.dir/Gui.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gui.h
@@ -1745,7 +1736,6 @@ CMakeFiles/game.dir/Handgun.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/EllipseShape.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
@@ -1811,7 +1801,6 @@ CMakeFiles/game.dir/Input.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gui.h
@@ -1835,7 +1824,6 @@ CMakeFiles/game.dir/Laser.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Disappear.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/EllipseShape.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
@@ -1906,7 +1894,6 @@ CMakeFiles/game.dir/LaserLight.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Disappear.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/EllipseShape.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
@@ -1973,7 +1960,6 @@ CMakeFiles/game.dir/Level.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gui.h
@@ -1993,7 +1979,6 @@ CMakeFiles/game.dir/Lifebar.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/Enemy.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
@@ -2015,7 +2000,6 @@ CMakeFiles/game.dir/Main.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gui.h
@@ -2025,6 +2009,75 @@ CMakeFiles/game.dir/Main.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
  /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
  /home/jfk/Escritorio/SFML/Game/source/include/WorldCollider.h
+CMakeFiles/game.dir/MonoSmall.cpp.o
+ /home/jfk/Escritorio/SFML/Game/source/MonoSmall.cpp
+ /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+ /home/jfk/Escritorio/SFML/Game/source/include/AnimatedSprite.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Button.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Character.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
+ /home/jfk/Escritorio/SFML/Game/source/include/DUO.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Disappear.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
+ /home/jfk/Escritorio/SFML/Game/source/include/EllipseShape.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Enemy.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Game.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Gui.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Input.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Level.h
+ /home/jfk/Escritorio/SFML/Game/source/include/MonoSmall.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Object.h
+ /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Shadow.h
+ /home/jfk/Escritorio/SFML/Game/source/include/SpineDrawable.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
+ /home/jfk/Escritorio/SFML/Game/source/include/WorldCollider.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Animation.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/AnimationState.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/AnimationStateData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Array.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Atlas.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/AtlasAttachmentLoader.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Attachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/AttachmentLoader.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Bone.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/BoneData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/BoundingBoxAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/ClippingAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Color.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Event.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/EventData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/IkConstraint.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/IkConstraintData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/MeshAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/PathAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/PathConstraint.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/PathConstraintData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/PointAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/RegionAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Skeleton.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonBinary.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonBounds.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonClipping.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonJson.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Skin.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Slot.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SlotData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/TransformConstraint.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/TransformConstraintData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Triangulator.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/VertexAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/VertexEffect.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/dll.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/extension.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/spine-sfml.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/spine.h
 CMakeFiles/game.dir/Object.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/Object.cpp
  /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
@@ -2035,7 +2088,6 @@ CMakeFiles/game.dir/Object.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gui.h
@@ -2057,7 +2109,6 @@ CMakeFiles/game.dir/ObjectManager.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/EllipseShape.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
@@ -2123,7 +2174,6 @@ CMakeFiles/game.dir/Palomitas.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gui.h
@@ -2134,6 +2184,210 @@ CMakeFiles/game.dir/Palomitas.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Palomitas.h
  /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
  /home/jfk/Escritorio/SFML/Game/source/include/WorldCollider.h
+CMakeFiles/game.dir/Pollito.cpp.o
+ /home/jfk/Escritorio/SFML/Game/source/Pollito.cpp
+ /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+ /home/jfk/Escritorio/SFML/Game/source/include/AnimatedSprite.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Button.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Character.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
+ /home/jfk/Escritorio/SFML/Game/source/include/DUO.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Disappear.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
+ /home/jfk/Escritorio/SFML/Game/source/include/EllipseShape.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Enemy.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Game.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Gui.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Input.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Level.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Object.h
+ /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Pollito.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Shadow.h
+ /home/jfk/Escritorio/SFML/Game/source/include/SpineDrawable.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
+ /home/jfk/Escritorio/SFML/Game/source/include/WorldCollider.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Animation.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/AnimationState.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/AnimationStateData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Array.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Atlas.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/AtlasAttachmentLoader.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Attachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/AttachmentLoader.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Bone.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/BoneData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/BoundingBoxAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/ClippingAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Color.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Event.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/EventData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/IkConstraint.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/IkConstraintData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/MeshAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/PathAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/PathConstraint.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/PathConstraintData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/PointAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/RegionAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Skeleton.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonBinary.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonBounds.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonClipping.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonJson.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Skin.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Slot.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SlotData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/TransformConstraint.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/TransformConstraintData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Triangulator.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/VertexAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/VertexEffect.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/dll.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/extension.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/spine-sfml.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/spine.h
+CMakeFiles/game.dir/Pulpo.cpp.o
+ /home/jfk/Escritorio/SFML/Game/source/Pulpo.cpp
+ /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+ /home/jfk/Escritorio/SFML/Game/source/include/AnimatedSprite.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Button.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Character.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
+ /home/jfk/Escritorio/SFML/Game/source/include/DUO.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Disappear.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
+ /home/jfk/Escritorio/SFML/Game/source/include/EllipseShape.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Enemy.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Game.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Gui.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Input.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Level.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Object.h
+ /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Pulpo.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Shadow.h
+ /home/jfk/Escritorio/SFML/Game/source/include/SpineDrawable.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
+ /home/jfk/Escritorio/SFML/Game/source/include/WorldCollider.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Animation.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/AnimationState.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/AnimationStateData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Array.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Atlas.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/AtlasAttachmentLoader.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Attachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/AttachmentLoader.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Bone.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/BoneData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/BoundingBoxAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/ClippingAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Color.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Event.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/EventData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/IkConstraint.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/IkConstraintData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/MeshAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/PathAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/PathConstraint.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/PathConstraintData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/PointAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/RegionAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Skeleton.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonBinary.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonBounds.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonClipping.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonJson.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Skin.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Slot.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SlotData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/TransformConstraint.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/TransformConstraintData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Triangulator.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/VertexAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/VertexEffect.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/dll.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/extension.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/spine-sfml.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/spine.h
+CMakeFiles/game.dir/Rocket.cpp.o
+ /home/jfk/Escritorio/SFML/Game/source/Rocket.cpp
+ /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Button.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Character.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
+ /home/jfk/Escritorio/SFML/Game/source/include/DUO.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
+ /home/jfk/Escritorio/SFML/Game/source/include/EllipseShape.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Game.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Gui.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Input.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Level.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Object.h
+ /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Rocket.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Shadow.h
+ /home/jfk/Escritorio/SFML/Game/source/include/SpineDrawable.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
+ /home/jfk/Escritorio/SFML/Game/source/include/WorldCollider.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Animation.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/AnimationState.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/AnimationStateData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Array.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Atlas.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/AtlasAttachmentLoader.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Attachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/AttachmentLoader.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Bone.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/BoneData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/BoundingBoxAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/ClippingAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Color.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Event.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/EventData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/IkConstraint.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/IkConstraintData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/MeshAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/PathAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/PathConstraint.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/PathConstraintData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/PointAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/RegionAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Skeleton.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonBinary.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonBounds.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonClipping.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonJson.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Skin.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Slot.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/SlotData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/TransformConstraint.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/TransformConstraintData.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/Triangulator.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/VertexAttachment.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/VertexEffect.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/dll.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/extension.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/spine-sfml.h
+ /home/jfk/Escritorio/SFML/Game/source/include/spine/spine.h
 CMakeFiles/game.dir/SpineDrawable.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/SpineDrawable.cpp
  /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
@@ -2145,7 +2399,6 @@ CMakeFiles/game.dir/SpineDrawable.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gui.h
@@ -2199,7 +2452,7 @@ CMakeFiles/game.dir/SpineDrawable.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/spine/spine.h
 CMakeFiles/game.dir/Sprite.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/Sprite.cpp
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
 CMakeFiles/game.dir/Weapon.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/Weapon.cpp
@@ -2213,7 +2466,6 @@ CMakeFiles/game.dir/Weapon.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/EllipseShape.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
@@ -2280,7 +2532,6 @@ CMakeFiles/game.dir/WorldCollider.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
  /home/jfk/Escritorio/SFML/Game/source/include/EllipseShape.h
  /home/jfk/Escritorio/SFML/Game/source/include/Game.h
  /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
@@ -2335,7 +2586,7 @@ CMakeFiles/game.dir/WorldCollider.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/include/spine/spine-sfml.h
  /home/jfk/Escritorio/SFML/Game/source/include/spine/spine.h
 CMakeFiles/game.dir/spine/spine-sfml.cpp.o
- /home/jfk/Escritorio/SFML/Game/source/include/DrawableBase.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/spine/Animation.h
  /home/jfk/Escritorio/SFML/Game/source/include/spine/AnimationState.h
  /home/jfk/Escritorio/SFML/Game/source/include/spine/AnimationStateData.h

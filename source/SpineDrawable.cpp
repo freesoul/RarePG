@@ -3,7 +3,7 @@
 #include "SpineDrawable.h"
 
 
-void SpineDrawable::SetScale(sf::Vector2f scale)
+void SpineDrawable::setScale(sf::Vector2f scale)
 {
 	//SpineDrawable::D2D::Transformable::setScale(scale);
 
@@ -32,7 +32,7 @@ void SpineDrawable::SpineLoad(const char* _atlas, const char* _json, float x, fl
 	skeleton->flipX = false;
 	skeleton->flipY = false;
 
-	SetWorldPosition(x, y, 0);
+	// setWorldPosition(x, y, 0);
 
 	referenceBone = Skeleton_findBone(skeleton, ref_bone);
 

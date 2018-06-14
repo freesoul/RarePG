@@ -5,11 +5,11 @@
 #include "Object.h"
 class Lifebar;
 
-class Enemy : public Object, public Collider {
+class Enemy : public Collider {
 public:
 	Enemy(float _m_hp, bool lb = 1);
 	~Enemy();
-	
+
 
 	virtual bool Dead() { return GetCurrentHP() <= 0; };
 	virtual float GetDamage() { return 0; };

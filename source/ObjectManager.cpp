@@ -206,6 +206,6 @@ void ObjManager::UpdateScene()
 
 bool ObjManager::z_test(D3D* o1, D3D* o2)
 {
-	return o1->GetWorldPosition().z > o2->GetWorldPosition().z;
+	return o1->getWorldPosition().z > o2->getWorldPosition().z;
 
 }

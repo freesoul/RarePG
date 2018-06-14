@@ -13,7 +13,7 @@ LaserLight::LaserLight(Weapon* _caster) :
 	caster(_caster),
 	Disappear(0.5f)
 {
-	SetCustomOrigin();
+	setCustomOrigin();
 
 	AddFrame(0x01, sf::IntRect(0, 669, 20, 710 - 669), 10, 710 - 669);
 	AddFrame(0x01, sf::IntRect(20, 531, 20, 710 - 531), 10, 710 - 531);
@@ -21,7 +21,7 @@ LaserLight::LaserLight(Weapon* _caster) :
 	AddFrame(0x01, sf::IntRect(60, 199, 20, 710-199), 10, 710-199);
 	AddFrame(0x01, sf::IntRect(80, 0, 20, 710), 10, 710);
 
-	SetPosition(500, 600);
+	setPosition(500, 600);
 
 	RunSequence(0x01, false);
 
@@ -38,10 +38,10 @@ bool LaserLight::Update() {
 
 	if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
 	{
-		cpos = caster->GetWorldPosition();
-		SetWorldPosition(cpos.x, cpos.y, cpos.z);
+		cpos = caster->getWorldPosition();
+		setWorldPosition(cpos.x, cpos.y, cpos.z);
 
-		SetRotation(caster->GetRotation());
+		setRotation(caster->getRotation());
 	}
 	else {
 		if (getDisappearStatus() == DisappearStatus::NotStarted)

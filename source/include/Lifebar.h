@@ -8,7 +8,7 @@
 
 class Enemy;
 
-class Lifebar : public D2D, public Sprite, public Object {
+class Lifebar : public Sprite, public Object {
 public:
 	Lifebar(Enemy* e, float width=BASE_LIFEBAR_WIDTH);
 	~Lifebar(){};

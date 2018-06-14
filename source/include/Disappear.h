@@ -2,15 +2,18 @@
 #define _DISAPPEAR_H_
 
 #include "Constants.h"
-#include "DrawableBase.h"
+#include "Drawable2D.h"
 #include "DUO.h"
 
-class Disappear : virtual public DrawableBase, public DUO {
+#include <SFML/Graphics.hpp>
+
+
+class Disappear : virtual public D2D, public DUO { // virtual public sf::Drawable,
 public:
 	enum DisappearStatus { NotStarted, Disappearing, Disappeared };
 
-	Disappear(float _disTime=2.55f) { 
-		status = NotStarted; 
+	Disappear(float _disTime=2.55f) {
+		status = NotStarted;
 		alpha = 255;
 		disSpeed = 255 / _disTime;
 	};
@@ -20,7 +23,7 @@ public:
 	bool disappeared() { return status == Disappeared; };
 
 	DisappearStatus getDisappearStatus() { return status; };
-	
+
 	bool DeltaUpdate(float elapsed) override
 	{
 		if (status == Disappearing)
@@ -32,7 +35,7 @@ public:
 				status = Disappeared;
 				alpha = 0;
 			}
-			SetColor(sf::Color(255, 255, 255, alpha));
+			setColor(sf::Color(255, 255, 255, alpha));
 		}
 		return true;
 	};

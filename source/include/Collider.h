@@ -3,20 +3,28 @@
 
 #include "ObjectManager.h"
 #include "Drawable3D.h"
+#include "Object.h"
 #include "AABB.h"
 
 
 class Game;
 
 
-class Collider : virtual public D3D {
+class Collider : public D3D, public Object {
 public:
 
 	BoundingBox boundingBox;
 
 	enum Type { Enemy=1, EnemyCast, Bonus, Player, PlayerCast };
 
-	Collider(Collider::Type _type, float _fixX = 0, float _fixY = 0, float _fixW = 0.1, float _fixH = 0.1f);
+	Collider(
+		Collider::Type _type,
+		bool bShadow=0,
+		float _fixX = 0,
+		float _fixY = 0,
+		float _fixW = 0.1,
+		float _fixH = 0.1f
+	);
 
 	virtual ~Collider();
 

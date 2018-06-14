@@ -24,7 +24,7 @@ void GUI::LoadCursor()
 void GUI::UpdateLife(float p)
 {
 	float pixelsgone = 145 * (1-p);
-	Lifeball->SetPosition(88, 589 + pixelsgone);
+	Lifeball->setPosition(88, 589 + pixelsgone);
 	Lifeball->setTextureRect(sf::IntRect(0, pixelsgone, 154, 145-pixelsgone));
 }
 

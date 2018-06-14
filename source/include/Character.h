@@ -5,12 +5,12 @@
 #include "SpineDrawable.h"
 #include "Object.h"
 #include "Shadow.h"
-#include "Drawable3D.h"
 
 
 class Weapon;
 
-class Character : public Collider, virtual public D3D, public SpineDrawable, public Object {
+
+class Character : public Collider, public SpineDrawable {
 
 //class Character : public Collider, public SpineDrawable, virtual public D3D, public Object {
 public:

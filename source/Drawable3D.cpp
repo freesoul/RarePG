@@ -4,11 +4,11 @@
 
 D3D::D3D(bool bShadow)
 {
-	InitShadow(bShadow);
+	initShadow(bShadow);
 	Game::s_game->objects.AddD3D(this);
 }
 
-void D3D::InitShadow(bool bShadow) {
+void D3D::initShadow(bool bShadow) {
 	if (bShadow)
 		shadow = new Shadow(this);
 	else shadow = 0;

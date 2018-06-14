@@ -7,7 +7,7 @@
 #include "Drawable3D.h"
 #include "Disappear.h"
 
-class Fruit : public Collider, public Object, public Sprite, virtual public D3D, public Disappear {
+class Fruit : public Collider, public Sprite, public Disappear {
 public:
 
 	Fruit();

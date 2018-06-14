@@ -1,10 +1,10 @@
-#include "Character.h"
-#include "Game.h"
-#include "Constants.h"
-#include "SpineDrawable.h"
-#include "Collider.h"
-#include "Handgun.h"
-#include "Laser.h"
+#include "include/Character.h"
+#include "include/Game.h"
+#include "include/Constants.h"
+#include "include/SpineDrawable.h"
+#include "include/Collider.h"
+#include "include/Handgun.h"
+#include "include/Laser.h"
 
 void Character::Heal(unsigned int amount)
 {
@@ -63,7 +63,7 @@ Character::Character(CharacterType type) : Collider(Collider::Type::Player)
 
 	SpineLoad("data/Character.atlas", "data/Character.json", 512, 713, "tronco");
 
-	SpineDrawable::SetWorldPosition(SCREEN_WIDTH/2, MAX_Y, 0);
+	setWorldPosition(SCREEN_WIDTH/2, MAX_Y, 0);
 
 	//objectType = ID_CHARACTER;
 	state = Standing;
@@ -98,6 +98,7 @@ Character::Character(CharacterType type) : Collider(Collider::Type::Player)
 //	weapon = new Handgun();
 	tWeapon = wLaser;
 	weapon = new Laser();
+
 }
 
 void Character::SetWeapon(WeaponType _weapon)
@@ -174,11 +175,11 @@ bool Character::Update()
 
 			   // Z Axis
 			   if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
-					if (GetWorldPosition().z < MAX_Z)
+					if (getWorldPosition().z < MAX_Z)
 						z_move += g->elapsed*CHAR_SPEED_BASE_Z;
 
 					if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
-				   if (GetWorldPosition().z > 0)
+				   if (getWorldPosition().z > 0)
 					   z_move -= g->elapsed*CHAR_SPEED_BASE_Z;
 
 			   if (z_move != 0 || x_move != 0)
@@ -192,14 +193,14 @@ bool Character::Update()
 			   }
 
 			   // Move
-			   MoveInWorld(x_move, 0, z_move);
+			   moveInWorld(x_move, 0, z_move);
 
 			   //
-			   if (GetWorldPosition().x < 0)
-				   SetWorldPosition(1023, GetWorldPosition().y, GetWorldPosition().z);
+			   if (getWorldPosition().x < 0)
+				   setWorldPosition(1023, getWorldPosition().y, getWorldPosition().z);
 
-			   if (GetWorldPosition().x > 1024)
-				   SetWorldPosition(1, GetWorldPosition().y, GetWorldPosition().z);
+			   if (getWorldPosition().x > 1024)
+				   setWorldPosition(1, getWorldPosition().y, getWorldPosition().z);
 
 			   // Change animation walk <-> stand
 			   if (state == Standing && nowMoving)

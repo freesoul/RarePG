@@ -6,7 +6,7 @@
 
 Weapon::Weapon(bool _right) : right(_right), weapon_mouse_rotation(0),
 weapon_mouse_rotation_radians(0){
-	SetMouseAction(Input::MouseActionType::LeftIsDown);
+	SetMouseAction(Input::LeftIsDown);
 
 	if (right)
 	{
@@ -23,24 +23,24 @@ weapon_mouse_rotation_radians(0){
 bool Weapon::Update() {
 
 	//  Weapon position
-	sf::Vector3f pos = Game::s_game->character->GetWorldPosition();
+	sf::Vector3f pos = Game::s_game->character->getWorldPosition();
 	pos.x += fWeaponPosRelative.x;
 	pos.y += fWeaponPosRelative.y;
 	pos.z -= 1;
 
-	SetRotation(weapon_mouse_rotation);
+	setRotation(weapon_mouse_rotation);
 
-	SetWorldPosition(pos.x, pos.y, pos.z);
+	setWorldPosition(pos.x, pos.y, pos.z);
 
 	// Weapon rotation
-	weapon_mouse_x = Game::s_game->input.mouse_x - GetPosition().x;
-	weapon_mouse_y = GetPosition().y - Game::s_game->input.mouse_y;
+	weapon_mouse_x = Game::s_game->input.mouse_x - getPosition().x;
+	weapon_mouse_y = getPosition().y - Game::s_game->input.mouse_y;
 	weapon_mouse_rotation_radians = std::atan2(weapon_mouse_x, weapon_mouse_y);
 	weapon_mouse_rotation = weapon_mouse_rotation_radians * (360 / (2 * 3.1419));
 
 	if (weapon_mouse_x < 0)
-		SetScale(sf::Vector2f(-1, 1));
-	else SetScale(sf::Vector2f(1, 1));
+		setScale(sf::Vector2f(-1, 1));
+	else setScale(sf::Vector2f(1, 1));
 
 
 	// Custom actions
@@ -50,5 +50,5 @@ bool Weapon::Update() {
 
 Weapon::~Weapon()
 {
-	UnsetMouseAction(Input::MouseActionType::LeftIsDown);
+	UnsetMouseAction(Input::LeftIsDown);
 }

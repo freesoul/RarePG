@@ -3,15 +3,16 @@
 #include "include/Constants.h"//z
 
 
-sf::FloatRect AnimatedSprite::GetLocalBounds()
+
+sf::FloatRect AnimatedSprite::getLocalBounds() const
 {
 	sf::IntRect rect = itCurrentFrame->rect;
 	return sf::FloatRect(0, 0, std::abs(rect.width), std::abs(rect.height));
 }
 
-sf::FloatRect AnimatedSprite::GetGlobalBounds()
+sf::FloatRect AnimatedSprite::getGlobalBounds() const
 {
-	return getTransform().transformRect(GetLocalBounds());
+	return getTransform().transformRect(getLocalBounds());
 }
 
 void AnimatedSprite::draw(sf::RenderTarget& target, sf::RenderStates states) const
@@ -102,11 +103,11 @@ void AnimatedSprite::UpdateFrame()
 	m_vertices[3].texCoords = sf::Vector2f(right, top);
 
 	if (!fixedOrigin)
-		SetOrigin(itCurrentFrame->origin.x, itCurrentFrame->origin.y);
+		setOrigin(itCurrentFrame->origin.x, itCurrentFrame->origin.y);
 
 }
 
-void AnimatedSprite::SetColor(const sf::Color& color)
+void AnimatedSprite::setColor(const sf::Color& color)
 {
 	m_vertices[0].color = color;
 	m_vertices[1].color = color;

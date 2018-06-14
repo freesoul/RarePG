@@ -7,7 +7,7 @@
 #include "Drawable2D.h"
 #include "Object.h"
 
-class Handgun : public Weapon, public D2D, public Sprite {
+class Handgun : public Weapon, public Sprite {
 public:
 	Handgun();
 	void OnMouseLeftDown();

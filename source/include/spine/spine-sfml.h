@@ -40,13 +40,15 @@
 #include <SFML/Graphics/RenderTarget.hpp>
 #include <SFML/Graphics/RenderStates.hpp>
 
-#include <DrawableBase.h>
-
 _SP_ARRAY_DECLARE_TYPE(spColorArray, spColor)
+
+
+#include <Drawable2D.h>
+
 
 namespace spine {
 
-class SkeletonDrawable: public virtual DrawableBase { // sf::Drawable
+class SkeletonDrawable : virtual public D2D { // sf::Drawable
 public:
 	Skeleton* skeleton;
 	AnimationState* state;

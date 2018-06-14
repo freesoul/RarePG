@@ -3,19 +3,22 @@
 #include "include/Game.h"
 #include "include/Input.h"
 
-//
+// Debug
 // #include "Spine/spine-sfml.h"
 // #include "SpineDrawable.h" // testing
 // #include "include/Sprite.h"
 // #include "include/AnimatedSprite.h"
-#include "include/Character.h"
-// #include "include/Rocket.h"
 
 #include "include/Level.h"
+#include "include/Character.h"
 #include "include/Palomitas.h"
-// #include "include/Pulpo.h"
 // #include "include/Debug.h"
-// #include "include/Fruit.h"
+#include "include/Fruit.h"
+
+#include "include/Rocket.h"
+// #include "include/Pulpo.h"
+// #include "include/MonoSmall.h"
+// #include "include/Pollito.h"
 
 
 bool Game::Load() {
@@ -58,6 +61,7 @@ void Game::Run() {
 
 	new Palomita();
 	character = new Character(Character::Girl);
+	new Rocket(Collider::EnemyCast);
 
 
 	while(gsGameState != gsClosed)
@@ -113,9 +117,9 @@ void Game::Run() {
 		gui->DrawCursor();
 //
 //
-// #ifdef DBG_HITBOXES
-// 		colliders.DebugHitboxes();
-// #endif
+#ifdef DBG_HITBOXES
+		colliders.DebugHitboxes();
+#endif
 
 		renderer.display();
 
