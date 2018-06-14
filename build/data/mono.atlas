@@ -1,0 +1,33 @@
+
+mono.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+brazo
+  rotate: false
+  xy: 139, 20
+  size: 24, 8
+  orig: 25, 9
+  offset: 0, 0
+  index: -1
+cabesa
+  rotate: false
+  xy: 85, 2
+  size: 27, 26
+  orig: 27, 27
+  offset: 0, 1
+  index: -1
+cuerpo
+  rotate: false
+  xy: 114, 7
+  size: 23, 21
+  orig: 25, 21
+  offset: 1, 0
+  index: -1
+espada
+  rotate: true
+  xy: 2, 5
+  size: 23, 81
+  orig: 23, 81
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,54 @@
+
+yoda.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+brazo
+  rotate: true
+  xy: 240, 66
+  size: 50, 141
+  orig: 50, 142
+  offset: 0, 1
+  index: -1
+cabeza
+  rotate: false
+  xy: 722, 77
+  size: 181, 160
+  orig: 181, 160
+  offset: 0, 0
+  index: -1
+capucha
+  rotate: false
+  xy: 515, 114
+  size: 205, 123
+  orig: 206, 125
+  offset: 0, 1
+  index: -1
+cuerpo
+  rotate: false
+  xy: 2, 2
+  size: 236, 235
+  orig: 236, 235
+  offset: 0, 0
+  index: -1
+espada_grande
+  rotate: true
+  xy: 240, 118
+  size: 119, 273
+  orig: 120, 274
+  offset: 1, 1
+  index: -1
+oreja_derecha
+  rotate: false
+  xy: 905, 159
+  size: 83, 78
+  orig: 83, 78
+  offset: 0, 0
+  index: -1
+oreja_izquierda
+  rotate: false
+  xy: 905, 79
+  size: 83, 78
+  orig: 83, 78
+  offset: 0, 0
+  index: -1

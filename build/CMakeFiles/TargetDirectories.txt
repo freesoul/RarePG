@@ -1,0 +1,3 @@
+/home/jfk/Escritorio/SFML/Game/build/CMakeFiles/rebuild_cache.dir
+/home/jfk/Escritorio/SFML/Game/build/CMakeFiles/edit_cache.dir
+/home/jfk/Escritorio/SFML/Game/build/CMakeFiles/game.dir

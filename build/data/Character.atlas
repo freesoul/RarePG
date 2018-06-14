@@ -1,0 +1,110 @@
+
+Character.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+brazo
+  rotate: false
+  xy: 230, 44
+  size: 23, 16
+  orig: 23, 17
+  offset: 0, 1
+  index: -1
+cabeza
+  rotate: false
+  xy: 67, 20
+  size: 42, 40
+  orig: 42, 40
+  offset: 0, 0
+  index: -1
+cuerpo
+  rotate: false
+  xy: 111, 34
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+gorra
+  rotate: false
+  xy: 153, 39
+  size: 36, 21
+  orig: 36, 21
+  offset: 0, 0
+  index: -1
+pie
+  rotate: false
+  xy: 22, 2
+  size: 11, 7
+  orig: 11, 7
+  offset: 0, 0
+  index: -1
+skin_rubia/brazo derecho
+  rotate: true
+  xy: 2, 2
+  size: 7, 18
+  orig: 7, 18
+  offset: 0, 0
+  index: -1
+skin_rubia/brazo izquierdo
+  rotate: true
+  xy: 67, 11
+  size: 7, 18
+  orig: 7, 18
+  offset: 0, 0
+  index: -1
+skin_rubia/cabeza
+  rotate: true
+  xy: 2, 11
+  size: 49, 63
+  orig: 49, 63
+  offset: 0, 0
+  index: -1
+skin_rubia/cuerpo
+  rotate: false
+  xy: 111, 4
+  size: 30, 28
+  orig: 30, 28
+  offset: 0, 0
+  index: -1
+skin_rubia/tacon derecho
+  rotate: false
+  xy: 191, 12
+  size: 11, 8
+  orig: 12, 9
+  offset: 1, 0
+  index: -1
+skin_rubia/tacon izquierdo
+  rotate: false
+  xy: 216, 35
+  size: 12, 8
+  orig: 12, 8
+  offset: 0, 0
+  index: -1
+velo
+  rotate: false
+  xy: 191, 45
+  size: 37, 15
+  orig: 37, 15
+  offset: 0, 0
+  index: -1
+weapon/l_handgun
+  rotate: false
+  xy: 143, 3
+  size: 22, 29
+  orig: 22, 29
+  offset: 0, 0
+  index: -1
+weapon/laser
+  rotate: false
+  xy: 191, 22
+  size: 23, 21
+  orig: 24, 21
+  offset: 0, 0
+  index: -1
+weapon/r_handgun
+  rotate: false
+  xy: 167, 8
+  size: 22, 29
+  orig: 22, 29
+  offset: 0, 0
+  index: -1
