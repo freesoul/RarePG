@@ -37,6 +37,7 @@ public:
 	float armor;
 
 	Weapon* weapon;
+
 private:
 
 	float releaseStunTime;

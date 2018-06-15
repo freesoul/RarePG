@@ -26,16 +26,16 @@
 
 // Profundity options
 
-#define PROFUNDITY_SIZE 80
-#define PROFUNDITY_HIT_RADIUS 20
-#define PROFUNDITY_BOUND (WORLD_HEIGHT-PROFUNDITY)
-#define GET_SCALE(z)  (1.f-z*0.20f/PROFUNDITY_SIZE )
-
 #define MAX_Y 735
-#define MAX_Z 200
+#define MAX_Z 235
 
 #define WORLD_X(x, z)		(x + ((512-x) * (z /MAX_Z) * 0.35))
 #define WORLD_Y(y, z)		(y - 0.8*z)
+
+#define PROFUNDITY_SIZE 80
+#define PROFUNDITY_HIT_RADIUS 20
+#define PROFUNDITY_BOUND (WORLD_HEIGHT-PROFUNDITY)
+#define GET_SCALE(z)  (1.1f - 0.40*(z/MAX_Z) )
 
 #define CHAR_SPEED_BASE_X 350
 #define CHAR_SPEED_BASE_Z 150

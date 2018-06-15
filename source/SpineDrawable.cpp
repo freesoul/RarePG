@@ -3,16 +3,16 @@
 #include "SpineDrawable.h"
 
 
-void SpineDrawable::setScale(sf::Vector2f scale)
-{
-	//SpineDrawable::D2D::Transformable::setScale(scale);
-
-	Atlas* atlas = Atlas_createFromFile((const char*)satlas, 0);
-	SkeletonJson* json = SkeletonJson_create(atlas);
-	json->scale = scale.x;
-	SkeletonData* skeletonData = SkeletonJson_readSkeletonDataFile(json, (const char*)sjson);
-	SkeletonJson_dispose(json);
-}
+// void SpineDrawable::setScale(sf::Vector2f scale)
+// {
+// 	//SpineDrawable::D2D::Transformable::setScale(scale);
+//
+// 	Atlas* atlas = Atlas_createFromFile((const char*)satlas, 0);
+// 	SkeletonJson* json = SkeletonJson_create(atlas);
+// 	json->scale = scale.x;
+// 	SkeletonData* skeletonData = SkeletonJson_readSkeletonDataFile(json, (const char*)sjson);
+// 	SkeletonJson_dispose(json);
+// }
 
 
 
@@ -31,6 +31,9 @@ void SpineDrawable::SpineLoad(const char* _atlas, const char* _json, float x, fl
 	_SpineLoad(skeletonData, AnimationStateData_create(skeletonData));
 	skeleton->flipX = false;
 	skeleton->flipY = false;
+
+	skeleton->x = 0; // change this
+	skeleton->y = 0;
 
 	// setWorldPosition(x, y, 0);
 

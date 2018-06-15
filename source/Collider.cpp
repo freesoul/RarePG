@@ -9,7 +9,7 @@ Collider::Collider(Type _type, bool bShadow, float _fixX, float _fixY, float _fi
 
 	sf::Transformable ft;
 	ft.setOrigin(_fixX, _fixY);
-	ft.scale(1 - _fixW, 1 - _fixY);
+	ft.scale(1 - _fixW, 1 - _fixH);
 
 	fixTransform = ft.getTransform();
 

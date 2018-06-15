@@ -60,7 +60,7 @@ void Game::Run() {
 	gsGameState = gsIntro;
 
 	new Palomita();
-	character = new Character(Character::Girl);
+	character = new Character(Character::Guy);
 	new Rocket(Collider::EnemyCast);
 
 

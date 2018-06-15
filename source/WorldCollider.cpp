@@ -184,18 +184,16 @@ void WorldCollider::DebugHitboxes() {
 		shape.setSize(sf::Vector2f((*it)->boundingBox.localBounds.width, (*it)->boundingBox.localBounds.height));
 		Game::s_game->renderer.draw(shape, (*it)->boundingBox.transform);
 	}
-	//
-	// // Enemies
-	// for (it = enemies.begin(); it != enemies.end(); it++)
-	// {
-	// 	shape.setSize(sf::Vector2f((*it)->boundingBox.localBounds.width, (*it)->boundingBox.localBounds.height));
-	// 	Game::s_game->renderer.draw(shape, (*it)->boundingBox.transform);
-	// }
-	//
-	//
-	//
-	// // Character
-	// shape.setSize(sf::Vector2f(Game::s_game->character->boundingBox.localBounds.width, Game::s_game->character->boundingBox.localBounds.height));
-	// Game::s_game->renderer.draw(shape, Game::s_game->character->boundingBox.transform);
+
+	// Enemies
+	for (it = enemies.begin(); it != enemies.end(); it++)
+	{
+		shape.setSize(sf::Vector2f((*it)->boundingBox.localBounds.width, (*it)->boundingBox.localBounds.height));
+		Game::s_game->renderer.draw(shape, (*it)->boundingBox.transform);
+	}
+	
+	// Character
+	shape.setSize(sf::Vector2f(Game::s_game->character->boundingBox.localBounds.width, Game::s_game->character->boundingBox.localBounds.height));
+	Game::s_game->renderer.draw(shape, Game::s_game->character->boundingBox.transform);
 }
 #endif

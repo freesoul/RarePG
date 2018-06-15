@@ -651,6 +651,8 @@ Game.h
 /home/jfk/Escritorio/SFML/Game/source/include/Game.h
 DUO.h
 /home/jfk/Escritorio/SFML/Game/source/include/DUO.h
+iostream
+-
 
 /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
 SFML/Graphics/Export.hpp

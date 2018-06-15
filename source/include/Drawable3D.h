@@ -46,8 +46,8 @@ private:
 	void updateWorldPosition() {
 		float fixX = (512-x) * (z / MAX_Z) * 0.35;
 		setPosition(x + fixX , y - 0.8*z);
-		//float scale = 1 - z * 0.0025f;
-		//setScale(sf::Vector2f(scale, scale));
+		float scale = GET_SCALE(z);
+		setScale(sf::Vector2f(scale, scale));
 	};
 };
 

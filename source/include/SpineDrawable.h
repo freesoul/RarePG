@@ -9,6 +9,9 @@
 #include "Game.h"
 #include "DUO.h"
 
+#include <iostream> // dbg
+
+
 using namespace spine;
 
 class SpineDrawable : public DUO, public SkeletonDrawable {
@@ -27,10 +30,31 @@ public:
 		delete globalBounds;
 	};
 
+
+	void apply_transform(){
+		sf::Vector2f position = getPosition();
+		sf::Vector2f scale = getScale();
+		sf::Vector2f origin = getOrigin();
+		float rotation = getRotation();
+
+		skeleton->x = position.x;
+		skeleton->y = position.y;
+
+		skeleton->root->scaleX=scale.x;
+		skeleton->root->scaleY=scale.y;
+		skeleton->root->rotation = rotation;
+
+		Skeleton_updateWorldTransform(skeleton); // alternatively, inject this
+		// in SkeletonDrawable::update, just before Skeleton_update, by modifying
+		// spine-sfml.h to add a virtual function, defined in this class.
+	}
+
+
 	// Spine wrapping methods
 
 	bool DeltaUpdate(float delta) override {
 		update(delta);
+		apply_transform();
 		SkeletonBounds_update(globalBounds, skeleton, true);
 		return true;
 	};
@@ -41,10 +65,10 @@ public:
 
 	// Transformation methods
 
-	void SetRotation(float r) {
-		referenceBone->rotation = r + 90;  // SFML rotation is -90
-	};
-	float GetRotation() { return referenceBone->rotation - 90;  };
+	// void setRotation(float r) {
+	// 	referenceBone->rotation = r + 90;  // SFML rotation is -90
+	// };
+	// float getRotation() { return referenceBone->rotation - 90;  };
 
 	sf::FloatRect getLocalBounds() const {
 		return sf::FloatRect(
@@ -65,33 +89,33 @@ public:
 	};
 
 
-	void setOrigin(float x, float y) {  };
-	sf::Vector2f GetOrigin() { return sf::Vector2f(0,0); };
+	// void setOrigin(float x, float y) {  };
+	// sf::Vector2f getOrigin() { return sf::Vector2f(0,0); };
+	//
+	// void setScale(sf::Vector2f scale);
+	// sf::Vector2f getScale() { return sf::Vector2f(0, 0); };
+	//
+	// void move(float x, float y) {
+	// 	skeleton->x += x;
+	// 	skeleton->y += y;
+	// };
 
-	void setScale(sf::Vector2f scale);
-	sf::Vector2f GetScale() { return sf::Vector2f(0, 0); };
+	// void setPosition(float x, float y) {
+	// 	skeleton->x = x;
+	// 	skeleton->y = y;
+	// };
 
-	void Move(float x, float y) {
-		skeleton->x += x;
-		skeleton->y += y;
-	};
+	// sf::Transform GetTransform()
+	// {
+	// 	// Building transform from nothing -> Change this.
+	// 	sf::Transformable transform;
+	// 	transform.setPosition(getPosition());
+	// 	transform.setRotation(getRotation());
+	// 	transform.setOrigin(getLocalBounds().width / 2, getLocalBounds().height / 2);
+	// 	return transform.getTransform();
+	// }
 
-	void setPosition(float x, float y) {
-		skeleton->x = x;
-		skeleton->y = y;
-	};
-
-	sf::Transform GetTransform()
-	{
-		// Building transform from nothing -> Change this.
-		sf::Transformable transform;
-		transform.setPosition(getPosition());
-		transform.setRotation(GetRotation());
-		transform.setOrigin(getLocalBounds().width / 2, getLocalBounds().height / 2);
-		return transform.getTransform();
-	}
-
-	sf::Vector2f getPosition() { return sf::Vector2f(skeleton->x, skeleton->y); };
+	// sf::Vector2f getPosition() { return sf::Vector2f(skeleton->x, skeleton->y); };
 
 	virtual void setColor(const sf::Color& color) {  };
 

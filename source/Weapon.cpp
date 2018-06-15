@@ -22,8 +22,10 @@ weapon_mouse_rotation_radians(0){
 
 bool Weapon::Update() {
 
+	Character* character = Game::s_game->character;
+
 	//  Weapon position
-	sf::Vector3f pos = Game::s_game->character->getWorldPosition();
+	sf::Vector3f pos = character->getWorldPosition();
 	pos.x += fWeaponPosRelative.x;
 	pos.y += fWeaponPosRelative.y;
 	pos.z -= 1;
@@ -38,9 +40,11 @@ bool Weapon::Update() {
 	weapon_mouse_rotation_radians = std::atan2(weapon_mouse_x, weapon_mouse_y);
 	weapon_mouse_rotation = weapon_mouse_rotation_radians * (360 / (2 * 3.1419));
 
+	float scale = character->getScale().x;
+
 	if (weapon_mouse_x < 0)
-		setScale(sf::Vector2f(-1, 1));
-	else setScale(sf::Vector2f(1, 1));
+		setScale(sf::Vector2f(-scale, scale));
+	else setScale(sf::Vector2f(scale, scale));
 
 
 	// Custom actions

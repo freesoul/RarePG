@@ -58,7 +58,8 @@ void Character::Die()
 }
 
 
-Character::Character(CharacterType type) : Collider(Collider::Type::Player)
+Character::Character(CharacterType type) :
+	Collider(Collider::Type::Player, false, 16, 42)
 {
 
 	SpineLoad("data/Character.atlas", "data/Character.json", 512, 713, "tronco");
