@@ -1,0 +1,13 @@
+
+
+- Añadir monstruo pollo ninja y pollito. El tamaño de éstos es variable. Cuanto más grandes más lentos pero más vida. Los ninjas corren más. Los no ninja pegan saltitos.
+
+- Las olas tienen una probabilidad de boss. El boss es aleatorio, y la dificultad depende del nivel de partida o jugador.
+
+- Instalar hospital, torretas.
+
+- Bonuses de enemigos robables (ej. armadura ciclón)
+
+- Añadir efectos de sangre.
+
+
