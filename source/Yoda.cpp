@@ -11,7 +11,7 @@
 
 void Yoda::Die()
 {
-	if (state != Dying)
+	if (state != Dying && state!=RIP)
 	{
 		AnimationState_setAnimationByName(SkeletonDrawable::state, 0, "Esconderse", false);
 		state = Dying;
@@ -28,7 +28,7 @@ void Yoda::Collision()
 
 	// allow only to be hurted when they are walking or Attacking
 	// (for some reason, state==Dying || state==RIP is buggy)
-	if (state!=Walking && state!=Attacking) return;
+	if (state==Dying || state==RIP) return;
 
 	sf::Vector3f distance_vector = getWorldPosition();
 	distance_vector -= Game::inst()->character->getWorldPosition();

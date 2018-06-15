@@ -1,0 +1,24 @@
+{
+	"name":"Primera ronda",
+	"waves":
+	[
+		{
+			"type":"monster",
+			"monster_class":"pollito",
+			"number":2
+		},{
+			"type":"wait_all_dead"
+		},{
+			"type":"monster",
+			"monster_class":"pulpo",
+			"number":3
+		},{
+			"type":"wait_seconds",
+			"seconds":2
+		},{
+			"type":"monster",
+			"monster_class":"fruta",
+			"number":3
+		}
+	]
+}

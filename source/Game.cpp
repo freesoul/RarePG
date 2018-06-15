@@ -59,19 +59,8 @@ void Game::Run() {
 	float currentTime = 0;
 	elapsed = 0;
 
-
 	gsGameState = gsIntro;
 
-	new Palomita();
-	character = new Character(Character::Guy);
-	// new Rocket(Collider::EnemyCast);
-	// new Fruit();
-	// new Pulpo();
-	// new MonoSmall();
-	// new Pollito();
-	new Yoda();
-	new Yoda();
-	new Yoda();
 
 	while(gsGameState != gsClosed)
 	{

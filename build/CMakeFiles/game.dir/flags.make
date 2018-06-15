@@ -7,11 +7,11 @@ C_FLAGS = -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I/include/spine -I/home/jfk/Escritorio/SFML/Game/source/include 
+C_INCLUDES = -I/include/rapidjson -I/include/spine -I/home/jfk/Escritorio/SFML/Game/source/include 
 
 CXX_FLAGS =  -std=c++11 -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/include/spine -I/home/jfk/Escritorio/SFML/Game/source/include 
+CXX_INCLUDES = -I/include/rapidjson -I/include/spine -I/home/jfk/Escritorio/SFML/Game/source/include 
 

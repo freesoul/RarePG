@@ -112,5 +112,10 @@
 
 
 
+// Level / ambient
+
+#define MIN_AMBIENT_EVENT_DELAY 2
+#define MAX_AMBIENT_EVENT_DELAY 25
+
 
 #endif

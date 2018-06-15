@@ -6,7 +6,11 @@
 #include <deque>
 #include <vector>
 
-typedef std::vector<int> Wave;
+
+struct Wave {
+	std::string monster_class;
+	int number;
+};
 
 struct LevelEvent {
 	enum LevelEventType { Wait, WaitForAllDead, Wave, Boss } levelEvent;
@@ -19,7 +23,7 @@ public:
 	enum Difficulty { Easy, Medium, Hard, GoodLuck } difficulty;
 
 	Level() {};
-	void Load();
+	void Load(int level=1);
 	bool Update();
 	unsigned int GetLevelNumber() { return levelNumber;  }
 	void DrawBackground();
@@ -30,21 +34,22 @@ private:
 	sf::Sprite background;
 	void SetBackground(sf::Texture& t) { background.setTexture(t); };
 
+	std::string levelName;
 
 	/* LEVEL EVENTS */
 	sf::Clock levelElapsed;
+	float nextAmbientEffect;
 	float wait;
 
 	std::deque<LevelEvent> eventQueue;
-	std::vector<Wave> waves;
+	std::deque<Wave> waves;
 
-	void AddWave();
+	void AddWave(Wave wave);
 	void AddWait(float time);
 	void AddWaitForAllDead();
-	void AddBoss();
+	// void AddBoss();
 
 	void DoWave();
-
 
 };
 
