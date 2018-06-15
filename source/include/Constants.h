@@ -29,8 +29,8 @@
 #define MAX_Y 735
 #define MAX_Z 235
 
-#define WORLD_X(x, z)		(x + ((512-x) * (z /MAX_Z) * 0.35))
-#define WORLD_Y(y, z)		(y - 0.8*z)
+#define SCREEN_X(x, z)		(x + ((512-x) * (z /MAX_Z) * 0.35))
+#define SCREEN_Y(y, z)		(y - 0.8*z)
 
 #define PROFUNDITY_SIZE 80
 #define PROFUNDITY_HIT_RADIUS 20

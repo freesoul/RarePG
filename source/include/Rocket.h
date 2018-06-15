@@ -14,15 +14,15 @@ public:
 
 private:
 	Collider* LookupTarget();
-	void UpdateTarget(float x, float y);
-	void AproximateAcceleration(float px, float py, float dx, float dy);
+	void UpdateTarget(sf::Vector3f target);
+	void AproximateAcceleration(sf::Vector3f dest, sf::Vector3f pos);
 	void Explode();
 
 	Collider* follow;
 
-	sf::Vector2f targetCoords;
+	sf::Vector3f targetCoords;
 
-	float x_acceleration, y_acceleration;
-	float x_speed, y_speed;
+	sf::Vector3f acceleration;
+	sf::Vector3f speed;
 };
 #endif

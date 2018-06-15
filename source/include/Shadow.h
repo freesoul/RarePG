@@ -69,7 +69,7 @@ public:
 			}
 
 			// Position;
-			setPosition(WORLD_X(pos.x, pos.z), WORLD_Y(pos.y, (pos.z - height / 2)));
+			setPosition(SCREEN_X(pos.x, pos.z), SCREEN_Y(pos.y, (pos.z - height / 2)));
 
 
 		}
