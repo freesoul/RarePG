@@ -127,6 +127,14 @@ include/Fruit.h
 /home/jfk/Escritorio/SFML/Game/source/include/Fruit.h
 include/Rocket.h
 /home/jfk/Escritorio/SFML/Game/source/include/Rocket.h
+include/Pulpo.h
+/home/jfk/Escritorio/SFML/Game/source/include/Pulpo.h
+include/MonoSmall.h
+/home/jfk/Escritorio/SFML/Game/source/include/MonoSmall.h
+include/Pollito.h
+/home/jfk/Escritorio/SFML/Game/source/include/Pollito.h
+include/Yoda.h
+/home/jfk/Escritorio/SFML/Game/source/include/Yoda.h
 
 /home/jfk/Escritorio/SFML/Game/source/Gfx.cpp
 include/Gfx.h
@@ -345,6 +353,24 @@ include/Debug.h
 /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
 include/Character.h
 /home/jfk/Escritorio/SFML/Game/source/include/Character.h
+
+/home/jfk/Escritorio/SFML/Game/source/Yoda.cpp
+include/Yoda.h
+/home/jfk/Escritorio/SFML/Game/source/include/Yoda.h
+include/Constants.h
+/home/jfk/Escritorio/SFML/Game/source/include/Constants.h
+include/Lifebar.h
+/home/jfk/Escritorio/SFML/Game/source/include/Lifebar.h
+include/Game.h
+/home/jfk/Escritorio/SFML/Game/source/include/Game.h
+include/Character.h
+/home/jfk/Escritorio/SFML/Game/source/include/Character.h
+include/SpineDrawable.h
+/home/jfk/Escritorio/SFML/Game/source/include/SpineDrawable.h
+include/AABB.h
+/home/jfk/Escritorio/SFML/Game/source/include/AABB.h
+iostream
+-
 
 /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 SFML/System.hpp
@@ -687,6 +713,14 @@ Collider.h
 /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
 AABB.h
 /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
+
+/home/jfk/Escritorio/SFML/Game/source/include/Yoda.h
+SpineDrawable.h
+/home/jfk/Escritorio/SFML/Game/source/include/SpineDrawable.h
+Enemy.h
+/home/jfk/Escritorio/SFML/Game/source/include/Enemy.h
+Drawable3D.h
+/home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
 
 /home/jfk/Escritorio/SFML/Game/source/include/spine/Animation.h
 spine/dll.h

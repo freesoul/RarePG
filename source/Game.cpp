@@ -16,9 +16,10 @@
 #include "include/Fruit.h"
 
 #include "include/Rocket.h"
-// #include "include/Pulpo.h"
-// #include "include/MonoSmall.h"
-// #include "include/Pollito.h"
+#include "include/Pulpo.h"
+#include "include/MonoSmall.h"
+#include "include/Pollito.h"
+#include "include/Yoda.h"
 
 
 bool Game::Load() {
@@ -63,8 +64,14 @@ void Game::Run() {
 
 	new Palomita();
 	character = new Character(Character::Guy);
-	new Rocket(Collider::EnemyCast);
-
+	// new Rocket(Collider::EnemyCast);
+	// new Fruit();
+	// new Pulpo();
+	// new MonoSmall();
+	// new Pollito();
+	new Yoda();
+	new Yoda();
+	new Yoda();
 
 	while(gsGameState != gsClosed)
 	{

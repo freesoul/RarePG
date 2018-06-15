@@ -31,6 +31,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/game.dir/Sprite.cpp.o"
   "CMakeFiles/game.dir/Weapon.cpp.o"
   "CMakeFiles/game.dir/WorldCollider.cpp.o"
+  "CMakeFiles/game.dir/Yoda.cpp.o"
   "CMakeFiles/game.dir/spine/spine-sfml.cpp.o"
   "CMakeFiles/game.dir/spine/Animation.c.o"
   "CMakeFiles/game.dir/spine/AnimationState.c.o"

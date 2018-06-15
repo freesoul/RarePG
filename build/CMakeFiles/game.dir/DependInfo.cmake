@@ -85,6 +85,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/jfk/Escritorio/SFML/Game/source/Sprite.cpp" "/home/jfk/Escritorio/SFML/Game/build/CMakeFiles/game.dir/Sprite.cpp.o"
   "/home/jfk/Escritorio/SFML/Game/source/Weapon.cpp" "/home/jfk/Escritorio/SFML/Game/build/CMakeFiles/game.dir/Weapon.cpp.o"
   "/home/jfk/Escritorio/SFML/Game/source/WorldCollider.cpp" "/home/jfk/Escritorio/SFML/Game/build/CMakeFiles/game.dir/WorldCollider.cpp.o"
+  "/home/jfk/Escritorio/SFML/Game/source/Yoda.cpp" "/home/jfk/Escritorio/SFML/Game/build/CMakeFiles/game.dir/Yoda.cpp.o"
   "/home/jfk/Escritorio/SFML/Game/source/spine/spine-sfml.cpp" "/home/jfk/Escritorio/SFML/Game/build/CMakeFiles/game.dir/spine/spine-sfml.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

@@ -4,6 +4,7 @@
 //#include "Bullet.h"
 #include "include/LaserLight.h"
 
+
 Laser::Laser() : laserLight(NULL)  {
 	setTexture(Game::s_game->gfx.txLaserWeapon);
 	setOrigin(15, 15);

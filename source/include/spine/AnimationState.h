@@ -70,7 +70,7 @@ struct spTrackEntry {
 	void* rendererObject;
 	void* userData;
 	int /*boolean*/ finished;
-	int /*boolean*/ stopAtEnd;
+	// int /*boolean*/ stopAtEnd;
 
 #ifdef __cplusplus
 	spTrackEntry() :

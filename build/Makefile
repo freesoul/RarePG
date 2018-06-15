@@ -987,6 +987,33 @@ WorldCollider.cpp.s:
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/WorldCollider.cpp.s
 .PHONY : WorldCollider.cpp.s
 
+Yoda.o: Yoda.cpp.o
+
+.PHONY : Yoda.o
+
+# target to build an object file
+Yoda.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Yoda.cpp.o
+.PHONY : Yoda.cpp.o
+
+Yoda.i: Yoda.cpp.i
+
+.PHONY : Yoda.i
+
+# target to preprocess a source file
+Yoda.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Yoda.cpp.i
+.PHONY : Yoda.cpp.i
+
+Yoda.s: Yoda.cpp.s
+
+.PHONY : Yoda.s
+
+# target to generate assembly for a file
+Yoda.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Yoda.cpp.s
+.PHONY : Yoda.cpp.s
+
 spine/Animation.o: spine/Animation.c.o
 
 .PHONY : spine/Animation.o
@@ -2172,6 +2199,9 @@ help:
 	@echo "... WorldCollider.o"
 	@echo "... WorldCollider.i"
 	@echo "... WorldCollider.s"
+	@echo "... Yoda.o"
+	@echo "... Yoda.i"
+	@echo "... Yoda.s"
 	@echo "... spine/Animation.o"
 	@echo "... spine/Animation.i"
 	@echo "... spine/Animation.s"

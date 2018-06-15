@@ -131,6 +131,7 @@ void _spEventQueue_dispose (_spEventQueue* self, spTrackEntry* entry) {
 void _spEventQueue_complete (_spEventQueue* self, spTrackEntry* entry) {
 	_spEventQueue_addType(self, SP_ANIMATION_COMPLETE);
 	_spEventQueue_addEntry(self, entry);
+	entry->finished=1;
 }
 
 void _spEventQueue_event (_spEventQueue* self, spTrackEntry* entry, spEvent* event) {
@@ -293,18 +294,16 @@ void spAnimationState_update (spAnimationState* self, float delta) {
 				continue;
 			}
 		} else {
+
 			/* Clear the track when there is no next entry, the track end time is reached, and there is no mixingFrom. */
-			if (current->trackLast >= current->trackEnd && current->mixingFrom == 0 && !current->loop) {
-				current->finished = 1;
-				if (!current->stopAtEnd)
-				{
+			if (current->trackLast >= current->trackEnd && current->mixingFrom == 0) {
 					self->tracks[i] = 0;
 					_spEventQueue_end(internal->queue, current);
 					_spAnimationState_disposeNext(self, current);
 					continue;
-				}
 			}
 		}
+
 		if (current->mixingFrom != 0 && _spAnimationState_updateMixingFrom(self, current, delta)) {
 			/* End mixing from entries once all have completed. */
 			spTrackEntry* from = current->mixingFrom;
@@ -666,6 +665,7 @@ void _spAnimationState_setCurrent (spAnimationState* self, int index, spTrackEnt
 		from->timelinesRotationCount = 0;
 	}
 
+	current->finished=0;
 	_spEventQueue_start(internal->queue, current);
 }
 
@@ -813,7 +813,6 @@ spTrackEntry* _spAnimationState_trackEntry (spAnimationState* self, int trackInd
 	entry->timelineData = spIntArray_create(16);
 	entry->timelineDipMix = spTrackEntryArray_create(16);
 
-	entry->stopAtEnd = 0;
 	entry->finished = 0;
 	return entry;
 }

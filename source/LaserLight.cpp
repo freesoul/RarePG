@@ -7,11 +7,17 @@
 #include <math.h>
 #include "include/Laser.h"
 
+
+float LaserLight::GetDamage(){
+	return Game::s_game->elapsed * 25;
+}
+
+
 LaserLight::LaserLight(Weapon* _caster) :
 	AnimatedSprite(Game::s_game->gfx.txLaserLight, false, 0.1f),
 	Collider(Collider::PlayerCast),
 	caster(_caster),
-	Disappear(0.5f)
+	Disappear(0.4f)
 {
 	setCustomOrigin();
 

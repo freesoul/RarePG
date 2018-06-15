@@ -53,7 +53,7 @@ void Character::Die()
 {
 	state = Dying;
 	AnimationState_setAnimationByName(SkeletonDrawable::state, 0, "die", false);
-	SkeletonDrawable::state->tracks[0]->stopAtEnd = true;
+	// SkeletonDrawable::state->tracks[0]->stopAtEnd = true;
 	Skeleton_updateWorldTransform(skeleton);
 }
 
