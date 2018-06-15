@@ -9,6 +9,8 @@ public:
 	D2D(bool _bGui = false);
 	virtual ~D2D();
 
+	bool is3d = false;
+
 	virtual sf::FloatRect getLocalBounds() const = 0;
 	virtual sf::FloatRect getGlobalBounds() const = 0;
 	// virtual void setOrigin(float x, float y) = 0;

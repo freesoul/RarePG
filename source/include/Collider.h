@@ -13,7 +13,10 @@ class Game;
 class Collider : public D3D, public Object {
 public:
 
-	BoundingBox boundingBox;
+	BoundingBox boundingBox; // The default one
+
+	std::vector<BoundingBox> boundingBoxes; // If allocated custom boundingBoxes
+																					// Not used by the moment
 
 	enum Type { Enemy=1, EnemyCast, Bonus, Player, PlayerCast };
 

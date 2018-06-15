@@ -30,8 +30,10 @@ bool Game::Load() {
 
 	// globalBounds = sf::FloatRect(WORLD_LEFT_BOUND, WORLD_UPPER_BOUND, WORLD_WIDTH, WORLD_HEIGHT);
 
-	renderer.setSize(sf::Vector2u(1100, 680));
-	renderer.setPosition(sf::Vector2i(100, 1));
+	// renderer.setSize(sf::Vector2u(1100, 680));
+	// renderer.setPosition(sf::Vector2i(100, 1));
+
+	renderer.setView(sf::View(sf::FloatRect(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)));
 
 	renderer.setMouseCursorVisible(false);
 
@@ -66,6 +68,7 @@ void Game::Run() {
 
 	while(gsGameState != gsClosed)
 	{
+
 		// Handle Game events and State input.
 		HandleEvents();
 

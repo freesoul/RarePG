@@ -64,7 +64,7 @@ Character::Character(CharacterType type) :
 
 	SpineLoad("data/Character.atlas", "data/Character.json", 512, 713, "tronco");
 
-	setWorldPosition(SCREEN_WIDTH/2, MAX_Y, 0);
+	setWorldPosition(SCREEN_WIDTH/2, MAX_Y, MAX_Z/2);
 
 	//objectType = ID_CHARACTER;
 	state = Standing;
