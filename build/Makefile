@@ -204,6 +204,33 @@ AnimatedSprite.cpp.s:
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/AnimatedSprite.cpp.s
 .PHONY : AnimatedSprite.cpp.s
 
+Audio.o: Audio.cpp.o
+
+.PHONY : Audio.o
+
+# target to build an object file
+Audio.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Audio.cpp.o
+.PHONY : Audio.cpp.o
+
+Audio.i: Audio.cpp.i
+
+.PHONY : Audio.i
+
+# target to preprocess a source file
+Audio.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Audio.cpp.i
+.PHONY : Audio.cpp.i
+
+Audio.s: Audio.cpp.s
+
+.PHONY : Audio.s
+
+# target to generate assembly for a file
+Audio.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Audio.cpp.s
+.PHONY : Audio.cpp.s
+
 Bullet.o: Bullet.cpp.o
 
 .PHONY : Bullet.o
@@ -770,6 +797,33 @@ ObjectManager.s: ObjectManager.cpp.s
 ObjectManager.cpp.s:
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/ObjectManager.cpp.s
 .PHONY : ObjectManager.cpp.s
+
+Obstacle.o: Obstacle.cpp.o
+
+.PHONY : Obstacle.o
+
+# target to build an object file
+Obstacle.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Obstacle.cpp.o
+.PHONY : Obstacle.cpp.o
+
+Obstacle.i: Obstacle.cpp.i
+
+.PHONY : Obstacle.i
+
+# target to preprocess a source file
+Obstacle.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Obstacle.cpp.i
+.PHONY : Obstacle.cpp.i
+
+Obstacle.s: Obstacle.cpp.s
+
+.PHONY : Obstacle.s
+
+# target to generate assembly for a file
+Obstacle.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/Obstacle.cpp.s
+.PHONY : Obstacle.cpp.s
 
 Palomitas.o: Palomitas.cpp.o
 
@@ -2112,6 +2166,9 @@ help:
 	@echo "... AnimatedSprite.o"
 	@echo "... AnimatedSprite.i"
 	@echo "... AnimatedSprite.s"
+	@echo "... Audio.o"
+	@echo "... Audio.i"
+	@echo "... Audio.s"
 	@echo "... Bullet.o"
 	@echo "... Bullet.i"
 	@echo "... Bullet.s"
@@ -2175,6 +2232,9 @@ help:
 	@echo "... ObjectManager.o"
 	@echo "... ObjectManager.i"
 	@echo "... ObjectManager.s"
+	@echo "... Obstacle.o"
+	@echo "... Obstacle.i"
+	@echo "... Obstacle.s"
 	@echo "... Palomitas.o"
 	@echo "... Palomitas.i"
 	@echo "... Palomitas.s"

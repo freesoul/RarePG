@@ -28,6 +28,10 @@ include/Game.h
 include/Constants.h
 /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
 
+/home/jfk/Escritorio/SFML/Game/source/Audio.cpp
+include/Audio.h
+/home/jfk/Escritorio/SFML/Game/source/include/Audio.h
+
 /home/jfk/Escritorio/SFML/Game/source/Bullet.cpp
 include/Bullet.h
 /home/jfk/Escritorio/SFML/Game/source/include/Bullet.h
@@ -227,6 +231,8 @@ Pollito.h
 /home/jfk/Escritorio/SFML/Game/source/Pollito.h
 Character.h
 /home/jfk/Escritorio/SFML/Game/source/Character.h
+Obstacle.h
+/home/jfk/Escritorio/SFML/Game/source/Obstacle.h
 
 /home/jfk/Escritorio/SFML/Game/source/Lifebar.cpp
 include/Lifebar.h
@@ -285,6 +291,12 @@ Drawable2D.h
 /home/jfk/Escritorio/SFML/Game/source/Drawable2D.h
 Drawable3D.h
 /home/jfk/Escritorio/SFML/Game/source/Drawable3D.h
+
+/home/jfk/Escritorio/SFML/Game/source/Obstacle.cpp
+include/Obstacle.h
+/home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
+include/Game.h
+/home/jfk/Escritorio/SFML/Game/source/include/Game.h
 
 /home/jfk/Escritorio/SFML/Game/source/Palomitas.cpp
 include/Palomitas.h
@@ -420,6 +432,10 @@ Game.h
 stdio.h
 -
 
+/home/jfk/Escritorio/SFML/Game/source/include/Audio.h
+SFML/Audio.hpp
+-
+
 /home/jfk/Escritorio/SFML/Game/source/include/Bullet.h
 Sprite.h
 /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
@@ -519,6 +535,8 @@ SFML/Window.hpp
 -
 Gfx.h
 /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
+Audio.h
+/home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 Input.h
 /home/jfk/Escritorio/SFML/Game/source/include/Input.h
 ObjectManager.h
@@ -585,6 +603,10 @@ Disappear.h
 /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 Object.h
 /home/jfk/Escritorio/SFML/Game/source/include/Object.h
+Obstacle.h
+/home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
+Drawable3D.h
+/home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
 deque
 -
 vector
@@ -626,6 +648,10 @@ vector
 SFML/Graphics.hpp
 -
 
+/home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
+Drawable3D.h
+/home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
+
 /home/jfk/Escritorio/SFML/Game/source/include/Palomitas.h
 Drawable2D.h
 /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
@@ -649,6 +675,8 @@ Collider.h
 /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
 Enemy.h
 /home/jfk/Escritorio/SFML/Game/source/include/Enemy.h
+Obstacle.h
+/home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 
 /home/jfk/Escritorio/SFML/Game/source/include/Pulpo.h
 AnimatedSprite.h

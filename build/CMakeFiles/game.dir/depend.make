@@ -1346,6 +1346,7 @@ CMakeFiles/game.dir/AABB.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AA
 CMakeFiles/game.dir/Actionable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Actionable.cpp
 CMakeFiles/game.dir/Actionable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/Actionable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+CMakeFiles/game.dir/Actionable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/Actionable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Actionable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
 CMakeFiles/game.dir/Actionable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
@@ -1359,6 +1360,7 @@ CMakeFiles/game.dir/Actionable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/incl
 CMakeFiles/game.dir/Actionable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/Actionable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Actionable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Actionable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/Actionable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
 CMakeFiles/game.dir/Actionable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/WorldCollider.h
 
@@ -1366,6 +1368,7 @@ CMakeFiles/game.dir/AnimatedSprite.cpp.o: /home/jfk/Escritorio/SFML/Game/source/
 CMakeFiles/game.dir/AnimatedSprite.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/AnimatedSprite.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
 CMakeFiles/game.dir/AnimatedSprite.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AnimatedSprite.h
+CMakeFiles/game.dir/AnimatedSprite.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/AnimatedSprite.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/AnimatedSprite.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
 CMakeFiles/game.dir/AnimatedSprite.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
@@ -1379,12 +1382,17 @@ CMakeFiles/game.dir/AnimatedSprite.cpp.o: /home/jfk/Escritorio/SFML/Game/source/
 CMakeFiles/game.dir/AnimatedSprite.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/AnimatedSprite.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/AnimatedSprite.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/AnimatedSprite.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/AnimatedSprite.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
 CMakeFiles/game.dir/AnimatedSprite.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/WorldCollider.h
+
+CMakeFiles/game.dir/Audio.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Audio.cpp
+CMakeFiles/game.dir/Audio.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 
 CMakeFiles/game.dir/Bullet.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Bullet.cpp
 CMakeFiles/game.dir/Bullet.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/Bullet.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+CMakeFiles/game.dir/Bullet.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/Bullet.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Bullet.h
 CMakeFiles/game.dir/Bullet.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Bullet.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Character.h
@@ -1402,6 +1410,7 @@ CMakeFiles/game.dir/Bullet.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/
 CMakeFiles/game.dir/Bullet.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/Bullet.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Bullet.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Bullet.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/Bullet.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Shadow.h
 CMakeFiles/game.dir/Bullet.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/SpineDrawable.h
 CMakeFiles/game.dir/Bullet.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
@@ -1452,6 +1461,7 @@ CMakeFiles/game.dir/Bullet.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/
 CMakeFiles/game.dir/Button.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Button.cpp
 CMakeFiles/game.dir/Button.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/Button.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+CMakeFiles/game.dir/Button.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/Button.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Button.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
 CMakeFiles/game.dir/Button.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
@@ -1465,12 +1475,14 @@ CMakeFiles/game.dir/Button.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/
 CMakeFiles/game.dir/Button.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/Button.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Button.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Button.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/Button.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
 CMakeFiles/game.dir/Button.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/WorldCollider.h
 
 CMakeFiles/game.dir/Character.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Character.cpp
 CMakeFiles/game.dir/Character.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/Character.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+CMakeFiles/game.dir/Character.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/Character.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Character.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Character.h
 CMakeFiles/game.dir/Character.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
@@ -1489,6 +1501,7 @@ CMakeFiles/game.dir/Character.cpp.o: /home/jfk/Escritorio/SFML/Game/source/inclu
 CMakeFiles/game.dir/Character.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/Character.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Character.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Character.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/Character.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Shadow.h
 CMakeFiles/game.dir/Character.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/SpineDrawable.h
 CMakeFiles/game.dir/Character.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
@@ -1539,6 +1552,7 @@ CMakeFiles/game.dir/Character.cpp.o: /home/jfk/Escritorio/SFML/Game/source/inclu
 CMakeFiles/game.dir/Collider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Collider.cpp
 CMakeFiles/game.dir/Collider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/Collider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+CMakeFiles/game.dir/Collider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/Collider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Collider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
 CMakeFiles/game.dir/Collider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
@@ -1552,12 +1566,14 @@ CMakeFiles/game.dir/Collider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/includ
 CMakeFiles/game.dir/Collider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/Collider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Collider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Collider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/Collider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
 CMakeFiles/game.dir/Collider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/WorldCollider.h
 
 CMakeFiles/game.dir/Drawable2D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Drawable2D.cpp
 CMakeFiles/game.dir/Drawable2D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/Drawable2D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+CMakeFiles/game.dir/Drawable2D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/Drawable2D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Drawable2D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
 CMakeFiles/game.dir/Drawable2D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
@@ -1571,12 +1587,14 @@ CMakeFiles/game.dir/Drawable2D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/incl
 CMakeFiles/game.dir/Drawable2D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/Drawable2D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Drawable2D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Drawable2D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/Drawable2D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
 CMakeFiles/game.dir/Drawable2D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/WorldCollider.h
 
 CMakeFiles/game.dir/Drawable3D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Drawable3D.cpp
 CMakeFiles/game.dir/Drawable3D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/Drawable3D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+CMakeFiles/game.dir/Drawable3D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/Drawable3D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Drawable3D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
 CMakeFiles/game.dir/Drawable3D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
@@ -1591,6 +1609,7 @@ CMakeFiles/game.dir/Drawable3D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/incl
 CMakeFiles/game.dir/Drawable3D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/Drawable3D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Drawable3D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Drawable3D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/Drawable3D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Shadow.h
 CMakeFiles/game.dir/Drawable3D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
 CMakeFiles/game.dir/Drawable3D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/WorldCollider.h
@@ -1610,6 +1629,7 @@ CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/S
 CMakeFiles/game.dir/Fruit.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Fruit.cpp
 CMakeFiles/game.dir/Fruit.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/Fruit.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+CMakeFiles/game.dir/Fruit.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/Fruit.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Fruit.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
 CMakeFiles/game.dir/Fruit.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
@@ -1627,6 +1647,7 @@ CMakeFiles/game.dir/Fruit.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/I
 CMakeFiles/game.dir/Fruit.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/Fruit.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Fruit.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Fruit.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/Fruit.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Shadow.h
 CMakeFiles/game.dir/Fruit.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
 CMakeFiles/game.dir/Fruit.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/WorldCollider.h
@@ -1635,6 +1656,7 @@ CMakeFiles/game.dir/Game.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Game.cpp
 CMakeFiles/game.dir/Game.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/Game.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
 CMakeFiles/game.dir/Game.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AnimatedSprite.h
+CMakeFiles/game.dir/Game.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/Game.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Game.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Character.h
 CMakeFiles/game.dir/Game.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
@@ -1655,6 +1677,7 @@ CMakeFiles/game.dir/Game.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Le
 CMakeFiles/game.dir/Game.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/MonoSmall.h
 CMakeFiles/game.dir/Game.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Game.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Game.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/Game.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Palomitas.h
 CMakeFiles/game.dir/Game.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Pollito.h
 CMakeFiles/game.dir/Game.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Pulpo.h
@@ -1712,6 +1735,7 @@ CMakeFiles/game.dir/Gfx.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Gfx
 CMakeFiles/game.dir/Gui.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Gui.cpp
 CMakeFiles/game.dir/Gui.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/Gui.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+CMakeFiles/game.dir/Gui.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/Gui.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Gui.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
 CMakeFiles/game.dir/Gui.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
@@ -1725,12 +1749,14 @@ CMakeFiles/game.dir/Gui.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Inp
 CMakeFiles/game.dir/Gui.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/Gui.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Gui.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Gui.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/Gui.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
 CMakeFiles/game.dir/Gui.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/WorldCollider.h
 
 CMakeFiles/game.dir/Handgun.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Handgun.cpp
 CMakeFiles/game.dir/Handgun.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/Handgun.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+CMakeFiles/game.dir/Handgun.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/Handgun.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Bullet.h
 CMakeFiles/game.dir/Handgun.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Handgun.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Character.h
@@ -1749,6 +1775,7 @@ CMakeFiles/game.dir/Handgun.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include
 CMakeFiles/game.dir/Handgun.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/Handgun.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Handgun.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Handgun.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/Handgun.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Shadow.h
 CMakeFiles/game.dir/Handgun.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/SpineDrawable.h
 CMakeFiles/game.dir/Handgun.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
@@ -1799,6 +1826,7 @@ CMakeFiles/game.dir/Handgun.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include
 CMakeFiles/game.dir/Input.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Input.cpp
 CMakeFiles/game.dir/Input.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/Input.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+CMakeFiles/game.dir/Input.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/Input.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Input.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
 CMakeFiles/game.dir/Input.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
@@ -1812,6 +1840,7 @@ CMakeFiles/game.dir/Input.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/I
 CMakeFiles/game.dir/Input.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/Input.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Input.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Input.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/Input.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
 CMakeFiles/game.dir/Input.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/WorldCollider.h
 
@@ -1819,6 +1848,7 @@ CMakeFiles/game.dir/Laser.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Laser.cpp
 CMakeFiles/game.dir/Laser.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/Laser.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
 CMakeFiles/game.dir/Laser.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AnimatedSprite.h
+CMakeFiles/game.dir/Laser.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/Laser.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Laser.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Character.h
 CMakeFiles/game.dir/Laser.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
@@ -1838,6 +1868,7 @@ CMakeFiles/game.dir/Laser.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/L
 CMakeFiles/game.dir/Laser.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/Laser.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Laser.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Laser.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/Laser.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Shadow.h
 CMakeFiles/game.dir/Laser.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/SpineDrawable.h
 CMakeFiles/game.dir/Laser.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
@@ -1889,6 +1920,7 @@ CMakeFiles/game.dir/LaserLight.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Lase
 CMakeFiles/game.dir/LaserLight.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/LaserLight.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
 CMakeFiles/game.dir/LaserLight.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AnimatedSprite.h
+CMakeFiles/game.dir/LaserLight.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/LaserLight.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/LaserLight.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Character.h
 CMakeFiles/game.dir/LaserLight.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
@@ -1908,6 +1940,7 @@ CMakeFiles/game.dir/LaserLight.cpp.o: /home/jfk/Escritorio/SFML/Game/source/incl
 CMakeFiles/game.dir/LaserLight.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/LaserLight.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/LaserLight.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/LaserLight.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/LaserLight.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Shadow.h
 CMakeFiles/game.dir/LaserLight.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/SpineDrawable.h
 CMakeFiles/game.dir/LaserLight.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
@@ -1959,6 +1992,7 @@ CMakeFiles/game.dir/Level.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Level.cpp
 CMakeFiles/game.dir/Level.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/Level.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
 CMakeFiles/game.dir/Level.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AnimatedSprite.h
+CMakeFiles/game.dir/Level.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/Level.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Level.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Character.h
 CMakeFiles/game.dir/Level.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
@@ -1979,6 +2013,7 @@ CMakeFiles/game.dir/Level.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/L
 CMakeFiles/game.dir/Level.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/MonoSmall.h
 CMakeFiles/game.dir/Level.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Level.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Level.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/Level.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Palomitas.h
 CMakeFiles/game.dir/Level.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Pollito.h
 CMakeFiles/game.dir/Level.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Pulpo.h
@@ -2053,6 +2088,7 @@ CMakeFiles/game.dir/Level.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/s
 CMakeFiles/game.dir/Lifebar.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Lifebar.cpp
 CMakeFiles/game.dir/Lifebar.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/Lifebar.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+CMakeFiles/game.dir/Lifebar.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/Lifebar.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Lifebar.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
 CMakeFiles/game.dir/Lifebar.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
@@ -2068,12 +2104,14 @@ CMakeFiles/game.dir/Lifebar.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include
 CMakeFiles/game.dir/Lifebar.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Lifebar.h
 CMakeFiles/game.dir/Lifebar.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Lifebar.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Lifebar.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/Lifebar.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
 CMakeFiles/game.dir/Lifebar.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/WorldCollider.h
 
 CMakeFiles/game.dir/Main.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Main.cpp
 CMakeFiles/game.dir/Main.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/Main.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+CMakeFiles/game.dir/Main.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/Main.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Main.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
 CMakeFiles/game.dir/Main.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
@@ -2087,6 +2125,7 @@ CMakeFiles/game.dir/Main.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/In
 CMakeFiles/game.dir/Main.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/Main.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Main.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Main.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/Main.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
 CMakeFiles/game.dir/Main.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/WorldCollider.h
 
@@ -2094,6 +2133,7 @@ CMakeFiles/game.dir/MonoSmall.cpp.o: /home/jfk/Escritorio/SFML/Game/source/MonoS
 CMakeFiles/game.dir/MonoSmall.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/MonoSmall.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
 CMakeFiles/game.dir/MonoSmall.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AnimatedSprite.h
+CMakeFiles/game.dir/MonoSmall.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/MonoSmall.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/MonoSmall.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Character.h
 CMakeFiles/game.dir/MonoSmall.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
@@ -2113,6 +2153,7 @@ CMakeFiles/game.dir/MonoSmall.cpp.o: /home/jfk/Escritorio/SFML/Game/source/inclu
 CMakeFiles/game.dir/MonoSmall.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/MonoSmall.h
 CMakeFiles/game.dir/MonoSmall.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/MonoSmall.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/MonoSmall.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/MonoSmall.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Shadow.h
 CMakeFiles/game.dir/MonoSmall.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/SpineDrawable.h
 CMakeFiles/game.dir/MonoSmall.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
@@ -2162,6 +2203,7 @@ CMakeFiles/game.dir/MonoSmall.cpp.o: /home/jfk/Escritorio/SFML/Game/source/inclu
 CMakeFiles/game.dir/Object.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Object.cpp
 CMakeFiles/game.dir/Object.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/Object.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+CMakeFiles/game.dir/Object.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/Object.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Object.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
 CMakeFiles/game.dir/Object.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
@@ -2175,6 +2217,7 @@ CMakeFiles/game.dir/Object.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/
 CMakeFiles/game.dir/Object.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/Object.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Object.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Object.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/Object.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
 CMakeFiles/game.dir/Object.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/WorldCollider.h
 
@@ -2182,6 +2225,7 @@ CMakeFiles/game.dir/ObjectManager.cpp.o: /home/jfk/Escritorio/SFML/Game/source/O
 CMakeFiles/game.dir/ObjectManager.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/ObjectManager.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
 CMakeFiles/game.dir/ObjectManager.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AnimatedSprite.h
+CMakeFiles/game.dir/ObjectManager.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/ObjectManager.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/ObjectManager.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
 CMakeFiles/game.dir/ObjectManager.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
@@ -2197,6 +2241,7 @@ CMakeFiles/game.dir/ObjectManager.cpp.o: /home/jfk/Escritorio/SFML/Game/source/i
 CMakeFiles/game.dir/ObjectManager.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/ObjectManager.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/ObjectManager.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/ObjectManager.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/ObjectManager.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Shadow.h
 CMakeFiles/game.dir/ObjectManager.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/SpineDrawable.h
 CMakeFiles/game.dir/ObjectManager.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
@@ -2243,10 +2288,32 @@ CMakeFiles/game.dir/ObjectManager.cpp.o: /home/jfk/Escritorio/SFML/Game/source/i
 CMakeFiles/game.dir/ObjectManager.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/spine/spine-sfml.h
 CMakeFiles/game.dir/ObjectManager.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/spine/spine.h
 
+CMakeFiles/game.dir/Obstacle.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Obstacle.cpp
+CMakeFiles/game.dir/Obstacle.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
+CMakeFiles/game.dir/Obstacle.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+CMakeFiles/game.dir/Obstacle.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
+CMakeFiles/game.dir/Obstacle.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
+CMakeFiles/game.dir/Obstacle.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
+CMakeFiles/game.dir/Obstacle.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
+CMakeFiles/game.dir/Obstacle.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
+CMakeFiles/game.dir/Obstacle.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
+CMakeFiles/game.dir/Obstacle.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
+CMakeFiles/game.dir/Obstacle.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Game.h
+CMakeFiles/game.dir/Obstacle.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
+CMakeFiles/game.dir/Obstacle.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Gui.h
+CMakeFiles/game.dir/Obstacle.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Input.h
+CMakeFiles/game.dir/Obstacle.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
+CMakeFiles/game.dir/Obstacle.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
+CMakeFiles/game.dir/Obstacle.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Obstacle.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
+CMakeFiles/game.dir/Obstacle.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
+CMakeFiles/game.dir/Obstacle.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/WorldCollider.h
+
 CMakeFiles/game.dir/Palomitas.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Palomitas.cpp
 CMakeFiles/game.dir/Palomitas.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/Palomitas.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
 CMakeFiles/game.dir/Palomitas.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AnimatedSprite.h
+CMakeFiles/game.dir/Palomitas.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/Palomitas.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Palomitas.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
 CMakeFiles/game.dir/Palomitas.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
@@ -2261,6 +2328,7 @@ CMakeFiles/game.dir/Palomitas.cpp.o: /home/jfk/Escritorio/SFML/Game/source/inclu
 CMakeFiles/game.dir/Palomitas.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/Palomitas.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Palomitas.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Palomitas.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/Palomitas.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Palomitas.h
 CMakeFiles/game.dir/Palomitas.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
 CMakeFiles/game.dir/Palomitas.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/WorldCollider.h
@@ -2269,6 +2337,7 @@ CMakeFiles/game.dir/Pollito.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Pollito
 CMakeFiles/game.dir/Pollito.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/Pollito.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
 CMakeFiles/game.dir/Pollito.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AnimatedSprite.h
+CMakeFiles/game.dir/Pollito.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/Pollito.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Pollito.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Character.h
 CMakeFiles/game.dir/Pollito.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
@@ -2287,6 +2356,7 @@ CMakeFiles/game.dir/Pollito.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include
 CMakeFiles/game.dir/Pollito.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/Pollito.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Pollito.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Pollito.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/Pollito.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Pollito.h
 CMakeFiles/game.dir/Pollito.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Shadow.h
 CMakeFiles/game.dir/Pollito.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/SpineDrawable.h
@@ -2338,6 +2408,7 @@ CMakeFiles/game.dir/Pulpo.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Pulpo.cpp
 CMakeFiles/game.dir/Pulpo.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/Pulpo.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
 CMakeFiles/game.dir/Pulpo.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AnimatedSprite.h
+CMakeFiles/game.dir/Pulpo.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/Pulpo.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Pulpo.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Character.h
 CMakeFiles/game.dir/Pulpo.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
@@ -2356,6 +2427,7 @@ CMakeFiles/game.dir/Pulpo.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/I
 CMakeFiles/game.dir/Pulpo.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/Pulpo.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Pulpo.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Pulpo.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/Pulpo.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Pulpo.h
 CMakeFiles/game.dir/Pulpo.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Shadow.h
 CMakeFiles/game.dir/Pulpo.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/SpineDrawable.h
@@ -2406,6 +2478,7 @@ CMakeFiles/game.dir/Pulpo.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/s
 CMakeFiles/game.dir/Rocket.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Rocket.cpp
 CMakeFiles/game.dir/Rocket.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/Rocket.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+CMakeFiles/game.dir/Rocket.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/Rocket.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Rocket.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Character.h
 CMakeFiles/game.dir/Rocket.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
@@ -2422,6 +2495,7 @@ CMakeFiles/game.dir/Rocket.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/
 CMakeFiles/game.dir/Rocket.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/Rocket.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Rocket.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Rocket.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/Rocket.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Rocket.h
 CMakeFiles/game.dir/Rocket.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Shadow.h
 CMakeFiles/game.dir/Rocket.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/SpineDrawable.h
@@ -2472,6 +2546,7 @@ CMakeFiles/game.dir/Rocket.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/
 CMakeFiles/game.dir/SpineDrawable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/SpineDrawable.cpp
 CMakeFiles/game.dir/SpineDrawable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/SpineDrawable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+CMakeFiles/game.dir/SpineDrawable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/SpineDrawable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/SpineDrawable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
 CMakeFiles/game.dir/SpineDrawable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
@@ -2486,6 +2561,7 @@ CMakeFiles/game.dir/SpineDrawable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/i
 CMakeFiles/game.dir/SpineDrawable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/SpineDrawable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/SpineDrawable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/SpineDrawable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/SpineDrawable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/SpineDrawable.h
 CMakeFiles/game.dir/SpineDrawable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
 CMakeFiles/game.dir/SpineDrawable.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/WorldCollider.h
@@ -2538,6 +2614,7 @@ CMakeFiles/game.dir/Sprite.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/
 CMakeFiles/game.dir/Weapon.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Weapon.cpp
 CMakeFiles/game.dir/Weapon.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/Weapon.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+CMakeFiles/game.dir/Weapon.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/Weapon.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Weapon.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Character.h
 CMakeFiles/game.dir/Weapon.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
@@ -2554,6 +2631,7 @@ CMakeFiles/game.dir/Weapon.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/
 CMakeFiles/game.dir/Weapon.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/Weapon.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Weapon.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Weapon.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/Weapon.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Shadow.h
 CMakeFiles/game.dir/Weapon.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/SpineDrawable.h
 CMakeFiles/game.dir/Weapon.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
@@ -2604,6 +2682,7 @@ CMakeFiles/game.dir/Weapon.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/
 CMakeFiles/game.dir/WorldCollider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/WorldCollider.cpp
 CMakeFiles/game.dir/WorldCollider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/WorldCollider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+CMakeFiles/game.dir/WorldCollider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/WorldCollider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/WorldCollider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Character.h
 CMakeFiles/game.dir/WorldCollider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
@@ -2620,6 +2699,7 @@ CMakeFiles/game.dir/WorldCollider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/i
 CMakeFiles/game.dir/WorldCollider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/WorldCollider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/WorldCollider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/WorldCollider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/WorldCollider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Shadow.h
 CMakeFiles/game.dir/WorldCollider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/SpineDrawable.h
 CMakeFiles/game.dir/WorldCollider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
@@ -2669,6 +2749,7 @@ CMakeFiles/game.dir/WorldCollider.cpp.o: /home/jfk/Escritorio/SFML/Game/source/i
 CMakeFiles/game.dir/Yoda.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Yoda.cpp
 CMakeFiles/game.dir/Yoda.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
 CMakeFiles/game.dir/Yoda.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+CMakeFiles/game.dir/Yoda.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
 CMakeFiles/game.dir/Yoda.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Yoda.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Character.h
 CMakeFiles/game.dir/Yoda.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
@@ -2687,6 +2768,7 @@ CMakeFiles/game.dir/Yoda.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Le
 CMakeFiles/game.dir/Yoda.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Lifebar.h
 CMakeFiles/game.dir/Yoda.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Yoda.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Yoda.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 CMakeFiles/game.dir/Yoda.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Shadow.h
 CMakeFiles/game.dir/Yoda.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/SpineDrawable.h
 CMakeFiles/game.dir/Yoda.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
