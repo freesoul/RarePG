@@ -6,32 +6,13 @@
 #include "Game.h"
 
 
-float Pulpo::GetDamagePerSecond() { 
+float Pulpo::GetDamagePerSecond() {
 	return PULPO_DPS;
 };
-/*
-class Pulpo : public Collider, public AnimatedSprite {
-public:
-	enum State { Falling, Attacking, Walking, Dying } state;
-	Pulpo();
-	~Pulpo();
-
-	void Update();
-
-	void Collision();
-
-	void Die();
-
-private:
-
-
-};
-*/
 
 
 void Pulpo::Collision()
 {
-
 
 	if (state == Walking || state == Falling)
 	{
@@ -123,7 +104,7 @@ bool Pulpo::Update()
 					float z_speed = PULPO_WALK_SPEED;
 
 					// X
-	
+
 					if (std::abs(pos.x - c_pos.x) < 5)
 						x_speed = 0;
 					else if(pos.x > c_pos.x)

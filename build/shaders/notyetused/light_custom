@@ -1,0 +1,32 @@
+
+//uniform vec2 lightPositionOnScreen;
+
+uniform sampler2D texture;
+//uniform float pixel_threshold;
+float pixel_threshold = 0.02;
+
+float darkness = 0.6;
+
+void main()
+{
+
+    vec4 sampled_color = texture2D(texture, gl_TexCoord[0].xy);
+    vec3 color = sampled_color.rgb;
+    float alpha = sampled_color[3];
+
+
+
+    // modify color
+    vec2 light_pos = vec2 ( 512.0, 100.0 );
+    float dist = distance(light_pos, gl_FragCoord.xy);
+    float attenuation = 1.0 - min(darkness * dist / 100.0, darkness);
+
+    color = color * attenuation;
+
+
+
+
+
+    vec4 new_color = vec4( color, alpha );
+    gl_FragColor = new_color;
+}

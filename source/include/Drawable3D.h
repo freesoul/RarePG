@@ -9,11 +9,13 @@ class Shadow;
 
 class D3D : virtual public D2D {
 public:
-	D3D(bool bShadow = 0);
+	D3D();//bool bShadow = false);
 	//D3D(float _x, float _y, bool bshadow = 0) : x(_x), y(_y), z(0)  { initShadow(bshadow);  };
 	//D3D(float _x, float _y, float _z, bool bshadow = 0) : x(_x), y(_y), z(_z) { initShadow(bshadow); };
 
-	void initShadow(bool bShadow);
+	virtual void draw();
+
+	void initShadow();//bool bShadow);
 
 	virtual ~D3D();
 

@@ -2,18 +2,24 @@
 #include "Game.h"
 #include "Shadow.h"
 
-D3D::D3D(bool bShadow)
+
+void D3D::draw(){
+	Game::s_game->renderer.draw(*this);
+}
+
+
+D3D::D3D()//bool bShadow)
 {
-	initShadow(bShadow);
+	// initShadow(bShadow);
+	shadow = 0;
 	Game::s_game->objects.AddD3D(this);
 	is3d = true;
 }
 
-void D3D::initShadow(bool bShadow) {
-	if (bShadow)
-		shadow = new Shadow(this);
-	else shadow = 0;
-
+void D3D::initShadow() {//bool bShadow) {
+	// if (bShadow)
+	shadow = new Shadow(this);
+	// else shadow = 0;
 }
 
 D3D::~D3D()

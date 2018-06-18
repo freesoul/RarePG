@@ -71,6 +71,8 @@ include/Handgun.h
 /home/jfk/Escritorio/SFML/Game/source/include/Handgun.h
 include/Laser.h
 /home/jfk/Escritorio/SFML/Game/source/include/Laser.h
+iostream
+-
 
 /home/jfk/Escritorio/SFML/Game/source/Collider.cpp
 include/Game.h

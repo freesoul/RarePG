@@ -2,8 +2,8 @@
 #include "include/Collider.h"
 
 
-Collider::Collider(Type _type, bool bShadow, float _fixX, float _fixY, float _fixW , float _fixH) :
-		type(_type), D3D(bShadow) {
+Collider::Collider(Type _type, float _fixX, float _fixY, float _fixW , float _fixH) :
+		type(_type) {
 	Game::s_game->colliders.AddCollider(this); // Depending on type.
 	destroyedByCollision = false;
 

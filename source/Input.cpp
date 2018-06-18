@@ -114,10 +114,10 @@ void Input::HandleInput()
 				it->actionable->OnMouseLeftDown();
 
 	// Mouse position
-	sf::Vector2i coords(sf::Mouse::getPosition(Game::inst()->renderer).x,
-	sf::Mouse::getPosition(Game::inst()->renderer).y);
+	sf::Vector2i coords(sf::Mouse::getPosition(Game::inst()->window).x,
+	sf::Mouse::getPosition(Game::inst()->window).y);
 
-	sf::Vector2f newcoords = Game::inst()->renderer.mapPixelToCoords(coords);
+	sf::Vector2f newcoords = Game::inst()->window.mapPixelToCoords(coords);
 
 	mouse_x = newcoords.x;
 	mouse_y = newcoords.y;

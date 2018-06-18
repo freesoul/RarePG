@@ -6,7 +6,9 @@
 #include "include/Constants.h"
 #include "include/Shadow.h"
 
-Fruit::Fruit() : Collider(Collider::Bonus, true) {
+Fruit::Fruit() : Collider(Collider::Bonus) { //, true
+
+	initShadow();
 
 	setTexture(Game::s_game->gfx.txFruits);
 

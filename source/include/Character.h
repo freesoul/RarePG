@@ -22,6 +22,8 @@ public:
 
 	Character(CharacterType type);
 
+	void draw(); // Override for shaders
+
 	void SetWeapon(WeaponType _weapon);
 
 	void Heal(unsigned int amount);
@@ -41,6 +43,8 @@ public:
 private:
 
 	float releaseStunTime;
+	// static sf::Shader* shaderSpawn;
+	// static bool characterLoaded;
 
 };
 

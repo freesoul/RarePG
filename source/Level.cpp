@@ -22,6 +22,29 @@
 //
 #include "Character.h"
 
+#include "Obstacle.h"
+
+
+
+Level::Level(){
+		// Prepare buffer for applying shaders
+		renderer_shader.create(
+			VIEW_WIDTH,
+			VIEW_HEIGHT
+		);
+
+		// Sun rays shader
+		if (!shaderSunRays.loadFromFile("shaders/sunrays", sf::Shader::Fragment)) {
+			// handle this
+		}
+
+		shaderSunRays.setParameter("texture", sf::Shader::CurrentTexture);
+		// shaderSunRays.setParameter("resolution", sf::Vector2f(WORLD_WIDTH,WORLD_HEIGHT));
+
+		// shaderSpawn->setParameter("exposure", 0.25f);
+
+}
+
 
 void Level::Load(int level)
 {
@@ -84,7 +107,7 @@ void Level::Load(int level)
 			wave.monster_class = monster_class;
 			wave.number = monster_number;
 
-			std::cout << wave.monster_class << "\n";
+			// std::cout << wave.monster_class << "\n";
 
 			for(int i=0;i<repeat;i++)
 				AddWave(wave);
@@ -105,11 +128,11 @@ void Level::Load(int level)
 	}
 
 	// Spawn character
-	Game::s_game->character = new Character(Character::Girl);
+	Game::s_game->character = new Character(Character::Guy);
 
 	// Set level ambient
 	SetBackground(Game::s_game->gfx.txBackground1);
-	// Game::s_game->audio.muFarm.play();
+	Game::s_game->audio.muFarm.play();
 
 	// Start ambient effects
 	nextAmbientEffect = MIN_AMBIENT_EVENT_DELAY;
@@ -250,4 +273,66 @@ void Level::AddWaitForAllDead() {
 	LevelEvent tmp;
 	tmp.levelEvent = LevelEvent::WaitForAllDead;
 	eventQueue.push_back(tmp);
+}
+
+
+void Level::AddObstacle(Obstacle* obstacle) {
+	obstacles.push_back(obstacle);
+}
+
+void Level::RemoveObstacle(Obstacle* obstacle) {
+	std::vector<Obstacle*>::iterator it;
+	for (it = obstacles.begin(); it != obstacles.end(); it++)
+		if ((*it) == obstacle)
+		{
+			obstacles.erase(it);
+			return;
+		}
+}
+
+
+bool Level::separate_from_obstacles(D3D* who, Obstacle::Entity who_to_move){
+	bool separated=false;
+	std::vector<Obstacle*>::iterator it;
+	for(it=obstacles.begin(); it!=obstacles.end(); it++)
+		// if((*it)->is_obstacle(who))
+		if((*it)->separate_from(who, who_to_move))
+			separated=true;
+	return separated;
+}
+
+
+bool Level::is_obstacle(D3D* who){
+	std::vector<Obstacle*>::iterator it;
+	for(it=obstacles.begin(); it!=obstacles.end(); it++)
+		if((*it)->is_obstacle(who))
+			return true;
+	return false;
+}
+
+
+void Level::applySceneShaders() {
+/*
+There are two ways:
+- draw everything to a render-texture, then draw this render-texture with a fullscreen sprite and apply the shader
+- use sf::Texture::update(Window&) to get the content of the framebuffer into a texture, then draw this texture with a fullscreen sprite and apply the shader
+*/
+
+shaderSunRays.setParameter("time", levelElapsed.getElapsedTime().asSeconds());
+shaderSunRays.setParameter(
+	"char_x", 
+	5 * Game::s_game->character->getPosition().x / VIEW_WIDTH
+);
+
+Game::s_game->renderer.display();
+
+sf::RenderTexture* window_renderer = &Game::s_game->renderer;
+
+// tmp->clear();
+renderer_shader.draw(sf::Sprite(window_renderer->getTexture()), &shaderSunRays);
+renderer_shader.display();
+
+window_renderer->draw(sf::Sprite(renderer_shader.getTexture()));
+
+
 }

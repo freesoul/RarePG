@@ -9,9 +9,11 @@
 #include "Collider.h"
 #include "Enemy.h"
 
+#include "Obstacle.h" // Remove this from here. "Pollito" should not be an obstacle.
+
 class Character;
 
-class Pollito : public Enemy, public AnimatedSprite, public Disappear {
+class Pollito : public Enemy, public AnimatedSprite, public Disappear, public Obstacle {
 public:
 	enum State { Falling, Walking, Jumping, Dying, sDead };
 	Pollito(float _m_hp=25);

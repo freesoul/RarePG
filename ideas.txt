@@ -16,9 +16,10 @@
 
 - Efectos
 	- Sombras mejor perfiladas  (círculo, rectángulo, proyección de objeto)
-	- Iluminación (?)
+	- Shaders: Iluminación/sombreado de bichos, rayos, fog
 	- Sangre
 	- Atardecer
+	- Línea hasta la sombra (hacer clase Shadow compuesta, en vez de heredada de sf::Shape)
 
 
 - Bonus
@@ -29,7 +30,7 @@
 
 
 - Características
-	- Colisión con los bichos
+	- Colisión con los bichos (OK): falta tener en cuenta el eje vertical
 	- Mapa parallax de 2-3 ventanas de ancho
 	- Hospital
 	- Disparador de misiles

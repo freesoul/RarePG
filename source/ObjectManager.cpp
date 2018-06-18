@@ -152,7 +152,8 @@ void ObjManager::DrawScene() {
 	std::sort(drws3d.begin(), drws3d.end(), z_test);
 	std::vector<D3D*>::iterator it3;
 	for (it3 = drws3d.begin(); it3 != drws3d.end(); it3++)
-		Game::s_game->renderer.draw(**it3);
+		(*it3)->draw();
+		//Game::s_game->renderer.draw(**it3);
 
 
 	// Draw gui

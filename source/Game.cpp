@@ -27,19 +27,24 @@ bool Game::Load() {
 	std::srand(std::time(0));
 
 	// renderer.create(sf::VideoMode(1024, 768), "Juego", sf::Style::Fullscreen);
-	renderer.create(sf::VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), "Juego");
+	window.create(sf::VideoMode(VIEW_WIDTH, VIEW_HEIGHT), "Juego");
 
 	// globalBounds = sf::FloatRect(WORLD_LEFT_BOUND, WORLD_UPPER_BOUND, WORLD_WIDTH, WORLD_HEIGHT);
 
 	// renderer.setSize(sf::Vector2u(1100, 680));
 	// renderer.setPosition(sf::Vector2i(100, 1));
 
-	renderer.setView(sf::View(sf::FloatRect(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)));
+	window.setView(sf::View(sf::FloatRect(0, 0, VIEW_WIDTH, VIEW_HEIGHT)));
 
-	renderer.setMouseCursorVisible(false);
+	window.setMouseCursorVisible(false);
+
+	renderer.create(
+		VIEW_WIDTH,
+		VIEW_HEIGHT
+	);
 
 	gfx.Load();
-	// audio.Load();
+	audio.Load();
 
 	gui = new GUI;
 	gui->Load(GUI::Intro);
@@ -109,22 +114,29 @@ void Game::Run() {
 		}
 
 		////// DRAW
-		renderer.clear();
-//
-		level->DrawBackground();
+		// window.clear();
+		// renderer.clear(); // bg is drawn anyways.
+		//
+		level->DrawBackground(); // extract gui bg from here, and put this in switch
 		objects.DrawScene();
+
+		if(gsGameState==Game::gsLevel) //remove this
+			level->applySceneShaders(); // put this in switch after level->DrawBackground
+
 		gui->DrawCursor();
 //
 //
 #ifdef DBG_HITBOXES
 		colliders.DebugHitboxes();
 #endif
-
-		renderer.display();
+		renderer.display();	// Renderer is separated from window, so we can
+												// Postprocess it with shaders in a fixed "window" size
+		window.draw(sf::Sprite(renderer.getTexture()));
+		window.display();
 
 	} /////// END GAME LOOP
 
-	renderer.close();
+	window.close();
 }
 
 
@@ -134,7 +146,7 @@ void Game::HandleEvents()
 {
 	sf::Event msg;
 
-	while (renderer.pollEvent(msg))
+	while (window.pollEvent(msg))
 	{
 		switch (msg.type)
 		{

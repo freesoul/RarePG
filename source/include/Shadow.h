@@ -76,6 +76,8 @@ public:
 		return true;
 	}
 
+
+
 private:
 	bool customSize;
 	D3D* owner;

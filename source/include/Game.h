@@ -5,7 +5,7 @@
 #include <SFML/Window.hpp>
 
 #include "Gfx.h"
-// #include "Audio.h"
+#include "Audio.h"
 #include "Input.h"
 #include "ObjectManager.h"
 #include "WorldCollider.h"
@@ -36,7 +36,8 @@ public:
 		return s_game;
 	}
 
-	sf::RenderWindow renderer;
+  sf::RenderTexture renderer;
+	sf::RenderWindow window;
 
 	//
 	// sf::Sprite* sCursor;
@@ -50,7 +51,7 @@ public:
 	WorldCollider colliders;
 	Input input;
 	Gfx gfx;
-	// Audio audio;
+	Audio audio;
 	Level* level;
 	GUI* gui; // Ptr due to size.
 	//

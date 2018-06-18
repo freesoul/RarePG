@@ -10,7 +10,7 @@
 class Game;
 
 
-class Collider : public D3D, public Object {
+class Collider : virtual public D3D, public Object {
 public:
 
 	BoundingBox boundingBox; // The default one
@@ -22,7 +22,7 @@ public:
 
 	Collider(
 		Collider::Type _type,
-		bool bShadow=0,
+		/*bool bShadow=false,*/
 		float _fixX = 0,
 		float _fixY = 0,
 		float _fixW = 0.1,

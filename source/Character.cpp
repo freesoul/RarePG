@@ -6,6 +6,21 @@
 #include "include/Handgun.h"
 #include "include/Laser.h"
 
+
+#include <iostream>
+
+void Character::draw(){
+
+	// float x = Game::s_game->input.mouse_x/1024;
+	// float y = Game::s_game->input.mouse_y/768;
+
+	// std::cout << x << ", " << y << std::endl;
+
+	// shaderSpawn->setParameter("lightPositionOnScreen", sf::Vector2f(x,y));
+
+	Game::s_game->renderer.draw(*this);//, shaderSpawn);
+}
+
 void Character::Heal(unsigned int amount)
 {
 	current_hp += amount;
@@ -58,13 +73,31 @@ void Character::Die()
 }
 
 
+// bool Character::characterLoaded=false;
+// sf::Shader* Character::shaderSpawn=(sf::Shader*)NULL;
+
 Character::Character(CharacterType type) :
-	Collider(Collider::Type::Player, false, 16, 42)
+	Collider(Collider::Type::Player, 16, 42)
 {
+	// if (!characterLoaded)
+	// {
+	// 	characterLoaded=true;
+	// 	shaderSpawn = new sf::Shader();
+	// 	if (!shaderSpawn->loadFromFile("shaders/light_custom", sf::Shader::Fragment)) {
+	// 		// handle this
+	// 	}
+	//
+	// 	shaderSpawn->setParameter("texture", sf::Shader::CurrentTexture);
+	// 	// shaderSpawn->setParameter("exposure", 0.25f);
+	// 	// shaderSpawn->setParameter("decay", 0.97f);
+	// 	// shaderSpawn->setParameter("density", 0.97f);
+	// 	// shaderSpawn->setParameter("weight", 0.5f);
+	//
+	// }
 
 	SpineLoad("data/Character.atlas", "data/Character.json", 512, 713, "tronco");
 
-	setWorldPosition(SCREEN_WIDTH/2, MAX_Y, MAX_Z/2);
+	setWorldPosition(WORLD_WIDTH/2, MAX_Y, MAX_Z/2);
 
 	//objectType = ID_CHARACTER;
 	state = Standing;
@@ -162,6 +195,19 @@ bool Character::Update()
 		//	   g->weapon->leftWeaponHolder->bone->rotation = -g->input.weapon_mouse_rotation;
 		//	   g->weapon->rightWeaponHolder->bone->rotation = -g->input.weapon_mouse_rotation;
 
+				if (g->level->separate_from_obstacles(this)){
+					nowMoving=false;
+					state=Standing;
+					break;
+				}
+				// // Check if obstaculized by other monster/object
+				// if (g->level->is_obstacle(this))
+				// {
+				// 	nowMoving=false;
+				// 	state=Standing;
+				// 	break;
+				// }
+
 			   // Check for movement
 			   float x_move, z_move;
 			   x_move = 0;
@@ -203,16 +249,22 @@ bool Character::Update()
 			   if (getWorldPosition().x > 1024)
 				   setWorldPosition(1, getWorldPosition().y, getWorldPosition().z);
 
-			   // Change animation walk <-> stand
+			   // Change animation/audio walk <-> stand
 			   if (state == Standing && nowMoving)
+				 {
 				   AnimationState_setAnimationByName(SkeletonDrawable::state, 0, "walk", true);
+					 Game::s_game->audio.soundWalk.play();
+				 } else
 			   if (state == Moving && !nowMoving)
+				 {
 				   AnimationState_setAnimationByName(SkeletonDrawable::state, 0, "stand", true);
-
+					 Game::s_game->audio.soundWalk.stop();
+				 }
 			   if (nowMoving)
 				   state = Moving;
 			   else
 				   state = Standing;
+
 	}
 		break;
 
@@ -226,9 +278,7 @@ bool Character::Update()
 	// 		Game::s_game->audio.soundWalk.play();
 	// }
 	// else if (!nowMoving)
-	// {
 	// 	Game::s_game->audio.soundWalk.stop();
-	// }
 
 
 	return true;

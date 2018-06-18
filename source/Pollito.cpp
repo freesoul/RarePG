@@ -25,7 +25,7 @@ Pollito::Pollito(float _m_hp) :
 			 state(Falling),
 			 tLastJump(0)
 {
-	initShadow(true);
+	initShadow();//true);
 
 	//SetTexture(s_game->resourceManager.txPulpo);
 	setOrigin(35, 32);

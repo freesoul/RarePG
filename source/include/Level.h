@@ -2,6 +2,8 @@
 #define _LEVEL_H_
 
 #include "Object.h"
+#include "Obstacle.h"
+#include "Drawable3D.h"
 
 #include <deque>
 #include <vector>
@@ -22,12 +24,23 @@ class Level : public Object {
 public:
 	enum Difficulty { Easy, Medium, Hard, GoodLuck } difficulty;
 
-	Level() {};
+	Level();
 	void Load(int level=1);
 	bool Update();
 	unsigned int GetLevelNumber() { return levelNumber;  }
 	void DrawBackground();
 
+	bool is_obstacle(D3D* who);
+	bool separate_from_obstacles(D3D* who, Obstacle::Entity who_to_move=Obstacle::BOTH);
+	void AddObstacle(Obstacle* obstacle);
+	void RemoveObstacle(Obstacle* obstacle);
+
+	sf::Clock levelElapsed;
+
+	// Shaders
+	void applySceneShaders();
+	sf::Shader shaderSunRays;
+	// std::vector<sf::Shader*> shaders;
 
 private:
 	unsigned int levelNumber;
@@ -37,7 +50,6 @@ private:
 	std::string levelName;
 
 	/* LEVEL EVENTS */
-	sf::Clock levelElapsed;
 	float nextAmbientEffect;
 	float wait;
 
@@ -50,6 +62,12 @@ private:
 	// void AddBoss();
 
 	void DoWave();
+
+	//  Obstacles
+	std::vector<Obstacle*> obstacles;
+
+	// Level shaders
+	sf::RenderTexture renderer_shader;
 
 };
 
