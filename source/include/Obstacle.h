@@ -11,6 +11,9 @@ public:
 	Obstacle(int _radius=25);
 	~Obstacle();
 
+	void setObstacleOn();
+	void setObstacleOff();
+
 	// bool obstaculizes_right(D3D* to_who);
 	// bool obstaculizes_left(D3D* to_who);
 	// bool obstaculizes_left(D3D* to_who);
@@ -20,6 +23,8 @@ public:
 	bool separate_from(D3D* who, Entity who_to_move);
 
 private:
+	bool is_vertically_solapant(D3D* who);
+	bool enabled;
 	int radius;
 
 };

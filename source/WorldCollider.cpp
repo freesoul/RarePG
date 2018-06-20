@@ -149,7 +149,7 @@ void WorldCollider::HandleCollisions() {
 				(*it)->Hurt((*it2)->GetDamage());
 
 				// Delete Ammo
-				if ((*it2)->DestroyOnColide())
+				if ((*it2)->DestroyOnCollide())
 				{
 					(*it2)->DestroyByCollisionFlag(); // So destructor does not remove from list
 					delete *it2;

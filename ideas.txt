@@ -1,6 +1,12 @@
+- Bugs
+	- El pollito sigue vivo pero sin barra de vida antes de morir
+	- Si se entra demasiado al juego o demasiado tarde, revienta
+
 
 - Básico
-	- Audio
+	- Separar clase (monstruo/bonus...) de tipo (pollito, pulpo...)
+	- Usar map para mapear los bichos por nombre
+	- Audio (OK, ahora añadir)
 	- Menú principal
 	- Menú de mejoras
 		- Cargar datos

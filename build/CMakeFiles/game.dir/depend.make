@@ -1616,15 +1616,28 @@ CMakeFiles/game.dir/Drawable3D.cpp.o: /home/jfk/Escritorio/SFML/Game/source/incl
 
 CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Enemy.cpp
 CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
+CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
+CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Button.h
 CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
 CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
+CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
 CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
 CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
+CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/EllipseShape.h
 CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Enemy.h
+CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Game.h
+CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
+CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Gui.h
+CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Input.h
+CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Level.h
 CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Lifebar.h
 CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
+CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Shadow.h
 CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
+CMakeFiles/game.dir/Enemy.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/WorldCollider.h
 
 CMakeFiles/game.dir/Fruit.cpp.o: /home/jfk/Escritorio/SFML/Game/source/Fruit.cpp
 CMakeFiles/game.dir/Fruit.cpp.o: /home/jfk/Escritorio/SFML/Game/source/include/AABB.h

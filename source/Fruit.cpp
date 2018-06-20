@@ -9,6 +9,7 @@
 Fruit::Fruit() : Collider(Collider::Bonus) { //, true
 
 	initShadow();
+	shadow->setFillColor(sf::Color(0,200,0,100));
 
 	setTexture(Game::s_game->gfx.txFruits);
 
@@ -26,14 +27,14 @@ bool Fruit::Update()
 {
 	if (getWorldPosition().y < MAX_Y)
 		moveInWorld(0, 150 * Game::s_game->elapsed, 0);
-	else {
-		if (getDisappearStatus() == NotStarted)
-		{
+	else switch(getDisappearStatus()){
+		case NotStarted:
+			disappear();
+			break;
+		case Disappeared:
 			return false;
-		}
-		else if (disappeared())
-			return false;
+		default:
+			;
 	}
-
 	return true;
 }

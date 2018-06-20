@@ -15,7 +15,7 @@ public:
 	bool Update();
 	~LaserLight();
 	float GetDamage();// { return 25; };
-	bool DestroyOnColide() { return false; };
+	bool DestroyOnCollide() { return false; };
 
 private:
 	Weapon* caster;

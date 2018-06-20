@@ -13,11 +13,11 @@ Laser::Laser() : laserLight(NULL)  {
 
 void Laser::OnUpdate()
 {
-	if (laserLight != NULL)
-	{
-		if (laserLight->disappeared())
-			delete laserLight;
-	}
+	// if (laserLight != NULL)
+	// {
+	// 	if (laserLight->disappeared())
+	// 		delete laserLight;
+	// }
 }
 
 void Laser::OnMouseLeftDown()

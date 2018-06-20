@@ -99,6 +99,8 @@ include/Enemy.h
 /home/jfk/Escritorio/SFML/Game/source/include/Enemy.h
 include/Lifebar.h
 /home/jfk/Escritorio/SFML/Game/source/include/Lifebar.h
+include/Shadow.h
+/home/jfk/Escritorio/SFML/Game/source/include/Shadow.h
 
 /home/jfk/Escritorio/SFML/Game/source/Fruit.cpp
 include/Fruit.h
@@ -271,6 +273,8 @@ include/Object.h
 /home/jfk/Escritorio/SFML/Game/source/include/Object.h
 include/Game.h
 /home/jfk/Escritorio/SFML/Game/source/include/Game.h
+iostream
+-
 
 /home/jfk/Escritorio/SFML/Game/source/ObjectManager.cpp
 include/ObjectManager.h
@@ -695,6 +699,8 @@ Collider.h
 /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
 Enemy.h
 /home/jfk/Escritorio/SFML/Game/source/include/Enemy.h
+Obstacle.h
+/home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
 
 /home/jfk/Escritorio/SFML/Game/source/include/Rocket.h
 Collider.h

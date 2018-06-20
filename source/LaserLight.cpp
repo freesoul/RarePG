@@ -50,8 +50,15 @@ bool LaserLight::Update() {
 		setRotation(caster->getRotation());
 	}
 	else {
-		if (getDisappearStatus() == DisappearStatus::NotStarted)
-			disappear();
+		switch (getDisappearStatus()){
+			case NotStarted:
+				disappear();
+				break;
+			case Disappeared:
+				return false;
+			default:
+				;
+		}
 	}
 
 	return true;

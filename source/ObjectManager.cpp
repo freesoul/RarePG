@@ -10,6 +10,9 @@
 #include "Drawable2D.h"
 #include "Drawable3D.h"
 
+
+// #include <iostream>
+
 // D2D
 void ObjManager::RemoveD2D(D2D* drw, bool bGui)
 {
@@ -129,6 +132,7 @@ void ObjManager::RemoveObject(Object* obj)
 void ObjManager::AddObject(Object* obj)
 {
 	objects.push_back(obj);
+	// std::cout<<"Size of objects vector: " << objects.size() << std::endl;
 }
 
 
@@ -180,16 +184,41 @@ void ObjManager::UpdateScene()
 		(*it2)->UpdateSprite(Game::s_game->timer.getElapsedTime().asSeconds());
 
 	// Update object logic
-	std::vector<Object*>::iterator it3;
-	for (it3 = objects.begin(); it3 != objects.end();)
+	// std::vector<Object*>::iterator it3;
+	// for (it3 = objects.begin(); it3 != objects.end();)
+	// {
+	// 	if (!(*it3)->Update())
+	// 	{
+	// 		(*it3)->bDestroyedOnUpdate = true;
+	// 		delete (*it3);
+	// 		it3 = objects.erase(it3);
+	// 	}
+	// 	else it3++;
+	// }
+
+	// CAREFUL!
+	// THIS IS MADE VIA SIZE() BECAUSE Level IS ALSO AN OBJECT,
+	// AND WITHIN ITS Update() IT ADDS OBJECTS AND THUS, WOULD
+	// INVALIDATE ITERATORS. JFK - 2018-06-20
+
+	// 'i' is not changed by pushed_back elements, though if we wanted
+	// to update in the same loop the added ones, whe should ++size
+	// by hooking the added objects (eg. detecting when its a level update
+	// and deciding by Level->Update() return
+
+	std::vector<Object*>::size_type objects_size = objects.size();
+	std::vector<Object*>::size_type i;
+	for (i=0; i<objects_size;)
 	{
-		if (!(*it3)->Update())
+		if (!objects[i]->Update())
 		{
-			(*it3)->bDestroyedOnUpdate = true;
-			delete (*it3);
-			it3 = objects.erase(it3);
+			objects[i]->bDestroyedOnUpdate = true;
+			delete objects[i];
+			objects.erase(objects.begin() + i);
+			--objects_size;
+		} else {
+			++i;
 		}
-		else it3++;
 	}
 
 	// Update shadows

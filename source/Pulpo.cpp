@@ -57,9 +57,6 @@ Pulpo::Pulpo(float _m_hp) : AnimatedSprite(Game::s_game->gfx.txPulpo), Enemy(_m_
 	// Set position
 	setWorldPosition(std::rand() % (1024 - 100) + 50, -200, std::rand() % PROFUNDITY_SIZE);
 
-	shadow = new Shadow(this);
-	shadow->ShadowOn();
-
 	max_hp = 25;
 	hp = max_hp;
 	guided = false;
@@ -71,10 +68,13 @@ Pulpo::Pulpo(float _m_hp) : AnimatedSprite(Game::s_game->gfx.txPulpo), Enemy(_m_
 
 void Pulpo::Die()
 {
-	HideLifebar();
-	disappear();
-	state = Dying;
-
+	if (state != Dying && state != sDead) {
+		HideLifebar(); // anyway hes dead (?)
+		shadow->ShadowOff();
+		disappear();
+		setObstacleOff();
+		state = Dying;
+	}
 }
 
 
@@ -143,8 +143,12 @@ bool Pulpo::Update()
 	case Dying:
 	{
 				  if (disappeared())
-					  return false;
+						state = sDead;
 	} break;
+
+	case sDead:
+		return false;
+
 	default:
 		break;
 	}

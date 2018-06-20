@@ -1617,15 +1617,28 @@ CMakeFiles/game.dir/Drawable3D.cpp.o
 CMakeFiles/game.dir/Enemy.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/Enemy.cpp
  /home/jfk/Escritorio/SFML/Game/source/include/AABB.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Actionable.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Audio.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Button.h
  /home/jfk/Escritorio/SFML/Game/source/include/Collider.h
  /home/jfk/Escritorio/SFML/Game/source/include/Constants.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Debug.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable2D.h
  /home/jfk/Escritorio/SFML/Game/source/include/Drawable3D.h
+ /home/jfk/Escritorio/SFML/Game/source/include/EllipseShape.h
  /home/jfk/Escritorio/SFML/Game/source/include/Enemy.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Game.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Gfx.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Gui.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Input.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Level.h
  /home/jfk/Escritorio/SFML/Game/source/include/Lifebar.h
  /home/jfk/Escritorio/SFML/Game/source/include/Object.h
  /home/jfk/Escritorio/SFML/Game/source/include/ObjectManager.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Obstacle.h
+ /home/jfk/Escritorio/SFML/Game/source/include/Shadow.h
  /home/jfk/Escritorio/SFML/Game/source/include/Sprite.h
+ /home/jfk/Escritorio/SFML/Game/source/include/WorldCollider.h
 CMakeFiles/game.dir/Fruit.cpp.o
  /home/jfk/Escritorio/SFML/Game/source/Fruit.cpp
  /home/jfk/Escritorio/SFML/Game/source/include/AABB.h

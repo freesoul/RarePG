@@ -39,7 +39,7 @@ public:
 	virtual float GetCurrentHP() { return 1; };
 	virtual bool Dead() { return false; };
 
-	virtual bool DestroyOnColide() { return false; };
+	virtual bool DestroyOnCollide() { return false; };
 
 	void DestroyByCollisionFlag() { destroyedByCollision = true;  };
 

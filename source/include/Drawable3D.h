@@ -15,6 +15,7 @@ public:
 
 	virtual void draw();
 
+  // Or pass color by reference, and by default a static color.
 	void initShadow();//bool bShadow);
 
 	virtual ~D3D();

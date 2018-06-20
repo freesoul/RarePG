@@ -14,7 +14,7 @@ public:
 	bool Update();
 	~Bullet(){};
 	float GetDamage() { return 25; };
-	bool DestroyOnColide() { return true; };
+	bool DestroyOnCollide() { return true; };
 
 private:
 	float x_speed, y_speed, z;

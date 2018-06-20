@@ -4,18 +4,50 @@
 
 // #include <iostream> // dbg
 
-Obstacle::Obstacle(int _radius) : radius(_radius) {
+Obstacle::Obstacle(int _radius) : radius(_radius), enabled(true) {
 	Game::s_game->level->AddObstacle(this);
 };
 
 
-
 Obstacle::~Obstacle() {
-	Game::s_game->level->RemoveObstacle(this);
+	if(enabled)
+		Game::s_game->level->RemoveObstacle(this);
 };
 
 
+void Obstacle::setObstacleOn() {
+	if(!enabled) {
+		Game::s_game->level->AddObstacle(this);
+		enabled=true;
+	}
+}
+
+void Obstacle::setObstacleOff() {
+	if(enabled){
+		Game::s_game->level->RemoveObstacle(this);
+		enabled=false;
+	}
+}
+
+
+bool Obstacle::is_vertically_solapant(D3D* who) {
+	float pos_a = who->getWorldPosition().y;
+	float pos_b = getWorldPosition().y;
+	float height_a = who->getLocalBounds().height;
+	float height_b = getLocalBounds().height;
+	float upper_a = pos_a + height_a;
+	float upper_b = pos_b + height_b;
+	return (
+		(upper_b <= upper_a && upper_b >= pos_a) ||
+		(upper_a <= upper_b && upper_a >= pos_b)
+	);
+}
+
+
 bool Obstacle::separate_from(D3D* who, Entity who_to_move) {
+
+	if(!is_vertically_solapant(who))
+		return false;
 
 	bool separated=false;
 
@@ -82,6 +114,9 @@ bool Obstacle::separate_from(D3D* who, Entity who_to_move) {
 
 
 bool Obstacle::is_obstacle(D3D* to_who) {
+
+	if(!is_vertically_solapant(to_who))
+		return false;
 
 	sf::Vector3f this_pos = getWorldPosition();
 	sf::Vector3f other_pos = to_who->getWorldPosition();

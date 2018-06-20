@@ -1,5 +1,6 @@
 #include "include/Enemy.h"
 #include "include/Lifebar.h"
+#include "include/Shadow.h"
 
 void Enemy::Hurt(float dmg) {
 	if (dmg >= c_hp)
@@ -18,6 +19,8 @@ void Enemy::Hurt(float dmg) {
 
 Enemy::Enemy(float _m_hp, bool lb) : Collider(Collider::Enemy), m_hp(_m_hp), c_hp(_m_hp), damage(0), damage_per_second(0) {
 	lifebar = new Lifebar(this);
+	initShadow();
+	shadow->setFillColor(sf::Color(255,0,0,100));
 };
 
 void Enemy::HideLifebar()

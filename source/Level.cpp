@@ -231,19 +231,19 @@ void Level::DoWave()
 	if(waves.empty())
 		return;	// should not happen
 
-	Wave wave = waves.front();
+	Wave* wave = &waves.front();
 
-	for(int i=0; i<wave.number; i++){
+	for(int i=0; i<wave->number; i++){
 
-		if(wave.monster_class=="pollito"){
+		if(wave->monster_class=="pollito"){
 			new Pollito();
-		} else if(wave.monster_class=="pulpo"){
+		} else if(wave->monster_class=="pulpo"){
 			new Pulpo();
-		} else if(wave.monster_class=="mono_peque"){
+		} else if(wave->monster_class=="mono_peque"){
 			new MonoSmall();
-		} else if(wave.monster_class=="yoda"){
+		} else if(wave->monster_class=="yoda"){
 			new Yoda();
-		} else if(wave.monster_class=="fruta"){
+		} else if(wave->monster_class=="fruta"){
 			new Fruit();
 		}
 
@@ -320,7 +320,7 @@ There are two ways:
 
 shaderSunRays.setParameter("time", levelElapsed.getElapsedTime().asSeconds());
 shaderSunRays.setParameter(
-	"char_x", 
+	"char_x",
 	5 * Game::s_game->character->getPosition().x / VIEW_WIDTH
 );
 

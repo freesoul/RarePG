@@ -41,6 +41,10 @@ file(GLOB cpp_files
 )
 
 
+# add_definitions(-fstack-check)
+# add_definitions(-fstack-protector)
+
+
 add_executable(${EXECUTABLE_NAME} ${cpp_files} ${spine_files})
 
 
@@ -49,4 +53,3 @@ add_executable(${EXECUTABLE_NAME} ${cpp_files} ${spine_files})
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake_modules" ${CMAKE_MODULE_PATH})
 find_package(SFML 2 REQUIRED system window graphics network audio)
 target_link_libraries(${EXECUTABLE_NAME} ${SFML_LIBRARIES})
-
