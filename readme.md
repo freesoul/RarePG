@@ -1,3 +1,14 @@
+
+
+## El juego
+
+Una imagen dice mucho
+
+![RarePG](screenshot.png)
+
+
+## To do
+
 - Bugs
 	- El pollito sigue vivo pero sin barra de vida antes de morir
 	- Si se entra demasiado al juego o demasiado tarde, revienta
