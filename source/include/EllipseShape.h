@@ -2,6 +2,7 @@
 #define _H_ELLIPTIC_SHAPE_
 
 #include <SFML/Graphics.hpp>
+#include <cmath>
 
 class EllipseShape : public sf::Shape
 {

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/Animation.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Animation.h
 spine/dll.h
 -
 spine/Event.h
@@ -14,7 +14,7 @@ spine/Event.h
 spine/Attachment.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/AnimationState.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationState.h
 spine/dll.h
 -
 spine/Animation.h
@@ -26,7 +26,7 @@ spine/Event.h
 spine/Array.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/AnimationStateData.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationStateData.h
 spine/dll.h
 -
 spine/Animation.h
@@ -34,15 +34,15 @@ spine/Animation.h
 spine/SkeletonData.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/Array.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Array.h
 spine/dll.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/Atlas.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Atlas.h
 spine/dll.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/AtlasAttachmentLoader.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AtlasAttachmentLoader.h
 spine/dll.h
 -
 spine/AttachmentLoader.h
@@ -50,11 +50,11 @@ spine/AttachmentLoader.h
 spine/Atlas.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/Attachment.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Attachment.h
 spine/dll.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/AttachmentLoader.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AttachmentLoader.h
 spine/dll.h
 -
 spine/Attachment.h
@@ -62,29 +62,17 @@ spine/Attachment.h
 spine/Skin.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/Bone.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Bone.h
 spine/dll.h
 -
 spine/BoneData.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/BoneData.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/BoneData.h
 spine/dll.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/BoundingBoxAttachment.h
-spine/dll.h
--
-spine/Attachment.h
--
-spine/VertexAttachment.h
--
-spine/Atlas.h
--
-spine/Slot.h
--
-
-/home/jfk/Escritorio/SFML/Game/source/include/spine/ClippingAttachment.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/BoundingBoxAttachment.h
 spine/dll.h
 -
 spine/Attachment.h
@@ -96,21 +84,33 @@ spine/Atlas.h
 spine/Slot.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/Color.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/ClippingAttachment.h
+spine/dll.h
+-
+spine/Attachment.h
+-
+spine/VertexAttachment.h
+-
+spine/Atlas.h
+-
+spine/Slot.h
+-
+
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Color.h
 spine/dll.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/Event.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Event.h
 spine/dll.h
 -
 spine/EventData.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/EventData.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/EventData.h
 spine/dll.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/IkConstraint.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/IkConstraint.h
 spine/dll.h
 -
 spine/IkConstraintData.h
@@ -118,13 +118,13 @@ spine/IkConstraintData.h
 spine/Bone.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/IkConstraintData.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/IkConstraintData.h
 spine/dll.h
 -
 spine/BoneData.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/MeshAttachment.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/MeshAttachment.h
 spine/dll.h
 -
 spine/Attachment.h
@@ -136,7 +136,7 @@ spine/Atlas.h
 spine/Slot.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/PathAttachment.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/PathAttachment.h
 spine/dll.h
 -
 spine/Attachment.h
@@ -148,7 +148,7 @@ spine/Atlas.h
 spine/Slot.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/PathConstraint.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/PathConstraint.h
 spine/dll.h
 -
 spine/PathConstraintData.h
@@ -158,9 +158,9 @@ spine/Bone.h
 spine/Slot.h
 -
 PathAttachment.h
-/home/jfk/Escritorio/SFML/Game/source/include/spine/PathAttachment.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/PathAttachment.h
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/PathConstraintData.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/PathConstraintData.h
 spine/dll.h
 -
 spine/BoneData.h
@@ -168,7 +168,7 @@ spine/BoneData.h
 spine/SlotData.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/PointAttachment.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/PointAttachment.h
 spine/dll.h
 -
 spine/Attachment.h
@@ -180,7 +180,7 @@ spine/Atlas.h
 spine/Slot.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/RegionAttachment.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/RegionAttachment.h
 spine/dll.h
 -
 spine/Attachment.h
@@ -190,7 +190,7 @@ spine/Atlas.h
 spine/Slot.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/Skeleton.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Skeleton.h
 spine/dll.h
 -
 spine/SkeletonData.h
@@ -206,7 +206,7 @@ spine/TransformConstraint.h
 spine/PathConstraint.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonBinary.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/SkeletonBinary.h
 spine/dll.h
 -
 spine/Attachment.h
@@ -218,7 +218,7 @@ spine/SkeletonData.h
 spine/Atlas.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonBounds.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/SkeletonBounds.h
 spine/dll.h
 -
 spine/BoundingBoxAttachment.h
@@ -226,7 +226,7 @@ spine/BoundingBoxAttachment.h
 spine/Skeleton.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonClipping.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/SkeletonClipping.h
 spine/dll.h
 -
 spine/Array.h
@@ -238,7 +238,7 @@ spine/Slot.h
 spine/Triangulator.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonData.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/SkeletonData.h
 spine/dll.h
 -
 spine/BoneData.h
@@ -258,7 +258,7 @@ spine/TransformConstraintData.h
 spine/PathConstraintData.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/SkeletonJson.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/SkeletonJson.h
 spine/dll.h
 -
 spine/Attachment.h
@@ -272,13 +272,13 @@ spine/Atlas.h
 spine/Animation.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/Skin.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Skin.h
 spine/dll.h
 -
 spine/Attachment.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/Slot.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Slot.h
 spine/dll.h
 -
 spine/Bone.h
@@ -288,7 +288,7 @@ spine/Attachment.h
 spine/SlotData.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/SlotData.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/SlotData.h
 spine/dll.h
 -
 spine/BoneData.h
@@ -296,7 +296,7 @@ spine/BoneData.h
 spine/Color.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/TransformConstraint.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/TransformConstraint.h
 spine/dll.h
 -
 spine/TransformConstraintData.h
@@ -304,19 +304,19 @@ spine/TransformConstraintData.h
 spine/Bone.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/TransformConstraintData.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/TransformConstraintData.h
 spine/dll.h
 -
 spine/BoneData.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/Triangulator.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Triangulator.h
 spine/dll.h
 -
 spine/Array.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/VertexAttachment.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/VertexAttachment.h
 spine/dll.h
 -
 spine/Attachment.h
@@ -324,7 +324,7 @@ spine/Attachment.h
 spine/Slot.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/VertexEffect.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/VertexEffect.h
 spine/dll.h
 -
 spine/Skeleton.h
@@ -332,9 +332,9 @@ spine/Skeleton.h
 spine/Color.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/dll.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/dll.h
 
-/home/jfk/Escritorio/SFML/Game/source/include/spine/extension.h
+/home/bytes/Desktop/Proyectos/RarePG/source/include/spine/extension.h
 spine/dll.h
 -
 stdlib.h
@@ -368,7 +368,7 @@ spine/PointAttachment.h
 spine/AnimationState.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/Animation.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/Animation.c
 spine/Animation.h
 -
 spine/IkConstraint.h
@@ -378,7 +378,7 @@ limits.h
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/AnimationState.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/AnimationState.c
 spine/AnimationState.h
 -
 spine/extension.h
@@ -386,19 +386,19 @@ spine/extension.h
 limits.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/AnimationStateData.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/AnimationStateData.c
 spine/AnimationStateData.h
 -
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/Array.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/Array.c
 spine/Array.h
 -
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/Atlas.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/Atlas.c
 spine/Atlas.h
 -
 ctype.h
@@ -406,13 +406,13 @@ ctype.h
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/AtlasAttachmentLoader.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/AtlasAttachmentLoader.c
 spine/AtlasAttachmentLoader.h
 -
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/Attachment.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/Attachment.c
 spine/Attachment.h
 -
 spine/extension.h
@@ -420,7 +420,7 @@ spine/extension.h
 spine/Slot.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/AttachmentLoader.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/AttachmentLoader.c
 spine/AttachmentLoader.h
 -
 stdio.h
@@ -428,7 +428,7 @@ stdio.h
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/Bone.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/Bone.c
 spine/Bone.h
 -
 spine/extension.h
@@ -436,43 +436,43 @@ spine/extension.h
 stdio.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/BoneData.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/BoneData.c
 spine/BoneData.h
 -
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/BoundingBoxAttachment.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/BoundingBoxAttachment.c
 spine/BoundingBoxAttachment.h
 -
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/ClippingAttachment.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/ClippingAttachment.c
 spine/ClippingAttachment.h
 -
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/Color.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/Color.c
 spine/Color.h
 -
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/Event.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/Event.c
 spine/Event.h
 -
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/EventData.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/EventData.c
 spine/EventData.h
 -
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/IkConstraint.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/IkConstraint.c
 spine/IkConstraint.h
 -
 spine/Skeleton.h
@@ -482,15 +482,15 @@ spine/extension.h
 float.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/IkConstraintData.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/IkConstraintData.c
 spine/IkConstraintData.h
 -
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/Json.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/Json.c
 Json.h
-/home/jfk/Escritorio/SFML/Game/source/spine/Json.h
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/Json.h
 stdio.h
 -
 ctype.h
@@ -502,21 +502,21 @@ string.h
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/Json.h
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/Json.h
 
-/home/jfk/Escritorio/SFML/Game/source/spine/MeshAttachment.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/MeshAttachment.c
 spine/MeshAttachment.h
 -
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/PathAttachment.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/PathAttachment.c
 spine/PathAttachment.h
 -
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/PathConstraint.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/PathConstraint.c
 spine/PathConstraint.h
 -
 spine/Skeleton.h
@@ -524,25 +524,25 @@ spine/Skeleton.h
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/PathConstraintData.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/PathConstraintData.c
 spine/PathConstraintData.h
 -
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/PointAttachment.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/PointAttachment.c
 spine/PointAttachment.h
 -
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/RegionAttachment.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/RegionAttachment.c
 spine/RegionAttachment.h
 -
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/Skeleton.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/Skeleton.c
 spine/Skeleton.h
 -
 stdlib.h
@@ -552,7 +552,7 @@ string.h
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/SkeletonBinary.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/SkeletonBinary.c
 spine/SkeletonBinary.h
 -
 stdio.h
@@ -564,9 +564,9 @@ spine/AtlasAttachmentLoader.h
 spine/Animation.h
 -
 kvec.h
-/home/jfk/Escritorio/SFML/Game/source/spine/kvec.h
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/kvec.h
 
-/home/jfk/Escritorio/SFML/Game/source/spine/SkeletonBounds.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/SkeletonBounds.c
 spine/SkeletonBounds.h
 -
 limits.h
@@ -574,13 +574,13 @@ limits.h
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/SkeletonClipping.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/SkeletonClipping.c
 spine/SkeletonClipping.h
 -
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/SkeletonData.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/SkeletonData.c
 spine/SkeletonData.h
 -
 string.h
@@ -588,13 +588,13 @@ string.h
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/SkeletonJson.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/SkeletonJson.c
 spine/SkeletonJson.h
 -
 stdio.h
 -
 Json.h
-/home/jfk/Escritorio/SFML/Game/source/spine/Json.h
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/Json.h
 spine/extension.h
 -
 spine/AtlasAttachmentLoader.h
@@ -602,25 +602,25 @@ spine/AtlasAttachmentLoader.h
 spine/Array.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/Skin.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/Skin.c
 spine/Skin.h
 -
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/Slot.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/Slot.c
 spine/Slot.h
 -
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/SlotData.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/SlotData.c
 spine/SlotData.h
 -
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/TransformConstraint.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/TransformConstraint.c
 spine/TransformConstraint.h
 -
 spine/Skeleton.h
@@ -628,13 +628,13 @@ spine/Skeleton.h
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/TransformConstraintData.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/TransformConstraintData.c
 spine/TransformConstraintData.h
 -
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/Triangulator.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/Triangulator.c
 spine/Triangulator.h
 -
 spine/extension.h
@@ -642,25 +642,25 @@ spine/extension.h
 stdio.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/VertexAttachment.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/VertexAttachment.c
 spine/VertexAttachment.h
 -
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/VertexEffect.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/VertexEffect.c
 spine/VertexEffect.h
 -
 spine/extension.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/extension.c
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/extension.c
 spine/extension.h
 -
 stdio.h
 -
 
-/home/jfk/Escritorio/SFML/Game/source/spine/kvec.h
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/kvec.h
 kvec.h
-/home/jfk/Escritorio/SFML/Game/source/spine/kvec.h
+/home/bytes/Desktop/Proyectos/RarePG/source/spine/kvec.h
 

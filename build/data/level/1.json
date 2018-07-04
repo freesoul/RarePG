@@ -8,6 +8,14 @@
 			"number":2
 		},{
 			"type":"monster",
+			"monster_class":"yoda",
+			"number":1
+		},{
+			"type":"monster",
+			"monster_class":"fruta",
+			"number":2
+		},{
+			"type":"monster",
 			"monster_class":"pollito",
 			"number":2
 		},{

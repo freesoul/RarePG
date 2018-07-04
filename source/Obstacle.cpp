@@ -1,6 +1,7 @@
 
 #include "include/Obstacle.h"
 #include "include/Game.h"
+#include <cmath>
 
 // #include <iostream> // dbg
 
