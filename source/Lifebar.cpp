@@ -6,7 +6,7 @@
 
 Lifebar::Lifebar(Enemy* e, float _width) : width(_width) {
 	holder = e;
-	setTexture(Game::s_game->gfx.txLifebar);
+	setTexture(Game::s_game->gfx.getGfx("Lifebar"));
 	setOrigin(width/2, 0);
 	setTextureRect(sf::IntRect(0, 0, width, 14));
 }

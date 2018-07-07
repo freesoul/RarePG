@@ -5,7 +5,7 @@
 
 
 Handgun::Handgun() : shotLast(0) {
-	setTexture(Game::s_game->gfx.txHandgunLeft);
+	setTexture(Game::s_game->gfx.getGfx("HandgunLeft"));
 	setOrigin(2, 27);
 	shotDelay = BASE_HANDGUN_DELAY;
 	SetMouseAction(Input::MouseActionType::LeftIsDown);

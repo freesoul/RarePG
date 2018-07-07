@@ -10,7 +10,7 @@ Rocket::Rocket(Collider::Type _type) : Collider(_type) {
 
 	Game* g = Game::inst();
 
-	setTexture(g->gfx.txMisiles);
+	setTexture(g->gfx.getGfx("Misiles"));
 
 	speed = sf::Vector3f(0,0,0);
 	acceleration = sf::Vector3f(0,0,0);

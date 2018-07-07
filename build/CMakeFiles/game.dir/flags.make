@@ -3,13 +3,13 @@
 
 # compile C with /usr/bin/cc
 # compile CXX with /usr/bin/c++
-C_FLAGS =  
+C_FLAGS = -g  
 
 C_DEFINES = 
 
 C_INCLUDES = -I/include/rapidjson -I/include/spine -I/home/bytes/Desktop/Proyectos/RarePG/source/include 
 
-CXX_FLAGS =   -std=gnu++11
+CXX_FLAGS =  -std=c++11 -g   -std=gnu++11
 
 CXX_DEFINES = 
 

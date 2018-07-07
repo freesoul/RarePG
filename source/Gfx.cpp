@@ -1,58 +1,94 @@
 
 #include "include/Gfx.h"
 
-bool Gfx::Load()
+#include <iostream>
+#include <sstream>
+#include <fstream>
+#include <rapidjson/document.h>
+#include <rapidjson/error/en.h>
+
+#include <map>
+#include <string>
+
+
+using namespace std;
+
+
+
+map<string, sf::Texture*> Gfx::textures;
+
+
+
+Gfx::~Gfx()
 {
-	//add fail cases to return false
-	txBackgroundIntro.loadFromFile("images/menu/bg/intro.png");
-	txBackgroundScore.loadFromFile("images/menu/bg/score.png");
-	txBackgroundMenu.loadFromFile("images/menu/bg/menu.png");
+	sf::Texture *texture;
+	map<string, sf::Texture*>::iterator iter = textures.begin();
+	while(iter != textures.end())
+	{
+	    texture = iter->second;
+	    delete texture;
+	    iter++;
+	}
+}
 
-	txMenuButtons.loadFromFile("images/menu/buttons.png");
-	txMenuCursor.loadFromFile("images/menu/cursor.png");
 
-	txTower.loadFromFile("images/level/torreta.png");
-	txLifebar.loadFromFile("images/level/lifebar.png");
-	txHospital.loadFromFile("images/level/hospital.png");
-	txCrossHair.loadFromFile("images/level/crosshair.png");
+bool Gfx::load()
+{
+	///////////////////////////////////////////////
+	// Load JSON with gfx files data
+	///////////////////////////////////////////////
 
-	txFruits.loadFromFile("images/level/fruits.png");
+	// Read json as string
+	std::ifstream t("data/gfx.json");
+	std::stringstream buffer;
+	buffer << t.rdbuf();
 
-	txBlood.loadFromFile("images/level/effects/blood.png");
+	// Get pointer to const char
+	const std::string level_json_str_tmp = buffer.str();
+	const char* level_json_str = level_json_str_tmp.c_str();
 
-	txBackground1.loadFromFile("images/level/bg/background1.png");
+	// Parse json
+	rapidjson::Document level_json_document;
+	rapidjson::ParseResult result = level_json_document.Parse(level_json_str);
 
-	txPulpo.loadFromFile("images/level/enemies/pulpo.png");
-	txPollitos.loadFromFile("images/level/enemies/pollitos.png");
-	txPolloNinja.loadFromFile("images/level/enemies/polloninja.png");
-	txEstrellas.loadFromFile("images/level/enemies/estrellas.png");
-	txMonoSmall.loadFromFile("images/level/enemies/monosmall.png");
-	txMonoBig.loadFromFile("images/level/enemies/monobig.png");
-	txBomba.loadFromFile("images/level/enemies/bomba.png");
-	txMisiles.loadFromFile("images/level/enemies/rockets.png");
+	// Error parsing?
+	if(!result){
+		fprintf(stderr, "JSON parse error: %s (%u)",
+		rapidjson::GetParseError_En(result.Code()), result.Offset());
+		exit(-1);
+	}
 
-	txGuy.loadFromFile("images/player/character.png");
-	txGuyArm.loadFromFile("images/player/guyarm.png");
+	std::cout<<"Loading textures..."<<std::endl;
 
-	txHandgunLeft.loadFromFile("images/weapons/handgun/l_handgun.png");
-	txHandgunRight.loadFromFile("images/weapons/handgun/r_handgun.png");
-	txBullet.loadFromFile("images/weapons/handgun/bullet.png");
-
-	txLaserWeapon.loadFromFile("images/weapons/laser/laserarma.png");
-	txLaserLight.loadFromFile("images/weapons/laser/laser.png");
-
-	txBola.loadFromFile("images/level/gui/bolagui.png");
-	txMarcobola.loadFromFile("images/level/gui/marcobolagui.png");
-	txFondoGUI.loadFromFile("images/level/gui/fondogui.png");
-	txBotonGUI.loadFromFile("images/level/gui/botongui.png");
-
-	txNube1.loadFromFile("images/level/ambient/nube1.png");
-	txNube2.loadFromFile("images/level/ambient/nube2.png");
-	txNube3.loadFromFile("images/level/ambient/nube3.png");
-
-	txPalomitas.loadFromFile("images/level/ambient/palomitas.png");
-
-	txDefaultCursor.loadFromFile("images/cursor/default.png");
-
+	// Fill the map
+	for (rapidjson::Value::ConstMemberIterator iter = level_json_document.MemberBegin(); iter != level_json_document.MemberEnd(); ++iter){
+		loadGfx(iter->name.GetString(), iter->value.GetString());
+		std::cout << "Loaded " << iter->name.GetString() << " at " << iter->value.GetString() << std::endl;
+	}
 	return true;
 }
+
+
+bool Gfx::loadGfx(const string& name, const string& filepath)
+{
+    sf::Texture *texture = new sf::Texture();
+    if(texture->loadFromFile(filepath))
+    {
+        textures[name] = texture;
+        return textures[name];
+    } else {
+        delete texture;
+        return false;
+    }
+}
+
+
+sf::Texture& Gfx::getGfx(const string& name)
+{
+	return *textures[name];
+    //if(textures.find(name) != textures.end()){
+    //    return *textures[name];
+    //}
+}
+
+

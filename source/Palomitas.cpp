@@ -4,7 +4,7 @@
 float Palomita::direction = 0;
 
 
-Palomita::Palomita() : AnimatedSprite(Game::s_game->gfx.txPalomitas)
+Palomita::Palomita() : AnimatedSprite(Game::s_game->gfx.getGfx("Palomitas"))
 {
 
 	if(!direction)
@@ -15,7 +15,7 @@ Palomita::Palomita() : AnimatedSprite(Game::s_game->gfx.txPalomitas)
 
 	setPosition(-200 + ((1024+200)*((int)direction==-1)), 25 + std::rand() % 150);
 	setScale(sf::Vector2f(0.2, 0.2));
-	SetTexture(Game::s_game->gfx.txPalomitas);
+	SetTexture(Game::s_game->gfx.getGfx("Palomitas"));
 	AddFrame(1, sf::IntRect(0, 0, 388, 341));
 	AddFrame(1, sf::IntRect(0, 341, 388, 341));
 	AddFrame(1, sf::IntRect(0, 341*2, 388, 341));

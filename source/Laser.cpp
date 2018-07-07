@@ -6,7 +6,7 @@
 
 
 Laser::Laser() : laserLight(NULL)  {
-	setTexture(Game::s_game->gfx.txLaserWeapon);
+	setTexture(Game::s_game->gfx.getGfx("LaserWeapon"));
 	setOrigin(15, 15);
 	SetMouseAction(Input::MouseActionType::LeftIsDown);
 };

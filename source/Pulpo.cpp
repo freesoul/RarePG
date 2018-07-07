@@ -34,7 +34,7 @@ void Pulpo::Collision()
 	}
 }
 
-Pulpo::Pulpo(float _m_hp) : AnimatedSprite(Game::s_game->gfx.txPulpo), Enemy(_m_hp)
+Pulpo::Pulpo(float _m_hp) : AnimatedSprite(Game::s_game->gfx.getGfx("Pulpo")), Enemy(_m_hp)
 {
 	//SetTexture(s_game->resourceManager.txPulpo);
 	setOrigin(50, 40);

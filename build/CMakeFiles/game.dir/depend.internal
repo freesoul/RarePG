@@ -1364,6 +1364,27 @@ CMakeFiles/game.dir/Actionable.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Obstacle.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
 CMakeFiles/game.dir/AnimatedSprite.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/AnimatedSprite.cpp
  /home/bytes/Desktop/Proyectos/RarePG/source/include/AABB.h
@@ -1386,6 +1407,27 @@ CMakeFiles/game.dir/AnimatedSprite.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Obstacle.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
 CMakeFiles/game.dir/Audio.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/Audio.cpp
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Audio.h
@@ -1417,6 +1459,27 @@ CMakeFiles/game.dir/Bullet.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Weapon.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Animation.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationState.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationStateData.h
@@ -1479,6 +1542,27 @@ CMakeFiles/game.dir/Button.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Obstacle.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
 CMakeFiles/game.dir/Character.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/Character.cpp
  /home/bytes/Desktop/Proyectos/RarePG/source/include/AABB.h
@@ -1508,6 +1592,27 @@ CMakeFiles/game.dir/Character.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Weapon.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Animation.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationState.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationStateData.h
@@ -1570,6 +1675,27 @@ CMakeFiles/game.dir/Collider.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Obstacle.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
 CMakeFiles/game.dir/Drawable2D.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/Drawable2D.cpp
  /home/bytes/Desktop/Proyectos/RarePG/source/include/AABB.h
@@ -1591,6 +1717,27 @@ CMakeFiles/game.dir/Drawable2D.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Obstacle.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
 CMakeFiles/game.dir/Drawable3D.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/Drawable3D.cpp
  /home/bytes/Desktop/Proyectos/RarePG/source/include/AABB.h
@@ -1614,6 +1761,27 @@ CMakeFiles/game.dir/Drawable3D.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Shadow.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
 CMakeFiles/game.dir/Enemy.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/Enemy.cpp
  /home/bytes/Desktop/Proyectos/RarePG/source/include/AABB.h
@@ -1639,6 +1807,27 @@ CMakeFiles/game.dir/Enemy.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Shadow.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
 CMakeFiles/game.dir/Fruit.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/Fruit.cpp
  /home/bytes/Desktop/Proyectos/RarePG/source/include/AABB.h
@@ -1665,6 +1854,27 @@ CMakeFiles/game.dir/Fruit.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Shadow.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
 CMakeFiles/game.dir/Game.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/Game.cpp
  /home/bytes/Desktop/Proyectos/RarePG/source/include/AABB.h
@@ -1701,6 +1911,27 @@ CMakeFiles/game.dir/Game.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Yoda.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Animation.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationState.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationStateData.h
@@ -1745,6 +1976,27 @@ CMakeFiles/game.dir/Game.cpp.o
 CMakeFiles/game.dir/Gfx.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/Gfx.cpp
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Gfx.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
 CMakeFiles/game.dir/Gui.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/Gui.cpp
  /home/bytes/Desktop/Proyectos/RarePG/source/include/AABB.h
@@ -1766,6 +2018,27 @@ CMakeFiles/game.dir/Gui.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Obstacle.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
 CMakeFiles/game.dir/Handgun.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/Handgun.cpp
  /home/bytes/Desktop/Proyectos/RarePG/source/include/AABB.h
@@ -1795,6 +2068,27 @@ CMakeFiles/game.dir/Handgun.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Weapon.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Animation.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationState.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationStateData.h
@@ -1857,6 +2151,27 @@ CMakeFiles/game.dir/Input.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Obstacle.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
 CMakeFiles/game.dir/Laser.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/Laser.cpp
  /home/bytes/Desktop/Proyectos/RarePG/source/include/AABB.h
@@ -1888,6 +2203,27 @@ CMakeFiles/game.dir/Laser.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Weapon.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Animation.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationState.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationStateData.h
@@ -1960,6 +2296,27 @@ CMakeFiles/game.dir/LaserLight.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Weapon.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Animation.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationState.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationStateData.h
@@ -2121,6 +2478,27 @@ CMakeFiles/game.dir/Lifebar.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Obstacle.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
 CMakeFiles/game.dir/Main.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/Main.cpp
  /home/bytes/Desktop/Proyectos/RarePG/source/include/AABB.h
@@ -2142,6 +2520,27 @@ CMakeFiles/game.dir/Main.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Obstacle.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
 CMakeFiles/game.dir/MonoSmall.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/MonoSmall.cpp
  /home/bytes/Desktop/Proyectos/RarePG/source/include/AABB.h
@@ -2172,6 +2571,27 @@ CMakeFiles/game.dir/MonoSmall.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/SpineDrawable.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Animation.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationState.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationStateData.h
@@ -2234,6 +2654,27 @@ CMakeFiles/game.dir/Object.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Obstacle.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
 CMakeFiles/game.dir/ObjectManager.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/ObjectManager.cpp
  /home/bytes/Desktop/Proyectos/RarePG/source/include/AABB.h
@@ -2260,6 +2701,27 @@ CMakeFiles/game.dir/ObjectManager.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/SpineDrawable.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Animation.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationState.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationStateData.h
@@ -2322,6 +2784,27 @@ CMakeFiles/game.dir/Obstacle.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Obstacle.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
 CMakeFiles/game.dir/Palomitas.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/Palomitas.cpp
  /home/bytes/Desktop/Proyectos/RarePG/source/include/AABB.h
@@ -2346,6 +2829,27 @@ CMakeFiles/game.dir/Palomitas.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Palomitas.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
 CMakeFiles/game.dir/Pollito.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/Pollito.cpp
  /home/bytes/Desktop/Proyectos/RarePG/source/include/AABB.h
@@ -2376,6 +2880,27 @@ CMakeFiles/game.dir/Pollito.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/SpineDrawable.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Animation.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationState.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationStateData.h
@@ -2447,6 +2972,27 @@ CMakeFiles/game.dir/Pulpo.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/SpineDrawable.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Animation.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationState.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationStateData.h
@@ -2515,6 +3061,27 @@ CMakeFiles/game.dir/Rocket.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/SpineDrawable.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Animation.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationState.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationStateData.h
@@ -2579,6 +3146,27 @@ CMakeFiles/game.dir/SpineDrawable.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/SpineDrawable.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Animation.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationState.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationStateData.h
@@ -2651,6 +3239,27 @@ CMakeFiles/game.dir/Weapon.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Weapon.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Animation.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationState.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationStateData.h
@@ -2718,6 +3327,27 @@ CMakeFiles/game.dir/WorldCollider.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/SpineDrawable.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Animation.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationState.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationStateData.h
@@ -2788,6 +3418,27 @@ CMakeFiles/game.dir/Yoda.cpp.o
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Sprite.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/WorldCollider.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/Yoda.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/allocators.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/document.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodedstream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/encodings.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/en.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/error/error.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/biginteger.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/diyfp.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/ieee754.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/meta.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/pow10.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/stack.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strfunc.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/strtod.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/internal/swap.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/memorystream.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/inttypes.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/msinttypes/stdint.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/rapidjson.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/reader.h
+ /home/bytes/Desktop/Proyectos/RarePG/source/include/rapidjson/stream.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/Animation.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationState.h
  /home/bytes/Desktop/Proyectos/RarePG/source/include/spine/AnimationStateData.h

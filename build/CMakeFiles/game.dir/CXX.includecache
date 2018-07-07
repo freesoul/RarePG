@@ -147,6 +147,20 @@ include/Yoda.h
 /home/bytes/Desktop/Proyectos/RarePG/source/Gfx.cpp
 include/Gfx.h
 /home/bytes/Desktop/Proyectos/RarePG/source/include/Gfx.h
+iostream
+-
+sstream
+-
+fstream
+-
+rapidjson/document.h
+-
+rapidjson/error/en.h
+-
+map
+-
+string
+-
 
 /home/bytes/Desktop/Proyectos/RarePG/source/Gui.cpp
 SFML/Graphics.hpp
@@ -560,6 +574,20 @@ Level.h
 
 /home/bytes/Desktop/Proyectos/RarePG/source/include/Gfx.h
 SFML/Graphics.hpp
+-
+iostream
+-
+sstream
+-
+fstream
+-
+rapidjson/document.h
+-
+rapidjson/error/en.h
+-
+map
+-
+string
 -
 
 /home/bytes/Desktop/Proyectos/RarePG/source/include/Gui.h

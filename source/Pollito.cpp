@@ -20,7 +20,7 @@ void Pollito::Collision()
 }
 
 Pollito::Pollito(float _m_hp) :
-			AnimatedSprite(Game::s_game->gfx.txPollitos),
+			AnimatedSprite(Game::s_game->gfx.getGfx("Pollitos")),
 			 Enemy(_m_hp),
 			 state(Falling),
 			 tLastJump(0)

@@ -17,8 +17,7 @@ void GUI::DrawCursor()
 
 void GUI::LoadCursor()
 {
-	spCursor.setTexture(Game::s_game->gfx.txDefaultCursor);
-
+	spCursor.setTexture(Game::s_game->gfx.getGfx("DefaultCursor"));
 }
 
 void GUI::UpdateLife(float p)
@@ -77,7 +76,7 @@ void GUI::Load(GUI::States _state)
 
 			case GUI::Intro:
 			{
-				  AddElement(Game::s_game->gfx.txBackgroundIntro, 0, 0, sf::IntRect(0, 0, 1024, 768), 1);
+				  AddElement(Game::s_game->gfx.getGfx("BackgroundIntro"), 0, 0, sf::IntRect(0, 0, 1024, 768), 1);
 			}
 			break;
 
@@ -91,18 +90,18 @@ void GUI::Load(GUI::States _state)
 			case GUI::Level:
 			{
 
-					AddElement(Game::s_game->gfx.txFondoGUI, 15, 768 - 520, sf::IntRect(0, 0, 1024, 520), 0, 155);
+					AddElement(Game::s_game->gfx.getGfx("FondoGUI"), 15, 768 - 520, sf::IntRect(0, 0, 1024, 520), 0, 155);
 
-					AddElement(Game::s_game->gfx.txBotonGUI, 380, 726, sf::IntRect(0, 0, 44, 44), 0, 155);
-					AddElement(Game::s_game->gfx.txBotonGUI, 380 + 46, 726, sf::IntRect(0, 0, 44, 44), 0, 155);
-					AddElement(Game::s_game->gfx.txBotonGUI, 380 + 45 * 2, 726, sf::IntRect(0, 0, 44, 44), 0, 155);
-					AddElement(Game::s_game->gfx.txBotonGUI, 380 + 45 * 3, 726, sf::IntRect(0, 0, 44, 44), 0, 155);
-					AddElement(Game::s_game->gfx.txBotonGUI, 380 + 45 * 4, 726, sf::IntRect(0, 0, 44, 44), 0, 155);
-					AddElement(Game::s_game->gfx.txBotonGUI, 380 + 45 * 5, 726, sf::IntRect(0, 0, 44, 44), 0, 155);
+					AddElement(Game::s_game->gfx.getGfx("BotonGUI"), 380, 726, sf::IntRect(0, 0, 44, 44), 0, 155);
+					AddElement(Game::s_game->gfx.getGfx("BotonGUI"), 380 + 46, 726, sf::IntRect(0, 0, 44, 44), 0, 155);
+					AddElement(Game::s_game->gfx.getGfx("BotonGUI"), 380 + 45 * 2, 726, sf::IntRect(0, 0, 44, 44), 0, 155);
+					AddElement(Game::s_game->gfx.getGfx("BotonGUI"), 380 + 45 * 3, 726, sf::IntRect(0, 0, 44, 44), 0, 155);
+					AddElement(Game::s_game->gfx.getGfx("BotonGUI"), 380 + 45 * 4, 726, sf::IntRect(0, 0, 44, 44), 0, 155);
+					AddElement(Game::s_game->gfx.getGfx("BotonGUI"), 380 + 45 * 5, 726, sf::IntRect(0, 0, 44, 44), 0, 155);
 
-					Lifeball = AddElement(Game::s_game->gfx.txBola, 88, 589, sf::IntRect(0, 0, 154, 145), 0, 155);
+					Lifeball = AddElement(Game::s_game->gfx.getGfx("Bola"), 88, 589, sf::IntRect(0, 0, 154, 145), 0, 155);
 
-					AddElement(Game::s_game->gfx.txMarcobola, 81, 578, sf::IntRect(0, 0, 168, 168), 0, 155);
+					AddElement(Game::s_game->gfx.getGfx("Marcobola"), 81, 578, sf::IntRect(0, 0, 168, 168), 0, 155);
 			}
 				break;
 			default:

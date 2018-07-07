@@ -1,0 +1,51 @@
+{
+	"BackgroundIntro" : "images/menu/bg/intro.png",
+	"BackgroundScore" : "images/menu/bg/score.png",
+	"BackgroundMenu" : "images/menu/bg/menu.png",
+
+	"MenuButtons" : "images/menu/buttons.png",
+	"MenuCursor" : "images/menu/cursor.png",
+
+	"Tower" : "images/level/torreta.png",
+	"Lifebar" : "images/level/lifebar.png",
+	"Hospital" : "images/level/hospital.png",
+	"CrossHair" : "images/level/crosshair.png",
+
+	"Fruits" : "images/level/fruits.png",
+
+	"Blood" : "images/level/effects/blood.png",
+
+	"Background1" : "images/level/bg/background1.png",
+
+	"Pulpo" : "images/level/enemies/pulpo.png",
+	"Pollitos" : "images/level/enemies/pollitos.png",
+	"PolloNinja" : "images/level/enemies/polloninja.png",
+	"Estrellas" : "images/level/enemies/estrellas.png",
+	"MonoSmall" : "images/level/enemies/monosmall.png",
+	"MonoBig" : "images/level/enemies/monobig.png",
+	"Bomba" : "images/level/enemies/bomba.png",
+	"Misiles" : "images/level/enemies/rockets.png",
+
+	"Guy" : "images/player/character.png",
+	"GuyArm" : "images/player/guyarm.png",
+
+	"HandgunLeft" : "images/weapons/handgun/l_handgun.png",
+	"HandgunRight" : "images/weapons/handgun/r_handgun.png",
+	"Bullet" : "images/weapons/handgun/bullet.png",
+
+	"LaserWeapon" : "images/weapons/laser/laserarma.png",
+	"LaserLight" : "images/weapons/laser/laser.png",
+
+	"Bola" : "images/level/gui/bolagui.png",
+	"Marcobola" : "images/level/gui/marcobolagui.png",
+	"FondoGUI" : "images/level/gui/fondogui.png",
+	"BotonGUI" : "images/level/gui/botongui.png",
+
+	"Nube1" : "images/level/ambient/nube1.png",
+	"Nube2" : "images/level/ambient/nube2.png",
+	"Nube3" : "images/level/ambient/nube3.png",
+
+	"Palomitas" : "images/level/ambient/palomitas.png",
+
+	"DefaultCursor" : "images/cursor/default.png"
+}

@@ -43,8 +43,8 @@ bool Game::Load() {
 		VIEW_HEIGHT
 	);
 
-	gfx.Load();
-	audio.Load();
+	gfx.load();
+	audio.Load(); // todo: convert to same case
 
 	gui = new GUI;
 	gui->Load(GUI::Intro);

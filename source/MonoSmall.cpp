@@ -22,7 +22,7 @@ void MonoSmall::Collision()
 	}
 }
 
-MonoSmall::MonoSmall(float _m_hp) : AnimatedSprite(Game::s_game->gfx.txMonoSmall), Enemy(_m_hp), state(Alive)
+MonoSmall::MonoSmall(float _m_hp) : AnimatedSprite(Game::s_game->gfx.getGfx("MonoSmall")), Enemy(_m_hp), state(Alive)
 {
 	//SetTexture(s_game->resourceManager.txPulpo);
 	setOrigin(25, 35);

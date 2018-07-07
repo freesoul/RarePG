@@ -11,7 +11,7 @@ Fruit::Fruit() : Collider(Collider::Bonus) { //, true
 	initShadow();
 	shadow->setFillColor(sf::Color(0,200,0,100));
 
-	setTexture(Game::s_game->gfx.txFruits);
+	setTexture(Game::s_game->gfx.getGfx("Fruits"));
 
 	setTextureRect(sf::IntRect(50*(std::rand()%4), 50*(std::rand()%4), 50, 50));
 

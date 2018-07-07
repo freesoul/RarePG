@@ -8,7 +8,7 @@
 
 Bullet::Bullet(Weapon* caster) : Collider(Collider::PlayerCast)
 {
-	setTexture(Game::s_game->gfx.txBullet);
+	setTexture(Game::s_game->gfx.getGfx("Bullet"));
 	sf::Vector3f owner_pos = caster->getWorldPosition();
 	setWorldPosition(owner_pos.x, owner_pos.y, owner_pos.z - 1); // For painting order.
 	x_speed = BULLET_SPEED * std::sin(caster->weapon_mouse_rotation_radians);

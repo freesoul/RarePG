@@ -131,7 +131,7 @@ void Level::Load(int level)
 	Game::s_game->character = new Character(Character::Guy);
 
 	// Set level ambient
-	SetBackground(Game::s_game->gfx.txBackground1);
+	SetBackground(Game::s_game->gfx.getGfx("Background1"));
 	Game::s_game->audio.muFarm.play();
 
 	// Start ambient effects

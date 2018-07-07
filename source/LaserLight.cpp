@@ -14,7 +14,7 @@ float LaserLight::GetDamage(){
 
 
 LaserLight::LaserLight(Weapon* _caster) :
-	AnimatedSprite(Game::s_game->gfx.txLaserLight, false, 0.1f),
+	AnimatedSprite(Game::s_game->gfx.getGfx("LaserLight"), false, 0.1f),
 	Collider(Collider::PlayerCast),
 	caster(_caster),
 	Disappear(0.4f)

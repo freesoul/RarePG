@@ -3,75 +3,32 @@
 
 #include <SFML/Graphics.hpp>
 
+#include <iostream>
+#include <sstream>
+#include <fstream>
+#include <rapidjson/document.h>
+#include <rapidjson/error/en.h>
+
+#include <map>
+#include <string>
+
+using namespace std;
+
 class Gfx {
+
+private:
+	static map<string, sf::Texture*> textures;
 
 public:
 	Gfx() { }
 	
-	bool Load();
+	~Gfx();
 
+	static bool load(); // Fills a string-texture map from the info of a json file.
 
-	sf::Texture txDefaultCursor;
+	static bool loadGfx(const string&, const string& filepath);
 
-	// Menu
-	sf::Texture txBackgroundIntro;
-	sf::Texture txBackgroundScore;
-	sf::Texture txBackgroundMenu;
-	
-	sf::Texture txMenuButtons;
-
-	sf::Texture txMenuCursor;
-
-	// Level
-	sf::Texture txTower;
-	sf::Texture txLifebar;
-	sf::Texture txHospital;
-	sf::Texture txCrossHair;
-	
-	sf::Texture txFruits;
-
-	sf::Texture txBlood;
-
-	sf::Texture txBackground1;
-
-	// GUI
-	sf::Texture txBola;
-	sf::Texture txMarcobola;
-	sf::Texture txFondoGUI;
-	sf::Texture txBotonGUI;
-
-	// Monster
-	sf::Texture txPulpo;
-	sf::Texture txPollitos;
-	sf::Texture txPolloNinja;
-	sf::Texture txMonoSmall;
-	sf::Texture txMonoBig;
-
-	sf::Texture txBomba;
-	sf::Texture txMisiles;
-	sf::Texture txEstrellas;
-
-
-	// Player
-	sf::Texture txGuy;
-	sf::Texture txGuyArm;
-
-	// Weapons
-
-	sf::Texture txHandgunLeft;
-	sf::Texture txHandgunRight;
-	sf::Texture txBullet;
-
-	sf::Texture txLaserWeapon;
-	sf::Texture txLaserLight;
-
-	//Ambient
-	sf::Texture txPalomitas;
-	sf::Texture txNube1;
-	sf::Texture txNube2;
-	sf::Texture txNube3;
-
-
+	static sf::Texture& getGfx(const string& name);
 
 };
 
