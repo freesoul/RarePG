@@ -4,7 +4,7 @@
 
 void Button::OnMouseLeftReleased()
 {
-	Game::s_game->gui->HandleLClick(ID);
+	Game::s_game->gui->HandleLClick(id);
 }
 
 Button::~Button()

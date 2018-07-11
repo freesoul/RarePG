@@ -2,6 +2,23 @@
 #define GAME_CONSTANTS
 
 
+
+#define BUTTON_ID_INTRO 0x01
+
+#define BUTTON_ID_SALIR 0x02
+#define BUTTON_ID_PERSONAJE 0x03
+#define BUTTON_ID_JUGAR 0x04
+#define BUTTON_ID_BORRAR 0x05
+#define BUTTON_ID_ATRAS 0x06
+#define BUTTON_ID_GUARDAR 0x07
+#define BUTTON_ID_CANCELAR 0x08
+#define BUTTON_ID_NUEVO 0x09
+#define BUTTON_ID_OPCIONES 0x10
+
+
+
+
+
 #ifndef TRIGO
 #define TRIGO
 #define TORADIANS(x) x*(3.1419/180)

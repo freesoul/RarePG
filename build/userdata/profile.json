@@ -1,0 +1,15 @@
+{
+	"characters": [
+		{
+		"name":"Fran",
+		"gold":100,
+		"type":"guy",
+		"history":{
+			"level":1
+		}
+
+		}
+	]
+
+
+}

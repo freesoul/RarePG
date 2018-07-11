@@ -29,19 +29,19 @@ void Input::ProcessInputEvent(sf::Event &msg)
 	// Mouse related
 	case sf::Event::KeyPressed:
 	{
-								/*  if (Game::inst()->gsGameState == Game::gsLevel)
-								  {
-									  switch (msg.text.unicode)
-									  {
-									  case sf::Keyboard::Num1:
-										  Game::inst()->weapon->SelectWeapon(Weapon::tHandgun, true);
-										  bMouseLeftIsDown = false;  // tmp case to delete laser
-										  break;
-									  case sf::Keyboard::Num2:
-										  Game::inst()->weapon->SelectWeapon(Weapon::tLaser, true);
-										  break;
-									  }
-								  }*/
+	/*  if (Game::inst()->gsGameState == Game::gsLevel)
+	  {
+		  switch (msg.text.unicode)
+		  {
+		  case sf::Keyboard::Num1:
+			  Game::inst()->weapon->SelectWeapon(Weapon::tHandgun, true);
+			  bMouseLeftIsDown = false;  // tmp case to delete laser
+			  break;
+		  case sf::Keyboard::Num2:
+			  Game::inst()->weapon->SelectWeapon(Weapon::tLaser, true);
+			  break;
+		  }
+	  }*/
 	}
 
 	case sf::Event::MouseButtonPressed:
@@ -51,22 +51,22 @@ void Input::ProcessInputEvent(sf::Event &msg)
 
 	case sf::Event::MouseButtonReleased:
 	{
-										   std::vector<MouseAction>::iterator it;
-										   if (msg.mouseButton.button == sf::Mouse::Left)
-										   {
+	   std::vector<MouseAction>::iterator it;
+	   if (msg.mouseButton.button == sf::Mouse::Left)
+	   {
 
-											   for (it = mouseLeftReleaseActions.begin(); it != mouseLeftReleaseActions.end(); it++)
-											   if (it->box == 0)
-											   {
-												   it->actionable->OnMouseLeftReleased();
-												   break;
+		   for (it = mouseLeftReleaseActions.begin(); it != mouseLeftReleaseActions.end(); it++)
+		   if (it->box == 0)
+		   {
+			   it->actionable->OnMouseLeftReleased();
+			   break;
 
-											   }
-											   else   if (MouseInside(*it->box)) {
-												   it->actionable->OnMouseLeftReleased();
-												   break;
-											   }
-										   }
+		   }
+		   else   if (MouseInside(*it->box)) {
+			   it->actionable->OnMouseLeftReleased();
+			   break;
+		   }
+	   }
 	}break;
 
 	// Text input related

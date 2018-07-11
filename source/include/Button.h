@@ -11,7 +11,7 @@
 
 class Button : public Actionable, public Sprite {
 public:
-	Button(unsigned int _ID, sf::Texture& tx, float x, float y, sf::IntRect subrect, unsigned int alpha) : ID(_ID), D2D(true) {
+	Button(unsigned int _ID, sf::Texture& tx, float x, float y, sf::IntRect subrect, unsigned int alpha) : id(_ID), D2D(true) {
 		// setOrigin(0,0);
 		setTexture(tx);
 		setTextureRect(subrect);
@@ -21,7 +21,7 @@ public:
 	~Button();
 	void OnMouseLeftReleased();
 private:
-	unsigned int ID;
+	unsigned int id;
 };
 
 
